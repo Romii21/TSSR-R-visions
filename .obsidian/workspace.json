@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🎮 Bash/⌨ Liste de CMD.md",
+                "file": "🎮 Bash/📚 Fiche de révision.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "⌨ Liste de CMD"
+              "title": "📚 Fiche de révision"
             }
           }
         ]
@@ -210,8 +210,11 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
-    "🎮 Bash/📚 Fiche de révision.md",
+    "🎮 Bash/🗺 Plan Bash.png",
+    "🔑 SSH/📚 Fiche de révision.md",
     "🎮 Bash/⌨ Liste de CMD.md",
+    "🔑 SSH",
+    "🎮 Bash/📚 Fiche de révision.md",
     "🏡 Git-GitHub/📚 Fiche de révision.md",
     "🏡 Git-GitHub/🗺 Plan Git-GitHub.png",
     "❗❕📵 Intro Cybersécurité/📚 Fiche de révision.md",
@@ -228,7 +231,6 @@
     "❗🏡 Git-GitHub",
     "❗❕📵 Intro Cybersécurité",
     "📐 Architecture des ordinateurs/🗺 Plan Architecture .png",
-    "🎮 Bash/🗺 Plan Bash.png",
     "Base/📚 Fiche de révision.md",
     "❗💾 Gestion Processeur et mémoire",
     "🖥 La Virtualisation/🗺 Plan La virtualisation.png",
@@ -238,7 +240,6 @@
     "🧍🏼‍♂️ Gestion des utilisateurs",
     "Base/Sans titre 1.md",
     "Base",
-    "❗🗃 La gestion de stockage",
     "🗺 Plan Architecture .png",
     "🖥〰💾〰🖥 Réseau/2 Ethernet/🗺 Plan Ethernet.png",
     "🖥〰💾〰🖥 Réseau/3 IPV4/🗺 Plan.md",
