@@ -11,12 +11,14 @@
             "id": "07d0b50102a0a8e4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "📵 Intro Cybersécurité/🗺 Plan Cybersécurité.png"
+                "file": "🖐🏼 Prise en main à distance/📚 Fiche de révision.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "🗺 Plan Cybersécurité"
+              "icon": "lucide-file",
+              "title": "📚 Fiche de révision"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 256.5
   },
   "right": {
     "id": "4b31e1dbf7539b13",
@@ -208,12 +210,14 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
+    "🖐🏼 Prise en main à distance/🗺 Plan prise en main à distance.png",
+    "🖐🏼 Prise en main à distance/📚 Fiche de révision.md",
+    "📵 Intro Cybersécurité/🗺 Plan Cybersécurité.png",
     "🔑 SSH/🗺 Plan de SSH.png",
     "📵 Intro Cybersécurité/📚 Fiche de révision.md",
     "🔑 SSH/📚 Fiche de révision.md",
     "🎮 Bash/📚 Fiche de révision.md",
-    "Base 1/📚 Fiche de révision.md",
-    "Base 1",
+    "🖐🏼 Prise en main à distance",
     "🎮 Bash/🗺 Plan Bash.png",
     "🎮 Bash/⌨ Liste de CMD.md",
     "🔑 SSH",
@@ -244,10 +248,8 @@
     "🗺 Plan Architecture .png",
     "🖥〰💾〰🖥 Réseau/2 Ethernet/🗺 Plan Ethernet.png",
     "🖥〰💾〰🖥 Réseau/3 IPV4/🗺 Plan.md",
-    "🖥〰💾〰🖥 Réseau/3 IPV4/🗺 Plan IPV4.png",
     "🖥〰💾〰🖥 Réseau/3 IPV4/📚 Fiche de révision.md",
     "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
     "📐 Architecture des ordinateurs/Sans titre 1.md",
     "🖥〰💾〰🖥 Réseau/2 Ethernet/🗺 Plan.md",
