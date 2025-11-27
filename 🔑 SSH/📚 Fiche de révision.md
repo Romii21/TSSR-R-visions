@@ -2,576 +2,568 @@
 
 ## 📋 Sommaire
 
-1. [Introduction](https://claude.ai/chat/81d99fcf-3729-48f3-8530-10c6e13075d6#introduction)
-2. [Fonctionnement technique](https://claude.ai/chat/81d99fcf-3729-48f3-8530-10c6e13075d6#fonctionnement-technique)
-3. [Authentification](https://claude.ai/chat/81d99fcf-3729-48f3-8530-10c6e13075d6#authentification)
-4. [Utilisation pratique](https://claude.ai/chat/81d99fcf-3729-48f3-8530-10c6e13075d6#utilisation-pratique)
-5. [Configuration](https://claude.ai/chat/81d99fcf-3729-48f3-8530-10c6e13075d6#configuration)
-6. [Protection contre les attaques](https://claude.ai/chat/81d99fcf-3729-48f3-8530-10c6e13075d6#protection-contre-les-attaques)
-7. [Conclusion](https://claude.ai/chat/81d99fcf-3729-48f3-8530-10c6e13075d6#conclusion)
+1. [Introduction](https://claude.ai/chat/3cb4cdbb-3545-4f6d-b060-059131bed0df#introduction)
+2. [À quoi sert SSH ?](https://claude.ai/chat/3cb4cdbb-3545-4f6d-b060-059131bed0df#%C3%A0-quoi-sert-ssh)
+3. [Fonctionnement techniques](https://claude.ai/chat/3cb4cdbb-3545-4f6d-b060-059131bed0df#fonctionnement-techniques)
+4. [Authentification](https://claude.ai/chat/3cb4cdbb-3545-4f6d-b060-059131bed0df#authentification)
+5. [Usages pratiques](https://claude.ai/chat/3cb4cdbb-3545-4f6d-b060-059131bed0df#usages-pratiques)
+6. [Configuration](https://claude.ai/chat/3cb4cdbb-3545-4f6d-b060-059131bed0df#configuration)
+7. [Sécurisation avec Fail2Ban](https://claude.ai/chat/3cb4cdbb-3545-4f6d-b060-059131bed0df#s%C3%A9curisation-avec-fail2ban)
+8. [Schéma récapitulatif](https://claude.ai/chat/3cb4cdbb-3545-4f6d-b060-059131bed0df#sch%C3%A9ma-r%C3%A9capitulatif)
 
 ---
 
 ## Introduction
 
-### Pourquoi SSH ?
-
-Avant SSH, les protocoles de communication réseau comme **FTP**, **TELNET** et **RSH** ne garantissaient pas :
-
-- ✗ L'authentification fiable
-- ✗ La confidentialité des données
-- ✗ L'intégrité des échanges
-
-**SSH** (Secure Shell) résout ces problèmes en proposant une communication **sécurisée** entre deux machines.
-
 ### Qu'est-ce que SSH ?
 
-SSH est un **protocole client-serveur** qui établit un tunnel de communication sécurisé. Il assure :
-
-- ✅ **Confidentialité** : chiffrement des données
-- ✅ **Authentification bidirectionnelle** : client et serveur se vérifient mutuellement
-- ✅ **Intégrité** : vérification que les données n'ont pas été modifiées
+**SSH (Secure Shell)** est un protocole de communication sécurisé de couche 7 (OSI) qui permet l'établissement d'une session chiffrée entre deux machines via un tunnel sécurisé.
 
 **Informations clés :**
 
-- Protocole de **couche 7** (OSI)
-- Port standard : **TCP 22**
-- Version recommandée : **SSH v2** (v1 obsolète)
-- Implémentation principale : **OpenSSH** (version 9.9p2)
+- **Initiateur** : Tatu Ylönen (1995)
+- **Standards** : RFC 4251, 4252, 4253, 4254
+- **Port par défaut** : 22 (TCP)
+- **Versions** : SSH1 (obsolète) et SSH2 (recommandée)
+- **Utilisable sur** : Linux, Unix, Windows
 
-```
-┌─────────────────────────────────────────────────────┐
-│           TUNNEL SSH SÉCURISÉ (Port 22)             │
-├────────────────┬─────────────────────────────────────┤
-│   CLIENT       │  Chiffrement symétrique + clés     │   SERVEUR
-│   (ssh)        │  Authentification bidirectionnelle  │   (sshd)
-└────────────────┴─────────────────────────────────────┘
-```
+### Pourquoi SSH existe-t-il ?
 
-### Utilisations courantes
+Avant SSH, les protocoles existants (FTP, TELNET, RSH) présentaient des graves failles de sécurité :
 
-|Usage|Description|
-|---|---|
-|**Shell distant**|Exécuter des commandes sur une machine distante|
-|**Transfert sécurisé**|SFTP, SCP pour copier des fichiers|
-|**Tunnels**|Port forwarding, proxy SOCKS|
-|**Accès graphique**|X11 forwarding pour des applications distantes|
+- ❌ Pas de chiffrement (données en clair)
+- ❌ Authentification faible
+- ❌ Pas d'intégrité des données
+- ❌ Pas d'authentification bidirectionnelle
+
+**SSH résout tous ces problèmes en assurant :**
+
+- ✅ **Confidentialité** : Chiffrement des données
+- ✅ **Authentification bidirectionnelle** : Client ET serveur s'authentifient mutuellement
+- ✅ **Intégrité** : Vérification que les données n'ont pas été modifiées
 
 ---
 
-## Fonctionnement technique
+## À quoi sert SSH ?
 
-### Établissement d'une connexion SSH
+SSH a plusieurs usages pratiques :
 
-Une connexion SSH suit ces étapes :
+### 1️⃣ Terminal distant et exécution de commandes
+
+Ouvrir un terminal sur une machine distante et exécuter des commandes.
+
+```
+ssh user@serveur
+```
+
+### 2️⃣ Transfert de fichiers
+
+- **SFTP** (SSH File Transfer Protocol) : Transfert sécurisé interactif de fichiers
+- **SCP** (Secure Copy) : Copie sécurisée de fichiers
+- **SSHFS** : Montage d'un dossier distant
+
+### 3️⃣ Tunnelisation (Port Forwarding)
+
+Encapsuler du trafic via SSH pour le sécuriser.
+
+### 4️⃣ Interface graphique distante
+
+**X11 Forwarding** : Lancer des applications graphiques distantes.
+
+### 5️⃣ Gestion de dépôts Git
+
+Utiliser SSH pour synchroniser avec GitHub, GitLab, etc.
+
+---
+
+## Fonctionnement techniques
+
+### Architecture SSH
+
+SSH fonctionne selon le modèle **Client-Serveur** :
+
+```
+┌─────────────────┐    SSH (Port 22)    ┌──────────────────┐
+│   Client SSH    │◄────────────────────►│  Serveur sshd    │
+│  (openssh)      │   Tunnel sécurisé    │  (openssh-server)│
+└─────────────────┘                      └──────────────────┘
+```
+
+### Les protagonistes
+
+**OpenSSH** est l'implémentation de référence (maintenue par openBSD) :
+
+- **Client** : `ssh` (openssh-client)
+- **Serveur** : `sshd` (openssh-server)
+- **Version actuelle** : 9.9p2 (juillet 2025)
+
+### Étapes de la connexion SSH
+
+Quand vous vous connectez à un serveur, plusieurs étapes se déroulent :
 
 ```
 1. NÉGOCIATION
-   ↓
-   Client et serveur échangent leurs versions
-   Accord sur les algorithmes de chiffrement
-   ↓
-2. ÉCHANGE DE CLÉS (Diffie-Hellman / ECDH)
-   ↓
-   Confidentialité Persistante (PFS - Perfect Forward Secrecy)
-   ↓
-3. CHIFFREMENT ACTIVÉ
-   ↓
-   La connexion devient confidentielle
-   ↓
-4. AUTHENTIFICATION
-   ↓
-   Vérification du serveur (client → serveur)
-   Vérification du client (serveur → client)
+   ├─ Échange des versions SSH
+   └─ Négociation des algorithmes cryptographiques
+
+2. AUTHENTIFICATION DU SERVEUR (TOFU)
+   ├─ Serveur envoie sa clé publique
+   ├─ Client compare avec known_hosts
+   └─ Première fois ? Demande de confirmation
+
+3. CHIFFREMENT DU CANAL
+   ├─ Échange de clés Diffie-Hellman (ECDH en pratique)
+   └─ Établissement d'une clé de session symétrique (PFS)
+
+4. AUTHENTIFICATION DU CLIENT
+   ├─ Par clé asymétrique (recommandé)
+   ├─ Par mot de passe
+   └─ Par hôte ou autres méthodes
+
+5. SESSION ÉTABLIE
+   └─ Tunnel sécurisé opérationnel
 ```
 
-### Cryptographie utilisée
+### Chiffrement et cryptographie
 
-SSH combine plusieurs techniques cryptographiques :
+SSH utilise plusieurs couches cryptographiques :
 
-**Chiffrement symétrique** (rapidité)
+|Type|Rôle|Exemples|
+|---|---|---|
+|**Chiffrement symétrique**|Confidentialité du canal|AES-128-GCM, ChaCha20-Poly1305|
+|**Chiffrement asymétrique**|Authentification + échange de clés|ED25519, RSA, ECDSA|
+|**Hachage (MAC)**|Intégrité des données|SHA256, SHA512|
+|**Échange de clés**|Génération de clés sécurisées|ECDH|
 
-- AES-128-GCM, AES-256-GCM
-- ChaCha20-Poly1305
-
-**Authentification de la clé** (intégrité)
-
-- HMAC avec SHA-256, SHA-512
-
-**Échange de clés** (sécurité)
-
-- ECDH (Elliptic Curve Diffie-Hellman)
-
-**Types de clés asymétriques**
-
-- ED25519 (recommandé, moderne)
-- RSA
-- ECDSA
-
-```
-┌─────────────────────────────────────────┐
-│     Cryptosystèmes SSH (OpenSSH)        │
-├──────────────────┬──────────────────────┤
-│  Symétrique      │  AES-GCM, ChaCha20   │
-│  Authentification│  HMAC-SHA            │
-│  Échange de clés │  ECDH                │
-│  Clés publiques  │  ED25519, RSA, ECDSA │
-└──────────────────┴──────────────────────┘
-```
+**Important** : SSH utilise **Perfect Forward Secrecy (PFS)**, ce qui signifie que même si votre clé privée est compromise demain, les conversations passées restent sécurisées.
 
 ---
 
 ## Authentification
 
-### Authentification bidirectionnelle
+### Principe fondamental : TOFU
 
-SSH sécurise les deux sens :
+**TOFU = Trust On First Use** : À la première connexion, vous faites confiance à la clé du serveur. Les connexions suivantes vérifient que c'est la même clé.
 
-1. **Client authentifie le serveur** (lors de la connexion)
-    
-    - Vérification que je me connecte au bon serveur
-    - Protection contre les attaques man-in-the-middle
-2. **Serveur authentifie le client** (après)
-    
-    - Vérification de l'identité de l'utilisateur
-    - Sur un canal confidentiel avec le bon serveur
+```
+Première connexion :
+Voulez-vous continuer ? YES
+→ Clé stockée dans ~/.ssh/known_hosts
+
+Connexions suivantes :
+La clé correspond-elle ? OUI → Connexion
+La clé ne correspond pas ? → ALERTE POSSIBLE USURPATION !
+```
 
 ### Authentification du serveur
 
-#### Modèle TOFU (Trust On First Use)
+Le serveur SSH possède une paire de clés asymétriques qui l'identifient :
 
-À chaque serveur correspond une **paire de clés asymétriques** stockées dans `/etc/ssh/` :
-
-```
-/etc/ssh/ssh_host_ed25519_key      (clé privée - secret du serveur)
-/etc/ssh/ssh_host_ed25519_key.pub  (clé publique - partagée)
-/etc/ssh/ssh_host_rsa_key
-/etc/ssh/ssh_host_rsa_key.pub
-```
-
-#### Première connexion
+**Localisation** : `/etc/ssh/`
 
 ```
-CLIENT                                    SERVEUR
-   │                                        │
-   ├──────────── Connexion ──────────────→ │
-   │                                        │
-   │ ← Serveur envoie sa clé publique ──── │
-   │                                        │
-   ├─ Affiche l'empreinte (fingerprint)    │
-   │   SHA256:kPFlNQn+PHJ+PMOcHe4...      │
-   │                                        │
-   │   « Êtes-vous sûr ? (oui/non) »       │
-   │─────────────────────────────────────→ │
-   │   (Vérification manuelle théorique)    │
-   │                                        │
-   │   → Sauvegarde dans ~/.ssh/known_hosts │
+ssh_host_ed25519_key       (clé privée)
+ssh_host_ed25519_key.pub   (clé publique)
+ssh_host_rsa_key
+ssh_host_rsa_key.pub
 ```
 
-**Action du client :**
+**À la première connexion :**
+
+```
+The authenticity of host 'server (IP)' can't be established.
+ED25519 key fingerprint is SHA256:kPFlNQn+PHJ+...
+Are you sure you want to continue connecting (yes/no)? yes
+```
+
+**Afficher l'empreinte d'un serveur :**
 
 ```bash
-$ ssh server
-The authenticity of host 'server' can't be established.
-ED25519 key fingerprint is SHA256:kPFlNQn+PHJ+PMOcHe4...
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added 'server' (ED25519) to the list of known hosts.
-```
-
-#### Connexions suivantes
-
-```
-CLIENT                                    SERVEUR
-   │                                        │
-   ├──────────── Connexion ──────────────→ │
-   │                                        │
-   │ ← Serveur envoie sa clé publique ──── │
-   │                                        │
-   ├─ Vérifie : clé = known_hosts ?
-   │   ✅ OUI → Poursuivre
-   │   ❌ NON → ALERTE USURPATION !
-   │                                        │
-   ├─ Envoie un "challenge" ───────────────→ │
-   │   (je dois prouver que j'ai la clé)    │
-   │                                        │
-   │ ← Serveur vérifie la signature ────── │
-   │   ✅ Signature valide → Authentification OK
-```
-
-**⚠️ Alerte usurpation :**
-
-```
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-Possible man-in-the-middle attack!
+ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub
 ```
 
 ### Authentification du client
 
-Après vérification du serveur, c'est au client de prouver son identité. Plusieurs méthodes possibles :
+Après vérification du serveur, le serveur authentifie le client. **Plusieurs méthodes possibles :**
 
-|Méthode|Description|Sécurité|
-|---|---|---|
-|**Password**|Mot de passe basé sur les comptes système|⭐ Faible|
-|**PublicKey**|Clé privée/publique de l'utilisateur|⭐⭐⭐ Forte|
-|**Hostbased**|Clés pour tous les utilisateurs d'un hôte|⭐⭐ Moyen|
-|**GSSAPI**|Kerberos, outils tiers|⭐⭐⭐ Forte|
+#### ✅ Par clé asymétrique (RECOMMANDÉ)
 
-#### Authentification par clé (recommandée)
+- Client possède une paire de clés (privée + publique)
+- La clé publique est sur le serveur dans `~/.ssh/authorized_keys`
+- Client prouve sa possession de la clé privée
+- **Avantage** : Plus sécurisé, automatisable, sans mot de passe
 
-**Sur le client :**
+#### ⚠️ Par mot de passe
 
-Générer une paire de clés avec `ssh-keygen` :
+- Authentification par mot de passe système
+- **Inconvénient** : Sujet aux attaques par force brute
 
-```bash
-$ ssh-keygen -t ed25519
-Generating public/private ed25519 key pair.
-Enter file: /home/user/.ssh/id_ed25519
-Enter passphrase: [chiffre la clé privée]
+#### 🔑 Par hôte (hostbased)
 
-# Résultat :
-/home/user/.ssh/id_ed25519          (clé privée - garde-la secrète!)
-/home/user/.ssh/id_ed25519.pub      (clé publique - à partager)
-```
+- Authentification de tous les utilisateurs d'un hôte donné
+- Moins courant
 
-**Sur le serveur :**
+#### 🔗 Par outils tiers
 
-Copier la clé publique du client vers le serveur :
+- PAM, Kerberos via GSSAPI
+- Configuration avancée
+
+### Générer ses clés SSH
+
+**Sur la machine locale :**
 
 ```bash
-$ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server
-[On vous demande le mot de passe une dernière fois]
-
-# La clé est copiée dans :
-/home/user/.ssh/authorized_keys
+ssh-keygen -t ecdsa -b 256
+# ou
+ssh-keygen -t ed25519  (recommandé, plus rapide)
 ```
 
-Puis :
+**Ce que cela crée :**
+
+```
+~/.ssh/id_ed25519          (clé privée - À PROTÉGER)
+~/.ssh/id_ed25519.pub      (clé publique - À partager)
+```
+
+**Important** : Protégez votre clé privée avec une **passphrase** (phrase secrète). Elle sera chiffrée localement.
+
+```
+Enter passphrase (empty for no passphrase): ✓ ENTREZ UNE PASSPHRASE
+```
+
+### Copier la clé publique sur le serveur
+
+**Méthode recommandée (simple et sécurisée) :**
 
 ```bash
-$ ssh server
-[Pas de mot de passe demandé - connecté directement]
+ssh-copy-id user@serveur
 ```
 
+Cela :
+
+1. Demande votre mot de passe une dernière fois
+2. Copie votre clé publique dans `~/.ssh/authorized_keys` sur le serveur
+3. Vous pouvez ensuite vous connecter sans mot de passe
+
+**Résultat :**
+
 ```
-┌─ CLIENT ─────────────────────────────────┐
-│  ~/.ssh/id_ed25519 (privée)              │
-│  ~/.ssh/id_ed25519.pub (publique)        │
-└──────────────────────────────────────────┘
-                    │
-                    │ ssh-copy-id
-                    ↓
-┌─ SERVEUR ────────────────────────────────┐
-│  ~/.ssh/authorized_keys                  │
-│  ├─ id_ed25519.pub (du client)           │
-│  ├─ ...                                  │
-└──────────────────────────────────────────┘
+wilder@host:~$ ssh server
+Linux debian 5.10.0-15-amd64 #1 SMP Debian 5.10.120-1
 ```
 
 ---
 
-## Utilisation pratique
+## Usages pratiques
 
-### 1. Accès à un terminal distant (ssh)
-
-**Syntaxe basique :**
+### 1. Shell distant
 
 ```bash
-ssh [user@]host [-p port]
-
-# Exemples :
+# Connexions équivalentes
 ssh server
-ssh user@192.168.1.10
-ssh user@server -p 2222
-ssh://user@server:22      # Format URI
+ssh wilder@server
+ssh -l wilder -p 22 server
+ssh ssh://wilder@server:22
 ```
 
-**Options courantes :**
+### 2. Copie sécurisée (SCP)
 
 ```bash
--p <port>        # Port personnalisé
--l <username>    # Nom d'utilisateur
--v[vv]          # Bavard (debug)
--X              # X11 forwarding (graphique)
+# Local vers distant
+scp fichier_local serveur:chemin_distant
+
+# Distant vers local
+scp user@serveur:chemin_distant ~/Downloads/
+
+# Copie récursive (dossier)
+scp -r dossier serveur:
 ```
 
-### 2. Copie de fichiers sécurisée (scp)
-
-**Transfert local → distant :**
+### 3. Transfert interactif (SFTP)
 
 ```bash
-$ scp mon_fichier.txt server:/chemin/distant/
-$ scp -r mon_dossier/ server:/chemin/distant/
+sftp serveur
+sftp> ls
+sftp> get fichier_distant
+sftp> put fichier_local
+sftp> bye
 ```
 
-**Transfert distant → local :**
+**Clients graphiques** : FileZilla, WinSCP, etc.
+
+### 4. Tunnelisation et Port Forwarding
+
+#### Redirection locale (Client → Serveur)
 
 ```bash
-$ scp server:/chemin/distant/fichier.txt ~/Downloads/
-$ scp -r user@server:/dossier/ ~/Downloads/
+ssh -L 8080:web.interne:80 serveur
+# Accéder à un service interne via localhost:8080
 ```
 
-### 3. Transfert interactif (sftp)
-
-Comme FTP, mais sécurisé :
+#### Redirection distante (Serveur → Client)
 
 ```bash
-$ sftp server
-Connected to server.
-
-sftp> ls                    # Lister les fichiers
-sftp> cd /dossier           # Changer de répertoire
-sftp> get distant_file.txt  # Télécharger
-sftp> put local_file.txt    # Télécharger
-sftp> bye                   # Quitter
-```
-
-### 4. Tunnels SSH
-
-#### Port Forwarding (redirection)
-
-**Local → Distant (accès indirect) :**
-
-```bash
-$ ssh -L 8080:intranet.local:80 serveur_bastion
-# Accès à http://localhost:8080 = intranet.local:80
-```
-
-**Distant → Local (exposition) :**
-
-```bash
-$ ssh -R 9000:localhost:3000 serveur_distant
-# Le serveur peut accéder à localhost:3000 via 9000
+ssh -R 9000:localhost:3000 serveur
+# Exposer un service local sur le serveur distant
 ```
 
 #### Proxy SOCKS
 
 ```bash
-$ ssh -D 1080 serveur
-# Lance un proxy SOCKS5 sur le port 1080
-# Tout le trafic passe par le serveur
+ssh -D 1080 serveur
+# Tunnel tout le trafic via le serveur
+```
+
+### 5. Interface graphique distante (X11 Forwarding)
+
+```bash
+ssh -X user@serveur
+# Lancer des applications graphiques distantes
+```
+
+### 6. Gestion de dépôt Git
+
+```bash
+# Générer une clé SSH
+ssh-keygen -t ed25519
+
+# Ajouter la clé publique à GitHub/GitLab
+cat ~/.ssh/id_ed25519.pub
+
+# Cloner un dépôt via SSH
+git clone git@github.com:user/repo.git
 ```
 
 ---
 
 ## Configuration
 
-### Serveur SSH (sshd)
+### Configuration du serveur (sshd)
 
-**Fichier de configuration :** `/etc/ssh/sshd_config`
+**Fichier de configuration** : `/etc/ssh/sshd_config`
 
-#### Configurations recommandées
+**Bonnes pratiques essentielles :**
 
 ```bash
-# Changer le port par défaut (évite les bots)
+# Changer le port (évite les bots)
 Port 2222
 
-# Authentification
-PasswordAuthentication no          # Désactiver mot de passe
-PubkeyAuthentication yes           # Autoriser clés publiques
-AuthenticationMethods publickey    # Ou publickey,password
+# Privilégier la clé publique
+PubkeyAuthentication yes
+PasswordAuthentication no
 
-# Sécurité
-PermitRootLogin no                 # Pas de connexion directe root
-X11Forwarding no                   # Désactiver X11 (si inutile)
-PermitEmptyPasswords no            # Interdire clés vides
+# Ou demander clé + mot de passe
+AuthenticationMethods publickey,password
 
-# Audit
-LogLevel VERBOSE
+# Interdire la connexion du root
+PermitRootLogin no
+
+# Interdire les connexions vides
+PermitEmptyPasswords no
+```
+
+**Tester la configuration (avant de redémarrer) :**
+
+```bash
+sshd -t           # Teste la syntaxe
+sshd -T           # Teste et affiche la configuration
+```
+
+**Appliquer les changements :**
+
+```bash
+systemctl restart ssh
+```
+
+### Configuration du client (ssh)
+
+**Fichiers de configuration :**
+
+- `/etc/ssh/ssh_config` (global, pour tous les utilisateurs)
+- `~/.ssh/config` (utilisateur, prioritaire)
+
+**Exemple de configuration utilisateur :**
+
+```bash
+# ~/.ssh/config
+Host monserveur
+    HostName serveur.example.com
+    User wilder
+    Port 2222
+    IdentityFile ~/.ssh/id_ed25519
+    CheckHostIP yes
+
+# Utilisation : ssh monserveur
 ```
 
 **Vérifier la configuration :**
 
 ```bash
-$ sshd -t              # Vérifier la syntaxe
-$ sshd -T              # Afficher la configuration
-$ systemctl restart ssh # Appliquer les changements
+ssh -G monserveur
 ```
 
-### Client SSH (ssh)
+### Outils additionnels OpenSSH
 
-**Configuration système :** `/etc/ssh/ssh_config`
-
-**Configuration utilisateur :** `~/.ssh/config` (prioritaire)
-
-#### Exemple de configuration
-
-```bash
-# Configuration par défaut
-Host *
-    CheckHostIP yes          # Vérifier IP (éviter DNS spoofing)
-    Port 22
-    IdentityFile ~/.ssh/id_ed25519
-
-# Configuration pour un serveur spécifique
-Host serveur.com
-    User alice
-    Port 2222
-    IdentityFile ~/.ssh/id_custom
-    StrictHostKeyChecking accept-new
-
-# Configuration pour un groupe de serveurs
-Host prod-*.example.com
-    User deployer
-    IdentitiesOnly yes
-    IdentityFile ~/.ssh/deployer_key
-```
-
-**Afficher la configuration pour un hôte :**
-
-```bash
-$ ssh -G serveur.com
-```
-
----
-
-## Protection contre les attaques
-
-### Menaces courantes
-
-**Attaques par force brute** : des milliers de tentatives avec différents mots de passe
-
-```
-Attaquant → ssh server (user, password123)    ❌
-         → ssh server (user, password456)    ❌
-         → ssh server (user, qwerty)         ❌
-         → ssh server (admin, admin)         ✅ ACCÈS !
-```
-
-### Fail2Ban : protection automatique
-
-**Fail2Ban** surveille les journaux système et bloque les adresses IP après trop d'échecs :
-
-```
-┌─ JOURNAUX SYSTÈME ────────┐
-│ Failed password for user  │
-│ Failed password for admin │
-│ Failed password for root  │
-└──────────────────────────┘
-           ↓
-      FAIL2BAN
-      (surveillance)
-           ↓
-    3 tentatives échouées
-           ↓
-┌─ IP ADDRESS 192.168.1.50 ─┐
-│  BANNIE pendant 10 minutes │
-│  (ou plus selon config)    │
-└──────────────────────────┘
-```
-
-#### Installation et utilisation
-
-```bash
-# Installation
-$ sudo apt-get install fail2ban
-
-# Activation
-$ sudo systemctl start fail2ban
-$ sudo systemctl enable fail2ban
-
-# Vérification
-$ sudo fail2ban-client status sshd
-```
-
-#### Configuration basique
-
-**Fichier :** `/etc/fail2ban/jail.local`
-
-```bash
-[sshd]
-enabled = true
-port = ssh
-logpath = /var/log/auth.log
-maxretry = 3              # 3 tentatives
-findtime = 600            # En 10 minutes
-bantime = 900             # Bannie 15 minutes
-```
-
-**Commandes utiles :**
-
-```bash
-$ sudo fail2ban-client set sshd unbanip 192.168.1.50   # Débannir une IP
-$ sudo fail2ban-client status sshd                      # Voir les IPs bannies
-```
-
----
-
-## Outils complémentaires
-
-SSH fournit plusieurs utilitaires pratiques :
-
-|Outil|Fonction|
+|Outil|Rôle|
 |---|---|
-|**ssh-keygen**|Générer et gérer les clés|
-|**ssh-copy-id**|Copier la clé publique sur un serveur|
-|**ssh-agent**|Stockage des clés en mémoire (sans passphrase à chaque fois)|
-|**ssh-add**|Ajouter une clé à ssh-agent|
-|**ssh-keyscan**|Récupérer les clés publiques d'un serveur|
-|**sftp-server**|Sous-système SFTP (serveur)|
+|`ssh-keygen`|Génération et gestion de clés|
+|`ssh-agent`|Stockage de clés en mémoire|
+|`ssh-add`|Ajout de clés à ssh-agent|
+|`ssh-keyscan`|Récupération de clés publiques|
+|`sftp-server`|Sous-système SFTP|
 
-**Exemple avec ssh-agent :**
+---
+
+## Sécurisation avec Fail2Ban
+
+### Le problème : Attaques par force brute
+
+Les serveurs SSH reçoivent **constamment** des tentatives de connexion automatisées :
+
+- Des bots qui testent des mots de passe courants
+- Risque d'intrusion si un mot de passe faible est trouvé
+
+### Solution : Fail2Ban
+
+**Fail2Ban** est un outil de protection qui :
+
+1. **Surveille** les journaux de connexion (`/var/log/auth.log`)
+2. **Détecte** les tentatives répétées échouées
+3. **Bloque automatiquement** l'adresse IP offensante (pare-feu)
+4. **Débloque** après une période définie
+
+**Exemple :**
+
+```
+IP 192.168.1.100 : 5 tentatives échouées en 10 minutes
+→ Blocage de 192.168.1.100 pendant 1 heure
+```
+
+**Avantage** : Fonctionne pour tout service (SSH, HTTP, FTP, etc.)
+
+**Installation :**
 
 ```bash
-# Démarrer l'agent
-$ eval "$(ssh-agent -s)"
-Agent pid 12345
-
-# Ajouter une clé (une seule fois)
-$ ssh-add ~/.ssh/id_ed25519
-Enter passphrase: ••••••
-
-# Utiliser SSH sans taper la passphrase
-$ ssh server  [pas de passphrase demandée]
+sudo apt install fail2ban
+sudo systemctl start fail2ban
 ```
 
 ---
 
 ## Schéma récapitulatif
 
+### Flux de connexion SSH complet
+
 ```
-                    SSH - SECURE SHELL
-                            │
-            ┌───────────────┼───────────────┐
-            │               │               │
-        VERSIONING      AUTHENTIFICATION   CHIFFREMENT
-            │               │               │
-        v1 (obsolète)   Serveur (TOFU)     Symétrique
-        v2 (recommandé) Client (clés)      Asymétrique
-        v3 (émergent)   Bidirectionnelle   Signature
-            │               │               │
-        ┌───┴────────────┬──┴────────────┬─┴───────────┐
-        │                │              │              │
-    OPENSSH           PROTOCOLE       USAGES      PROTECTION
-        │          (TCP Port 22)          │
-    Client (ssh)   Couche 7 (OSI)     Shell          Fail2Ban
-    Serveur (sshd) RFC 4251-4254      SFTP/SCP    Authentif. clés
-    v9.9p2                            Tunnels      Logs audit
-                                      X11 FW
+┌──────────────────┐
+│    UTILISATEUR   │
+└────────┬─────────┘
+         │
+         ▼
+    ssh server
+         │
+         ▼
+┌─────────────────────────────────┐
+│  1. NÉGOCIATION                 │
+│  • Versions SSH                 │
+│  • Algorithmes cryptographiques │
+└────────┬────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────────┐
+│  2. AUTH SERVEUR (TOFU)         │
+│  • Serveur envoie clé publique  │
+│  • Vérification known_hosts     │
+│  • Première fois = Confirmation │
+└────────┬────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────────┐
+│  3. CHIFFREMENT ÉTABLI          │
+│  • Échange Diffie-Hellman       │
+│  • Clé session symétrique (PFS) │
+└────────┬────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────────┐
+│  4. AUTH CLIENT                 │
+│  • Clé publique/privée ✓        │
+│  • ou Mot de passe              │
+└────────┬────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────────┐
+│  5. SESSION SÉCURISÉE           │
+│  Terminal distant opérationnel  │
+└─────────────────────────────────┘
+```
+
+### Où se trouvent les clés ?
+
+```
+SERVEUR
+└── /etc/ssh/
+    ├── ssh_host_ed25519_key      ← Clé privée serveur (À PROTÉGER)
+    └── ssh_host_ed25519_key.pub  ← Clé publique serveur
+    
+CLIENT
+└── ~/.ssh/
+    ├── id_ed25519                ← Clé privée client (À PROTÉGER)
+    ├── id_ed25519.pub            ← Clé publique client (À partager)
+    └── known_hosts               ← Clés connues des serveurs
+    
+SERVEUR (fichier des accès)
+└── ~/.ssh/
+    └── authorized_keys           ← Clés publiques autorisées
+```
+
+### Vue d'ensemble des usages
+
+```
+SSH
+├── 1. Terminal distant (ssh)
+├── 2. Copie de fichiers
+│   ├── SCP
+│   ├── SFTP (interactif)
+│   └── SSHFS (montage)
+├── 3. Tunnelisation
+│   ├── Port Forwarding Local (-L)
+│   ├── Port Forwarding Distant (-R)
+│   └── Proxy SOCKS (-D)
+├── 4. Interface graphique (X11 -X)
+└── 5. Git et dépôts distants
 ```
 
 ---
 
-## Conclusion
+## Points clés à retenir
 
-**SSH en 5 points :**
+### ✅ À FAIRE
 
-1. **Sécurité** : Chiffrement + authentification bidirectionnelle
-2. **Flexibilité** : Multiples usages (shell, transfert, tunnels)
-3. **Authentification par clés** : Plus sûr que les mots de passe
-4. **Configuration** : À adapter selon vos besoins de sécurité
-5. **Surveillance** : Fail2Ban pour bloquer les attaques par force brute
+1. **Générer une paire de clés** (`ssh-keygen`)
+2. **Protéger la clé privée** par une passphrase
+3. **Copier la clé publique** sur les serveurs (`ssh-copy-id`)
+4. **Vérifier les empreintes** à la première connexion
+5. **Désactiver l'authentification par mot de passe** (sur le serveur)
+6. **Utiliser un port non-standard** (évite les bots)
+7. **Installer Fail2Ban** pour bloquer les attaques
 
-SSH remplace complètement les protocoles non sécurisés de l'ère précédente (Telnet, FTP, RSH) et reste l'outil standard pour l'accès distant sécurisé.
+### ❌ À ÉVITER
+
+1. Ne **JAMAIS partager** votre clé privée
+2. Ne **JAMAIS accepter** sans vérifier l'empreinte (première connexion)
+3. Ne pas utiliser SSH sans passphrase (local)
+4. Ne pas laisser le port 22 ouvert sur Internet (trop de bots)
+5. Ne pas ignorer les alertes d'usurpation de clé
+6. Ne pas désactiver l'authentification du serveur
 
 ---
 
-## 📚 Sources
+## Sources
 
-- **Cours fourni** : SSH.pdf - Présentation complète du protocole SSH
-- **Documentation officielle** : [OpenSSH](https://www.openssh.com/)
-- **RFC SSH** : RFC 4251, 4252, 4253, 4254 (IETF)
-- **Fail2Ban** : [Documentation Ubuntu-fr](https://doc.ubuntu-fr.org/fail2ban)
-- **Recommandations** : [ANSSI - Sécurisation d'OpenSSH](https://www.ssi.gouv.fr/)
+- **Documents fournis** : Cours SSH & Notes personnelles
+- **RFC officielles** : 4251, 4252, 4253, 4254
+- **OpenSSH officiel** : https://www.openssh.com/
+- **SSH Academy** : https://ssh.com/
+- **Fail2Ban** : https://doc.ubuntu-fr.org/fail2ban
+- **ANSSI** : Recommandations de sécurisation OpenSSH

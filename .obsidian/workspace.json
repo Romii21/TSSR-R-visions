@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🎮 Bash/📚 Fiche de révision.md",
+                "file": "📵 Intro Cybersécurité/📚 Fiche de révision.md",
                 "mode": "source",
                 "source": false
               },
@@ -210,11 +210,14 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
-    "🎮 Bash/🗺 Plan Bash.png",
+    "🔑 SSH/🗺 Plan de SSH.png",
     "🔑 SSH/📚 Fiche de révision.md",
+    "🎮 Bash/📚 Fiche de révision.md",
+    "Base 1/📚 Fiche de révision.md",
+    "Base 1",
+    "🎮 Bash/🗺 Plan Bash.png",
     "🎮 Bash/⌨ Liste de CMD.md",
     "🔑 SSH",
-    "🎮 Bash/📚 Fiche de révision.md",
     "🏡 Git-GitHub/📚 Fiche de révision.md",
     "🏡 Git-GitHub/🗺 Plan Git-GitHub.png",
     "❗❕📵 Intro Cybersécurité/📚 Fiche de révision.md",
@@ -239,7 +242,6 @@
     "🖥 La Virtualisation",
     "🧍🏼‍♂️ Gestion des utilisateurs",
     "Base/Sans titre 1.md",
-    "Base",
     "🗺 Plan Architecture .png",
     "🖥〰💾〰🖥 Réseau/2 Ethernet/🗺 Plan Ethernet.png",
     "🖥〰💾〰🖥 Réseau/3 IPV4/🗺 Plan.md",
