@@ -11,14 +11,12 @@
             "id": "07d0b50102a0a8e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "📵 Intro Cybersécurité/📚 Fiche de révision.md",
-                "mode": "source",
-                "source": false
+                "file": "📵 Intro Cybersécurité/🗺 Plan Cybersécurité.png"
               },
-              "icon": "lucide-file",
-              "title": "📚 Fiche de révision"
+              "icon": "lucide-image",
+              "title": "🗺 Plan Cybersécurité"
             }
           }
         ]
@@ -211,6 +209,7 @@
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
     "🔑 SSH/🗺 Plan de SSH.png",
+    "📵 Intro Cybersécurité/📚 Fiche de révision.md",
     "🔑 SSH/📚 Fiche de révision.md",
     "🎮 Bash/📚 Fiche de révision.md",
     "Base 1/📚 Fiche de révision.md",
