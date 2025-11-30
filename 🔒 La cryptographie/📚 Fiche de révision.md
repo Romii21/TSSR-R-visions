@@ -78,14 +78,14 @@ MESSAGE CLAIR
      ↓
 ┌────────────────────┐
 │   Chiffrement      │
-│   + Clé Secrète   │
+│   + Clé Secrète    │
 └────────────────────┘
      ↓
 MESSAGE CHIFFRÉ (incompréhensible)
      ↓
 ┌────────────────────┐
 │   Déchiffrement    │
-│   + Même Clé      │
+│   + Même Clé       │
 └────────────────────┘
      ↓
 MESSAGE CLAIR (récupéré)
