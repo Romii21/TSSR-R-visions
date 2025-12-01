@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧍🏼‍♂️ Gestion des utilisateurs/📚 Fiche de révision.md",
+                "file": "Grok/⌨ Prompt note papier.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📚 Fiche de révision"
+              "title": "⌨ Prompt note papier"
             }
           }
         ]
@@ -210,6 +210,13 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
+    "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
+    "Grok/⌨ Prompt note papier.md",
+    "Grok/⌨ Prompt cours.md",
+    "Grok",
+    "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
+    "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
+    "✔ 🧍🏼‍♂️ Gestion des utilisateurs/📚 Fiche de révision.md",
     "🔑 SSH/📚 Fiche de révision.md",
     "📵 Intro Cybersécurité/📚 Fiche de révision.md",
     "✔ 💾 Gestion Processeur et mémoire/📚 Résumé.md",
@@ -231,30 +238,23 @@
     "🎮 Bash/📚 5. Fonctions.md",
     "🎮 Bash/📚 4. Structures Itératives.md",
     "🎮 Bash/📚 3. Structures Conditionnelles.md",
-    "🎮 Bash/📚 2. Variables.md",
-    "🎮 Bash/⌨ Liste de CMD.md",
     "✔ 🖥 La Virtualisation/🗺 Plan La virtualisation.png",
     "🔒 La cryptographie/🗺 Plan de la Cryptographie.png",
-    "🔒 La cryptographie/📚 Fiche de révision.md",
     "📵 Intro Cybersécurité/🗺 Plan Cybersécurité.png",
     "✔ 📐 Architecture des ordinateurs/🗺 Plan Architecture .png",
-    "✔ 📐 Architecture des ordinateurs/📚 Fiche de révision.md",
-    "✔ 🖥 La Virtualisation/📚 Fiche de révision.md",
     "🎮 Bash/🗺 Plan Bash.png",
     "🖐🏼 Prise en main à distance/🗺 Plan prise en main à distance.png",
     "🔑 SSH/🗺 Plan de SSH.png",
     "🖐🏼 Prise en main à distance",
     "🔑 SSH",
     "🏡 Git-GitHub/🗺 Plan Git-GitHub.png",
-    "🧍🏼‍♂️ Gestion des utilisateurs/🗺 Plan Les utilisateurs.png",
+    "✔ 🧍🏼‍♂️ Gestion des utilisateurs/🗺 Plan Les utilisateurs.png",
     "TSSR-Revisions-Partage",
     "Obsidian",
     "❗🏡 Git-GitHub",
     "❗❕📵 Intro Cybersécurité",
     "❗💾 Gestion Processeur et mémoire",
     "❗❕🔒 La cryptographie",
-    "✔ 🖥 La Virtualisation",
-    "🧍🏼‍♂️ Gestion des utilisateurs",
-    "🗺 Plan Architecture .png"
+    "✔ 🖥 La Virtualisation"
   ]
 }

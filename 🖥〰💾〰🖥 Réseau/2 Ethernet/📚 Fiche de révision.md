@@ -1,6 +1,3 @@
-# Synthèse sur Ethernet
-
-Cette synthèse est basée sur les notes fournies et le cours du PDF "Ethernet.pdf". Elle est organisée en chapitres pour une compréhension simple, en utilisant les termes du cours. J'ai ajouté des schémas graphiques en ASCII ou Markdown pour illustrer les points clés, et un schéma récapitulatif à la fin. Les points importants sont mis en **gras**.
 
 ## Sommaire
 
