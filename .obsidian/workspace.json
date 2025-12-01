@@ -208,8 +208,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "07d0b50102a0a8e4",
+  "active": "9c26ee38f3793579",
   "lastOpenFiles": [
+    "🐚 PowerShell/📚 Fiche de révision.md",
+    "🐚 PowerShell",
     "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
     "Grok/⌨ Prompt note papier.md",
     "Grok/⌨ Prompt cours.md",
@@ -237,7 +239,6 @@
     "🎮 Bash/📚 6. Bonnes Pratiques.md",
     "🎮 Bash/📚 5. Fonctions.md",
     "🎮 Bash/📚 4. Structures Itératives.md",
-    "🎮 Bash/📚 3. Structures Conditionnelles.md",
     "✔ 🖥 La Virtualisation/🗺 Plan La virtualisation.png",
     "🔒 La cryptographie/🗺 Plan de la Cryptographie.png",
     "📵 Intro Cybersécurité/🗺 Plan Cybersécurité.png",
@@ -254,7 +255,6 @@
     "❗🏡 Git-GitHub",
     "❗❕📵 Intro Cybersécurité",
     "❗💾 Gestion Processeur et mémoire",
-    "❗❕🔒 La cryptographie",
-    "✔ 🖥 La Virtualisation"
+    "❗❕🔒 La cryptographie"
   ]
 }
