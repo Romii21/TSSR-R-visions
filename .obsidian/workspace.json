@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🖐🏼 Prise en main à distance/📚 Fiche de révision.md",
+                "file": "🔑 SSH/📚 Fiche de révision.md",
                 "mode": "source",
                 "source": false
               },
@@ -208,10 +208,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "07d0b50102a0a8e4",
+  "active": "9c26ee38f3793579",
   "lastOpenFiles": [
-    "🖐🏼 Prise en main à distance/🗺 Plan prise en main à distance.png",
+    "Cheat Sheet",
     "🖐🏼 Prise en main à distance/📚 Fiche de révision.md",
+    "🖐🏼 Prise en main à distance/🗺 Plan prise en main à distance.png",
     "Grok/⌨ Prompt note papier.md",
     "🐚 PowerShell/📚 Fiche de révision.md",
     "🐚 PowerShell",

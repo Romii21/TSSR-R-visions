@@ -83,7 +83,7 @@ Utiliser SSH pour synchroniser avec GitHub, GitLab, etc.
 SSH fonctionne selon le modèle **Client-Serveur** :
 
 ```
-┌─────────────────┐    SSH (Port 22)    ┌──────────────────┐
+┌─────────────────┐    SSH (Port 22)     ┌──────────────────┐
 │   Client SSH    │◄────────────────────►│  Serveur sshd    │
 │  (openssh)      │   Tunnel sécurisé    │  (openssh-server)│
 └─────────────────┘                      └──────────────────┘
