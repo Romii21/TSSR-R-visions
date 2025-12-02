@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grok/⌨ Prompt note papier.md",
+                "file": "🖐🏼 Prise en main à distance/📚 Fiche de révision.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "⌨ Prompt note papier"
+              "title": "📚 Fiche de révision"
             }
           }
         ]
@@ -208,12 +208,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "9c26ee38f3793579",
+  "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
+    "🖐🏼 Prise en main à distance/🗺 Plan prise en main à distance.png",
+    "🖐🏼 Prise en main à distance/📚 Fiche de révision.md",
+    "Grok/⌨ Prompt note papier.md",
     "🐚 PowerShell/📚 Fiche de révision.md",
     "🐚 PowerShell",
     "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
-    "Grok/⌨ Prompt note papier.md",
     "Grok/⌨ Prompt cours.md",
     "Grok",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
@@ -237,14 +239,11 @@
     "🏡 Git-GitHub/📚 Fiche de révision.md",
     "🎮 Bash/📚 Fiche de révision.md",
     "🎮 Bash/📚 6. Bonnes Pratiques.md",
-    "🎮 Bash/📚 5. Fonctions.md",
-    "🎮 Bash/📚 4. Structures Itératives.md",
     "✔ 🖥 La Virtualisation/🗺 Plan La virtualisation.png",
     "🔒 La cryptographie/🗺 Plan de la Cryptographie.png",
     "📵 Intro Cybersécurité/🗺 Plan Cybersécurité.png",
     "✔ 📐 Architecture des ordinateurs/🗺 Plan Architecture .png",
     "🎮 Bash/🗺 Plan Bash.png",
-    "🖐🏼 Prise en main à distance/🗺 Plan prise en main à distance.png",
     "🔑 SSH/🗺 Plan de SSH.png",
     "🖐🏼 Prise en main à distance",
     "🔑 SSH",
