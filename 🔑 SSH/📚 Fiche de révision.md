@@ -1,4 +1,3 @@
-# SSH - Secure Shell
 
 ## 📋 Sommaire
 
@@ -270,7 +269,7 @@ ssh ssh://wilder@server:22
 
 ```bash
 # Local vers distant
-scp fichier_local serveur:chemin_distant
+scp fichier_local user@serveur:chemin_distant
 
 # Distant vers local
 scp user@serveur:chemin_distant ~/Downloads/
