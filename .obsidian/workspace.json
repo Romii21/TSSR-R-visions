@@ -11,14 +11,12 @@
             "id": "07d0b50102a0a8e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "🔑 SSH/📚 Fiche de révision.md",
-                "mode": "source",
-                "source": false
+                "file": "🔒 La cryptographie/🗺 Plan de la Cryptographie.png"
               },
-              "icon": "lucide-file",
-              "title": "📚 Fiche de révision"
+              "icon": "lucide-image",
+              "title": "🗺 Plan de la Cryptographie"
             }
           }
         ]
@@ -210,8 +208,10 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
-    "🔑 SSH/🗺 Plan de SSH.png",
+    "🔒 La cryptographie/📚 Fiche de révision.md",
+    "🔒 La cryptographie/🗺 Plan de la Cryptographie.png",
     "🔑 SSH/📚 Fiche de révision.md",
+    "🔑 SSH/🗺 Plan de SSH.png",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
     "🏡 Git-GitHub/📚 Fiche de révision.md",
@@ -242,7 +242,6 @@
     "🎮 Bash/📚 7. Récapitulatif.md",
     "🎮 Bash/📚 Fiche de révision.md",
     "✔ 🖥 La Virtualisation/🗺 Plan La virtualisation.png",
-    "🔒 La cryptographie/🗺 Plan de la Cryptographie.png",
     "📵 Intro Cybersécurité/🗺 Plan Cybersécurité.png",
     "✔ 📐 Architecture des ordinateurs/🗺 Plan Architecture .png",
     "🎮 Bash/🗺 Plan Bash.png",

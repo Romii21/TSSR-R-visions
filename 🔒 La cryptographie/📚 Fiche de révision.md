@@ -359,7 +359,7 @@ Deux approches : symétrique ou asymétrique.
 
 ```
 ┌─────────────────────────────────────┐
-│  HMAC = Authentification Symétrique  │
+│  HMAC = Authentification Symétrique │
 └─────────────────────────────────────┘
 
 ENVOI :
