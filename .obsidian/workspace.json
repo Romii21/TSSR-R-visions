@@ -11,12 +11,14 @@
             "id": "07d0b50102a0a8e4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "🔒 La cryptographie/🗺 Plan de la Cryptographie.png"
+                "file": "🖥〰💾〰🖥 Réseau/3 IPV4/📚 Fiche de révision.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "🗺 Plan de la Cryptographie"
+              "icon": "lucide-file",
+              "title": "📚 Fiche de révision"
             }
           }
         ]
@@ -208,16 +210,16 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
-    "🔒 La cryptographie/📚 Fiche de révision.md",
+    "Grok/⌨ Prompt note papier.md",
+    "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
+    "🖥〰💾〰🖥 Réseau/3 IPV4/📚 Fiche de révision.md",
     "🔒 La cryptographie/🗺 Plan de la Cryptographie.png",
+    "🔒 La cryptographie/📚 Fiche de révision.md",
     "🔑 SSH/📚 Fiche de révision.md",
     "🔑 SSH/🗺 Plan de SSH.png",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
     "🏡 Git-GitHub/📚 Fiche de révision.md",
-    "Grok/⌨ Prompt note papier.md",
-    "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/3 IPV4/📚 Fiche de révision.md",
     "Cheat Sheet",
     "🖐🏼 Prise en main à distance/📚 Fiche de révision.md",
     "🖐🏼 Prise en main à distance/🗺 Plan prise en main à distance.png",
@@ -240,7 +242,6 @@
     "✔ 💾 Gestion Processeur et mémoire/📚 1. Concepts Fondamentaux.md",
     "🎮 Bash/📚 1. Fondations.md",
     "🎮 Bash/📚 7. Récapitulatif.md",
-    "🎮 Bash/📚 Fiche de révision.md",
     "✔ 🖥 La Virtualisation/🗺 Plan La virtualisation.png",
     "📵 Intro Cybersécurité/🗺 Plan Cybersécurité.png",
     "✔ 📐 Architecture des ordinateurs/🗺 Plan Architecture .png",
