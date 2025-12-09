@@ -2,7 +2,9 @@
 
 - Fait moi un sommaire avec des liens hypertexte pour y accéder facilement un l'intérieur de la synthèse
 
-- Tu peux faire des petit schéma graphique pour expliquer chaque point et pour résumer la synthèse
+*  Tu peux aller voir les liens dans le cours et voir ce que tu peux en tirer, fais simple et résume ce que tu trouves
+
+- Tu peux faire des petits schémas graphiques pour expliquer chaque point et pour résumer la synthèse
 
 - Utiles le cours et les notes que je te donne pour t'aider, tu peux aussi aller chercher des infos complémentaires mais cite moi tes sources en de page.
 

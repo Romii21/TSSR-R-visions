@@ -11,12 +11,14 @@
             "id": "07d0b50102a0a8e4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png"
+                "file": "Grok/⌨ Prompt cours.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "🗺 Plan Réseau"
+              "icon": "lucide-file",
+              "title": "⌨ Prompt cours"
             }
           }
         ]
@@ -208,8 +210,9 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
-    "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
     "Grok/⌨ Prompt note papier.md",
+    "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
+    "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
     "Grok/⌨ Prompt cours.md",
     "🔑 SSH/📚 Fiche de révision.md",
     "🔑 SSH/🗺 Plan de SSH.png",
@@ -217,7 +220,6 @@
     "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
     "🔒 La cryptographie/🗺 Plan de la Cryptographie.png",
     "🔒 La cryptographie/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
     "🏡 Git-GitHub/📚 Fiche de révision.md",
     "Cheat Sheet",
     "🖐🏼 Prise en main à distance/📚 Fiche de révision.md",
