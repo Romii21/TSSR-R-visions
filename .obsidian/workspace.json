@@ -11,14 +11,12 @@
             "id": "07d0b50102a0a8e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "🔑 SSH/📚 Fiche de révision.md",
-                "mode": "source",
-                "source": false
+                "file": "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png"
               },
-              "icon": "lucide-file",
-              "title": "📚 Fiche de révision"
+              "icon": "lucide-image",
+              "title": "🗺 Plan Réseau"
             }
           }
         ]
@@ -210,14 +208,15 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
-    "🔑 SSH/🗺 Plan de SSH.png",
-    "🔑 SSH/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/3 IPV4/📚 Fiche de révision.md",
+    "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
     "Grok/⌨ Prompt note papier.md",
+    "Grok/⌨ Prompt cours.md",
+    "🔑 SSH/📚 Fiche de révision.md",
+    "🔑 SSH/🗺 Plan de SSH.png",
+    "🖥〰💾〰🖥 Réseau/3 IPV4/📚 Fiche de révision.md",
     "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
     "🔒 La cryptographie/🗺 Plan de la Cryptographie.png",
     "🔒 La cryptographie/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
     "🏡 Git-GitHub/📚 Fiche de révision.md",
     "Cheat Sheet",
@@ -225,7 +224,6 @@
     "🖐🏼 Prise en main à distance/🗺 Plan prise en main à distance.png",
     "🐚 PowerShell/📚 Fiche de révision.md",
     "🐚 PowerShell",
-    "Grok/⌨ Prompt cours.md",
     "Grok",
     "✔ 🧍🏼‍♂️ Gestion des utilisateurs/📚 Fiche de révision.md",
     "📵 Intro Cybersécurité/📚 Fiche de révision.md",
