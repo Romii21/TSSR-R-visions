@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔑 SSH/📚 Fiche de révision.md",
+                "file": "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6/📚 Fiche de révision.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 338.5
   },
   "right": {
     "id": "4b31e1dbf7539b13",
@@ -210,13 +210,20 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
+    "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6/🗺 Plan IPv4 vs IPv6 détails.png",
+    "🖥〰💾〰🖥 Réseau/4 IPv6/🗺 Plan IPv6.png",
+    "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6/🗺 Plan IPv4 vs IPv6.png",
+    "🖥〰💾〰🖥 Réseau/4 IPv6/📚 Fiche de révision.md",
+    "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6/📚 Fiche de révision.md",
+    "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6",
+    "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
+    "🖥〰💾〰🖥 Réseau/4 IPv6",
+    "🔑 SSH/📚 Fiche de révision.md",
     "Grok/⌨ Prompt cours.md",
     "Grok/⌨ Prompt note papier.md",
-    "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
-    "🔑 SSH/📚 Fiche de révision.md",
     "🔑 SSH/🗺 Plan de SSH.png",
-    "🖥〰💾〰🖥 Réseau/3 IPV4/📚 Fiche de révision.md",
+    "🖥〰💾〰🖥 Réseau/3 IPv4/📚 Fiche de révision.md",
     "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
     "🔒 La cryptographie/🗺 Plan de la Cryptographie.png",
     "🔒 La cryptographie/📚 Fiche de révision.md",
@@ -240,20 +247,14 @@
     "✔ 💾 Gestion Processeur et mémoire/📚 3. Notion de Processus.md",
     "✔ 💾 Gestion Processeur et mémoire/📚 2. Le problème du partage de processus.md",
     "✔ 💾 Gestion Processeur et mémoire/📚 1. Concepts Fondamentaux.md",
-    "🎮 Bash/📚 1. Fondations.md",
-    "🎮 Bash/📚 7. Récapitulatif.md",
     "✔ 🖥 La Virtualisation/🗺 Plan La virtualisation.png",
     "📵 Intro Cybersécurité/🗺 Plan Cybersécurité.png",
     "✔ 📐 Architecture des ordinateurs/🗺 Plan Architecture .png",
     "🎮 Bash/🗺 Plan Bash.png",
     "🖐🏼 Prise en main à distance",
     "🔑 SSH",
-    "🏡 Git-GitHub/🗺 Plan Git-GitHub.png",
-    "✔ 🧍🏼‍♂️ Gestion des utilisateurs/🗺 Plan Les utilisateurs.png",
     "TSSR-Revisions-Partage",
     "Obsidian",
-    "❗🏡 Git-GitHub",
-    "❗❕📵 Intro Cybersécurité",
-    "❗💾 Gestion Processeur et mémoire"
+    "❗🏡 Git-GitHub"
   ]
 }
