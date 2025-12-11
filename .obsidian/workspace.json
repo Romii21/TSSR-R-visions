@@ -11,14 +11,12 @@
             "id": "07d0b50102a0a8e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Grok/⌨ Prompt note papier.md",
-                "mode": "source",
-                "source": false
+                "file": "🔑 SSH/🗺 Plan de SSH.png"
               },
-              "icon": "lucide-file",
-              "title": "⌨ Prompt note papier"
+              "icon": "lucide-image",
+              "title": "🗺 Plan de SSH"
             }
           }
         ]
@@ -210,9 +208,10 @@
   },
   "active": "07d0b50102a0a8e4",
   "lastOpenFiles": [
+    "🔑 SSH/📚 Fiche de révision.md",
+    "Grok/⌨ Prompt note papier.md",
     "🖥〰💾〰🖥 Réseau/4 IPv6/📚 Fiche de révision.md",
     "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6/📚 Fiche de révision.md",
-    "🔑 SSH/📚 Fiche de révision.md",
     "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6/🗺 Plan IPv4 vs IPv6 détails.png",
     "🖥〰💾〰🖥 Réseau/4 IPv6/🗺 Plan IPv6.png",
     "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6/🗺 Plan IPv4 vs IPv6.png",
@@ -220,7 +219,6 @@
     "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan Réseau.png",
     "🖥〰💾〰🖥 Réseau/4 IPv6",
     "Grok/⌨ Prompt cours.md",
-    "Grok/⌨ Prompt note papier.md",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
     "🔑 SSH/🗺 Plan de SSH.png",
     "🖥〰💾〰🖥 Réseau/3 IPv4/📚 Fiche de révision.md",
