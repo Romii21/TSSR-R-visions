@@ -288,6 +288,7 @@ MAC : 00:1A:2B:3C:4D:5E
     
     - L'hôte envoie une requête sur `ff02::2` (all-routers)
     - Demande les informations de configuration
+    
 2. **Router Advertisement (RA)**
     
     - Le routeur répond avec :
@@ -295,6 +296,7 @@ MAC : 00:1A:2B:3C:4D:5E
         - Durée de vie
         - Informations de configuration additionnelles
     - Les RA sont aussi envoyés périodiquement (non sollicités)
+    
 3. **Duplicate Address Detection (DAD)**
     
     - Vérification de l'unicité de l'adresse
