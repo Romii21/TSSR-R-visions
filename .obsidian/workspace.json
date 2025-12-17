@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2061ec6b94a90e49",
+        "id": "bf3aba49e6ac7db8",
         "type": "tabs",
         "children": [
           {
-            "id": "07d0b50102a0a8e4",
+            "id": "816eadd9d81ba01e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🖥〰💾〰🖥 Réseau/8 DNS/📚 Fiche de révision.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "📚 Fiche de révision"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -208,10 +204,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07d0b50102a0a8e4",
+  "active": "816eadd9d81ba01e",
   "lastOpenFiles": [
-    "2025-12-17.md",
+    "🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 2. Le problème du partage de processus.md",
     "🖥〰💾〰🖥 Réseau/8 DNS/📚 Fiche de révision.md",
+    "2025-12-17.md",
     "🖥〰💾〰🖥 Réseau/7 DHCP/🗺 Plan du DHCP.png",
     "🖥〰💾〰🖥 Réseau/8 DNS/🗺 Plan du DNS.png",
     "🖥〰💾〰🖥 Réseau/7 DHCP/📚 Fiche de révision.md",
@@ -254,7 +251,6 @@
     "🖥〰💾〰🖥 Réseau/4 IPv6",
     "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
     "🖥〰💾〰🖥 Réseau/3 IPv4/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md",
-    "🔒🔑 Sécurité/🧍🏼‍♂️ Gestion des utilisateurs/📚 Fiche de révision.md"
+    "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md"
   ]
 }
