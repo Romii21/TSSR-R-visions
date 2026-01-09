@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
+                "file": "📏 Compréhension/🐚 PowerShell/6. Gestion de l'Arborescence et des Fichiers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Synthèse - Les GPO (Group Policy Objects)"
+              "title": "6. Gestion de l'Arborescence et des Fichiers"
             }
           }
         ]
@@ -210,8 +210,12 @@
   },
   "active": "10c0a45ca8771095",
   "lastOpenFiles": [
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/1. Introduction à Active Directory.md",
+    "📏 Compréhension/🐚 PowerShell/5. Les variables.md",
+    "📏 Compréhension/🐚 PowerShell/4. Les Cmdlets.md",
+    "📏 Compréhension/🐚 PowerShell/3. Syntaxe de base.md",
+    "📏 Compréhension/🐚 PowerShell/2. Installation et Configuration.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/1. Introduction à Active Directory.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Paquet IP.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory",
@@ -247,11 +251,7 @@
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/6 Le routage IP/🗺️ Plan réseau statique.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/🎯 Points clés à retenir.md",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/📚 Fiche de révision.md",
-    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/7. Avantages et inconvénients.md",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/🗺️ Plan du NAT.png",
-    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/6. NAT 1.1 - Traduction statique.md",
-    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/5. DNAT - Publication de services.md",
-    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/4. PAT NAPT - Traduction avec ports.md",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/🔴 Le Réseau.pdf",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/Le_Voyage_d_un_Paquet_Déconstruire_les_Réseaux_compressed.pdf",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/8 DNS/🗺️ Plan protocol DNS.png",
