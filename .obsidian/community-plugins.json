@@ -1,4 +1,6 @@
 [
   "github-sync",
-  "obsidian-git"
+  "obsidian-git",
+  "dataview",
+  "automatic-table-of-contents"
 ]

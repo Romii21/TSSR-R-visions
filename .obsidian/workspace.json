@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bf3aba49e6ac7db8",
+        "id": "6bc6e1e46ac5afea",
         "type": "tabs",
         "children": [
           {
-            "id": "816eadd9d81ba01e",
+            "id": "10c0a45ca8771095",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "Synthèse - Les GPO (Group Policy Objects)"
             }
           }
         ]
@@ -37,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Explorateur de fichiers"
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 382.5
   },
   "right": {
     "id": "4b31e1dbf7539b13",
@@ -204,53 +208,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "816eadd9d81ba01e",
+  "active": "10c0a45ca8771095",
   "lastOpenFiles": [
-    "🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 2. Le problème du partage de processus.md",
-    "🖥〰💾〰🖥 Réseau/8 DNS/📚 Fiche de révision.md",
-    "2025-12-17.md",
-    "🖥〰💾〰🖥 Réseau/7 DHCP/🗺 Plan du DHCP.png",
-    "🖥〰💾〰🖥 Réseau/8 DNS/🗺 Plan du DNS.png",
-    "🖥〰💾〰🖥 Réseau/7 DHCP/📚 Fiche de révision.md",
-    "🛠 Outils/🏡 Git-GitHub/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/9 NAT/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/9 NAT",
-    "🖥〰💾〰🖥 Réseau/8 DNS",
-    "🖥〰💾〰🖥 Réseau/7 DHCP",
-    "🛠 Outils/🏡 Git-GitHub/🗺 Plan Git-GitHub.png",
-    "Prompt IA/⌨ Prompt note papier.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/1. Introduction à Active Directory.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Paquet IP.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory",
+    "🧠 Révisions/Sans titre",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/La Trame Réseau.md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/L'encapsulation réseau.md",
+    "Prompt IA/⌨️ Prompt aide.md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/L'encapsulation",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau",
+    "📜 Fiche d'aide",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan de conversion.png",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan paquet Ipv4.png",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan adresses spéciales IPv6.png",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan CIDR IPv6.png",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan IPv6.png",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan paquet IPv6.png",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/2. Structure et Composants de Base.md",
+    "📏 Compréhension/🪢 Routage avec Cisco/PARTIE 9 - DHCP et services réseau/01 - 🌐 Configuration du Serveur DHCP.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Active Directory - Synthèse de Cours.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Sans titre 10.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Sans titre 9.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Sans titre 8.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Sans titre 7.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Sans titre 6.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Sans titre 5.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Sans titre 4.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Sans titre 3.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Sans titre 2.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory",
+    "GPO.md",
     "Prompt IA/⌨ Prompt cours.md",
-    "🖥〰💾〰🖥 Réseau/4 IPv6/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/4 IPv6/🗺 Plan IPv6.png",
-    "🖥〰💾〰🖥 Réseau/1 Le réseau/🗺 Plan du réseau.png",
-    "🖥〰💾〰🖥 Réseau/6 Le routage IP/🗺 Plan du routage.png",
-    "🔒🔑 Sécurité/🧍🏼‍♂️ Gestion des utilisateurs/🗺 Plan de gestion des utilisateurs.png",
-    "Sans titre.md",
-    "🔒🔑 Sécurité",
-    "🖥⌨ Sysadmin",
-    "🖥〰💾〰🖥 Réseau/6 Le routage IP/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/6 Le routage IP/unnamed.png",
-    "🛠 Outils/🐚 PowerShell/⌨ Liste de CMD.md",
-    "🛠 Outils/🐚 PowerShell/📚 Fiche de révision.md",
-    "🛠 Outils/🐚 PowerShell/🗺 Plan PowerShell.png",
-    "🛠 Outils/🐚 PowerShell/unnamed.png",
-    "🖥〰💾〰🖥 Réseau/6 Le routage IP",
-    "🛠 Outils/🖥 La Virtualisation/📚 Fiche de révision.md",
-    "🔒🔑 Sécurité/🔒 La cryptographie/📚 Fiche de révision.md",
-    "🛠 Outils/🖐🏼 Prise en main à distance/📚 Fiche de révision.md",
-    "🛠 Outils/🎮 Bash/📚 1. Fondations.md",
-    "🛠 Outils/🎮 Bash/⌨ Liste de CMD.md",
-    "🛠 Outils/🌉 CISCO Packet Tracer (routage)/📚 Fiche de révision.md",
-    "🛠 Outils",
-    "CISCO Packet Tracer/🗺 Schéma du réseau.md",
-    "Base/📚 Fiche de révision.md",
-    "🛠 Outils/🌉 CISCO Packet Tracer (routage)",
-    "🔒🔑 Sécurité/🔑 SSH/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/5 IPv4 vs IPv6",
-    "🖥〰💾〰🖥 Réseau/4 IPv6",
-    "🖥〰💾〰🖥 Réseau/1 Le réseau/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/3 IPv4/📚 Fiche de révision.md",
-    "🖥〰💾〰🖥 Réseau/2 Ethernet/📚 Fiche de révision.md"
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/6 Le routage IP/🗺️ Plan réseau dynamique.png",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/6 Le routage IP/🗺️ Plan réseau statique.png",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/🎯 Points clés à retenir.md",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/📚 Fiche de révision.md",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/7. Avantages et inconvénients.md",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/🗺️ Plan du NAT.png",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/6. NAT 1.1 - Traduction statique.md",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/5. DNAT - Publication de services.md",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/9 NAT/4. PAT NAPT - Traduction avec ports.md",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/🔴 Le Réseau.pdf",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/Le_Voyage_d_un_Paquet_Déconstruire_les_Réseaux_compressed.pdf",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/8 DNS/🗺️ Plan protocol DNS.png",
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/Sans titre"
   ]
 }
