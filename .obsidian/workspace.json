@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Suivi des incidents.md",
+                "file": "Gestion de parc informatique.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Suivi des incidents"
+              "title": "Gestion de parc informatique"
             }
           }
         ]
@@ -210,6 +210,8 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "Suivi des incidents.md",
+    "Gestion de parc informatique.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/🎯 Points clés à retenir.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/Sans titre 12.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/Les serveurs Web - Synthèse de cours.md",
@@ -234,8 +236,6 @@
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 5.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 4.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 3.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 2.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 1.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/🔴 Le Réseau.pdf",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Plan Global du Réseau.png",
