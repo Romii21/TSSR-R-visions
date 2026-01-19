@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📁 Dossier Professionnel/Small Group DP.md",
+                "file": "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Découpage Réseau.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Small Group DP"
+              "title": "Découpage Réseau"
             }
           }
         ]
@@ -210,8 +210,18 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre.md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Les VLANs (Virtual Local Area Network).md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Trunk (802.1Q) en Réseau.md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Paquet IP.md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/La Table de Routage.md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/La Séquence DORA (DHCP).md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/La Poignée de Main TCP (Three-Way Handshake).md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Découpage Réseau.md",
+    "📏 Compréhension/🖥️⌨️🐧 Serveur DNS & DHCP sur Debian/5. Client.md",
+    "📏 Compréhension/🖥️⌨️🐧 Serveur DNS & DHCP sur Debian/4. DHCP.md",
+    "📏 Compréhension/🖥️⌨️🐚 Serveur DNS & DHCP sur Windows Server/3. DHCP.md",
     "📁 Dossier Professionnel/Small Group DP.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/2. Introduction à ITIL.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/1. Définitions essentielles.md",
     "🧠 Révisions/🧠💪🏼 IT Management/🖥 La Virtualisation/📚 Fiche de révision.md",
@@ -228,16 +238,6 @@
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/Les serveurs Web - Synthèse de cours.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/11. Le Reverse Proxy (Proxy Inverse).md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/10. Les serveurs Proxy.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/9. La virtualisation (Virtual Hosts).md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/8. Le Backend Web.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/7. Les serveurs HTTP.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/6. Les clients HTTP.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/5. Requêtes et réponses HTTP.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/4. Les URL (Uniform Resource Locator).md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/3. HTTPS - la sécurisation du Web.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/2. Le protocole HTTP.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/1. Le Web - concepts fondamentaux.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/Sans titre 13.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/🔴 Le Réseau.pdf",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Plan Global du Réseau.png",
