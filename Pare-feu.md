@@ -29,4 +29,9 @@
 		* Très efficace en cas d'environnement globale Cisco
 		* Assez cher
 
-* La Cybersécurité n'est pas qu'une question de pare-feu et d'antivirus
+* La Cybersécurité n'est pas qu'une question de pare-feu et d'antivirus :
+	* Imaginé un réseau sécurisé comprends de penser à chaque zone.
+	* Le plan du dessous permet d'imager l'importance et la complexité d'un réseau  
+
+![[Plan_réseau.png]]
+

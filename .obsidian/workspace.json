@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pare-feu.md",
+                "file": "VPN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pare-feu"
+              "title": "VPN"
             }
           }
         ]
@@ -210,10 +210,13 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
+    "VPN.md",
+    "Pare-feu.md",
+    "Plan_réseau.png",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "Gestion de parc informatique.md",
     "🧠 Révisions/🧠💪🏼 IT Management/Sans titre",
-    "Pare-feu.md",
     "Suivi des incidents.md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Découpage Réseau.md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Les VLANs (Virtual Local Area Network).md",
@@ -238,7 +241,6 @@
     "🧠 Révisions/🧠💪🏼 IT Management",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/🎯 Points clés à retenir.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/Sans titre 12.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/Les serveurs Web - Synthèse de cours.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/🔴 Le Réseau.pdf",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Plan Global du Réseau.png",
@@ -253,8 +255,6 @@
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan de conversion.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan paquet Ipv4.png",
-    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan CIDR IPv6.png",
-    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan IPv6.png",
-    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan paquet IPv6.png"
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan CIDR IPv6.png"
   ]
 }
