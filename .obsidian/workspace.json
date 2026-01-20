@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VPN.md",
+                "file": "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VPN"
+              "title": "Filtrage Réseau et Pare-feu"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 288.5
   },
   "right": {
     "id": "4b31e1dbf7539b13",
@@ -210,8 +210,10 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
     "VPN.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau",
+    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
     "Pare-feu.md",
     "Plan_réseau.png",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
@@ -240,7 +242,6 @@
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents",
     "🧠 Révisions/🧠💪🏼 IT Management",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/🎯 Points clés à retenir.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/Sans titre 12.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/🔴 Le Réseau.pdf",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Plan Global du Réseau.png",
@@ -252,7 +253,6 @@
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory",
     "🧠 Révisions/Sans titre",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/L'encapsulation",
-    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan de conversion.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan paquet Ipv4.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan CIDR IPv6.png"
