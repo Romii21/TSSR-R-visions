@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Découpage Réseau.md",
+                "file": "Pare-feu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Découpage Réseau"
+              "title": "Pare-feu"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 278.5
   },
   "right": {
     "id": "4b31e1dbf7539b13",
@@ -210,13 +210,18 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
+    "Gestion de parc informatique.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre",
+    "Pare-feu.md",
+    "Suivi des incidents.md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Découpage Réseau.md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Les VLANs (Virtual Local Area Network).md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Trunk (802.1Q) en Réseau.md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Paquet IP.md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/La Table de Routage.md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/La Séquence DORA (DHCP).md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/La Poignée de Main TCP (Three-Way Handshake).md",
-    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Découpage Réseau.md",
     "📏 Compréhension/🖥️⌨️🐧 Serveur DNS & DHCP sur Debian/5. Client.md",
     "📏 Compréhension/🖥️⌨️🐧 Serveur DNS & DHCP sur Debian/4. DHCP.md",
     "📏 Compréhension/🖥️⌨️🐚 Serveur DNS & DHCP sur Windows Server/3. DHCP.md",
@@ -229,15 +234,11 @@
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre 5.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre 4.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre 3.md",
-    "Gestion de parc informatique.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents",
     "🧠 Révisions/🧠💪🏼 IT Management",
-    "Suivi des incidents.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/🎯 Points clés à retenir.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/Sans titre 12.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/Les serveurs Web - Synthèse de cours.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/11. Le Reverse Proxy (Proxy Inverse).md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB/10. Les serveurs Proxy.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/🔴 Le Réseau.pdf",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Plan Global du Réseau.png",
@@ -250,7 +251,6 @@
     "🧠 Révisions/Sans titre",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/L'encapsulation",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau",
-    "📜 Fiche d'aide",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan de conversion.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan paquet Ipv4.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan CIDR IPv6.png",
