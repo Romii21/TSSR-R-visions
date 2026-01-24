@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Partage de fichiers (Host ↔ VM) avec VirtualBox.md",
+                "file": "📜 Fiche d'aide/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Partage de fichiers (Host ↔ VM) avec VirtualBox"
+              "title": "🐧 Partage de fichiers (Hôte ↔ VM Linux)"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "4b31e1dbf7539b13",
@@ -211,8 +210,10 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "📜 Fiche d'aide/🫸🏼🫷🏼 Partage VM",
+    "📜 Fiche d'aide/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
+    "📜 Fiche d'aide/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
     "Plan_réseau.png",
-    "Partage de fichiers (Host ↔ VM) avec VirtualBox.md",
     "Tutoriel_Configuration Bureau à Distance Sécurisé.md",
     "conteneur.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
@@ -239,7 +240,6 @@
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/2. Introduction à ITIL.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/1. Définitions essentielles.md",
     "🧠 Révisions/🧠💪🏼 IT Management/🖥 La Virtualisation/📚 Fiche de révision.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre 6.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents",
     "🧠 Révisions/🧠💪🏼 IT Management",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB",
