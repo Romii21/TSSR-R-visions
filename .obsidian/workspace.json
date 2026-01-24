@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conteneur.md",
+                "file": "Partage de fichiers (Host ↔ VM) avec VirtualBox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conteneur"
+              "title": "Partage de fichiers (Host ↔ VM) avec VirtualBox"
             }
           }
         ]
@@ -210,13 +210,15 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
+    "Plan_réseau.png",
+    "Partage de fichiers (Host ↔ VM) avec VirtualBox.md",
+    "Tutoriel_Configuration Bureau à Distance Sécurisé.md",
     "conteneur.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
     "VPN.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau",
     "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
     "Pare-feu.md",
-    "Plan_réseau.png",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "Gestion de parc informatique.md",
     "🧠 Révisions/🧠💪🏼 IT Management/Sans titre",
@@ -237,9 +239,6 @@
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/1. Définitions essentielles.md",
     "🧠 Révisions/🧠💪🏼 IT Management/🖥 La Virtualisation/📚 Fiche de révision.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre 6.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre 5.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre 4.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre 3.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents",
     "🧠 Révisions/🧠💪🏼 IT Management",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB",
