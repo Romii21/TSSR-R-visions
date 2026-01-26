@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📆 Tuto/💻👉🏼🖥️ Bureau à distance/Configuration Bureau à Distance Sécurisé.md",
-                "mode": "source",
+                "file": "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuration Bureau à Distance Sécurisé"
+              "title": "🐚 Partage de fichiers (Host ↔ VM Windows)"
             }
           }
         ]
@@ -210,6 +210,9 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
+    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
+    "📆 Tuto/💻👉🏼🖥️ Bureau à distance/Configuration Bureau à Distance Sécurisé.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN",
@@ -218,12 +221,9 @@
     "Gestion de parc informatique.md",
     "Plan_réseau.png",
     "Pare-feu.md",
-    "📆 Tuto/💻👉🏼🖥️ Bureau à distance/Configuration Bureau à Distance Sécurisé.md",
     "📆 Tuto",
     "📆 Tuto/💻👉🏼🖥️ Bureau à distance",
-    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
     "📆 Tuto/🫸🏼🫷🏼 Partage VM",
-    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau",
     "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
