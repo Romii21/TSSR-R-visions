@@ -1,0 +1,18 @@
+Services de la DSI :
+- Messagerie :
+	- communication interne et externe
+	- 
+- Le stockage :
+	- Service qui permet de stocker, conserver, et partager des fichiers :
+		- Sur serveur (physique) :
+			- Autorisation d'accès en fonction des besoins
+			- Accès à distance
+			- Protocole : SMD 
+				- Serveur Windows partage de fichiers en LAN
+				- Samba (Serveur Linux) partage de fichiers en LAN compatible Windows
+		- Cloud (Démat)
+			- 
+- Les suites bureautiques :
+	- Office : Création, Partage, Edition de fichiers de manière collaboratif ou non
+	- 
+- La prise en main distante :

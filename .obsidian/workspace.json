@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
-                "mode": "preview",
+                "file": "Les services bureautiques.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🐚 Partage de fichiers (Host ↔ VM Windows)"
+              "title": "Les services bureautiques"
             }
           }
         ]
@@ -210,22 +210,23 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
-    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
+    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
+    "Les services bureautiques.md",
+    "conteneur.md",
+    "Gestion de parc informatique.md",
+    "Pare-feu.md",
+    "Plan_réseau.png",
+    "VPN.md",
     "📆 Tuto/💻👉🏼🖥️ Bureau à distance/Configuration Bureau à Distance Sécurisé.md",
+    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
+    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN",
-    "VPN.md",
-    "conteneur.md",
-    "Gestion de parc informatique.md",
-    "Plan_réseau.png",
-    "Pare-feu.md",
     "📆 Tuto",
     "📆 Tuto/💻👉🏼🖥️ Bureau à distance",
     "📆 Tuto/🫸🏼🫷🏼 Partage VM",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau",
-    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "🧠 Révisions/🧠💪🏼 IT Management/Sans titre",
     "Suivi des incidents.md",
@@ -242,8 +243,6 @@
     "📁 Dossier Professionnel/Small Group DP.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/2. Introduction à ITIL.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/1. Définitions essentielles.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/🖥 La Virtualisation/📚 Fiche de révision.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents",
     "🧠 Révisions/🧠💪🏼 IT Management",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🌐 Les serveurs WEB",
