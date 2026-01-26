@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Fiche d'aide/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
+                "file": "📆 Tuto/💻👉🏼🖥️ Bureau à distance/Configuration Bureau à Distance Sécurisé.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🐧 Partage de fichiers (Hôte ↔ VM Linux)"
+              "title": "Configuration Bureau à Distance Sécurisé"
             }
           }
         ]
@@ -210,19 +210,23 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "📜 Fiche d'aide/🫸🏼🫷🏼 Partage VM",
-    "📜 Fiche d'aide/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
-    "📜 Fiche d'aide/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
-    "Plan_réseau.png",
-    "Tutoriel_Configuration Bureau à Distance Sécurisé.md",
-    "conteneur.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN",
     "VPN.md",
+    "conteneur.md",
+    "Gestion de parc informatique.md",
+    "Plan_réseau.png",
+    "Pare-feu.md",
+    "📆 Tuto/💻👉🏼🖥️ Bureau à distance/Configuration Bureau à Distance Sécurisé.md",
+    "📆 Tuto",
+    "📆 Tuto/💻👉🏼🖥️ Bureau à distance",
+    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
+    "📆 Tuto/🫸🏼🫷🏼 Partage VM",
+    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau",
     "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
-    "Pare-feu.md",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
-    "Gestion de parc informatique.md",
     "🧠 Révisions/🧠💪🏼 IT Management/Sans titre",
     "Suivi des incidents.md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Découpage Réseau.md",
@@ -249,10 +253,6 @@
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Modèle OSI.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Equipement par couche.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan adresses spéciales IPv6.png",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory",
-    "🧠 Révisions/Sans titre",
-    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/L'encapsulation",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan de conversion.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan paquet Ipv4.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan CIDR IPv6.png"
