@@ -1,0 +1,32 @@
+Intro :
+- Bien comprendre son besoin en stockage pour bien comprendre quel matériel choisir :
+	- Volume :
+		- Taille du stockage
+	- Performance :
+		- Temps d'accès 
+	- Sécurité :
+- En entreprise :
+	- HDD pour les serveurs (solide)
+	- SSD pour les pc clients
+- RAID :
+	- Création d'un espace commun avec plusieurs disques 
+		- RAID matériel 
+		- RAID logiciel
+		- RAID hybride
+	- JBOD ou NRAID :
+		- Fusionne plusieurs disques en un seul, ne fais pas la différence et range les données n'importe où (⚠️ Mauvais)
+	- RAID 0 :
+		- Striping, sépare les données dans plusieurs disque (⚠️ Mauvais)
+	- RAID 1 :
+		- Mirroring, écrit sur tout les disques mais se base sur le plus petit disque
+	- RAID 4 :
+		- Striping, sépare les donnes sur plusieurs disque + un disque de parité
+		- Permet d'accepter UNE casse pour plus de souplesse 
+	- RAID 5 :
+		- Round-Robin
+		- Striping, sépare les donnes sur plusieurs disques
+		- Chaque disque possède une parité
+		- Permet que toutes les donnés plus parité soit répartis partout pour une meilleure reconstruction (Pas une disque unique de parité)
+	- RAID 6 :
+		- Comme le RAID 5, mais nécessite un doublage des parités (besoin de plus de disques, 4 minimum)
+		- 
