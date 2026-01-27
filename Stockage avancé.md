@@ -13,20 +13,55 @@ Intro :
 		- RAID matériel 
 		- RAID logiciel
 		- RAID hybride
-	- JBOD ou NRAID :
-		- Fusionne plusieurs disques en un seul, ne fais pas la différence et range les données n'importe où (⚠️ Mauvais)
-	- RAID 0 :
-		- Striping, sépare les données dans plusieurs disque (⚠️ Mauvais)
-	- RAID 1 :
-		- Mirroring, écrit sur tout les disques mais se base sur le plus petit disque
-	- RAID 4 :
-		- Striping, sépare les donnes sur plusieurs disque + un disque de parité
-		- Permet d'accepter UNE casse pour plus de souplesse 
-	- RAID 5 :
-		- Round-Robin
-		- Striping, sépare les donnes sur plusieurs disques
-		- Chaque disque possède une parité
-		- Permet que toutes les donnés plus parité soit répartis partout pour une meilleure reconstruction (Pas une disque unique de parité)
-	- RAID 6 :
-		- Comme le RAID 5, mais nécessite un doublage des parités (besoin de plus de disques, 4 minimum)
-		- 
+			- JBOD ou NRAID :
+				- Fusionne plusieurs disques en un seul, ne fais pas la différence et range les données n'importe où (⚠️ Mauvais)
+			- RAID 0 :
+				- Striping, sépare les données dans plusieurs disque (⚠️ Mauvais)
+			- RAID 1 :
+				- Mirroring, écrit sur tout les disques mais se base sur le plus petit disque
+			- RAID 4 :
+				- Striping, sépare les donnes sur plusieurs disque + un disque de parité
+				- Permet d'accepter UNE casse pour plus de souplesse 
+			- RAID 5 :
+				- Round-Robin
+				- Striping, sépare les donnes sur plusieurs disques
+				- Chaque disque possède une parité
+				- Permet que toutes les donnés plus parité soit répartis partout pour une meilleure reconstruction (Pas une disque unique de parité)
+			- RAID 6 :
+				- Comme le RAID 5, mais nécessite un doublage des parités (besoin de plus de disques, 4 minimum)
+			- RAID 10 (RAID 0 + 1) :
+				- RAID 0 dans du RAID 1
+			- Utilisation de disques similaires pour ne pas perdre de place inutilement.
+- LVM (Juste Linux) :
+	- Système de virtualisation du stockage :
+		- PV : Physical Volume
+		- VG : Volume Group
+		- LV : Logical Volume
+			- PV : Un PV n'est pas forcement un disque dur
+				- Une partition
+				- Un disque complet
+				- Un volume RAID
+				- Un stockage distant 
+			- VG : un ensemble d'au moins 1 PV
+				- La taille du VG = (la somme) de tout les PV
+				- UN VG par type de PV
+			- LV : Un VG est découpé en Volumes Logiques 
+				- Correspondent aux partitions habituelles
+		- Redimensionnement à chaud :
+			- Redimensionnement à chaud des LV OK sous LMV
+				- ext4 : OK
+- NAS et SAN :
+	- NAS :
+		- Serveur de stockage réseau
+		- Protocole :
+			- NFS (Network File Système)
+			- SMB (Server Message Block)
+	- SAN :
+		- Réseau de stockage
+		- Baies de stockage :
+			- Enormément de disques
+			- Parfait pour la circulation de très gros volume
+		- Protocole Spécialisé :
+			- Fibre Channel : SCSI
+			- iSCSI : SCSI sur IP
+			- FCoE : Fibre channel sur Ethernet
