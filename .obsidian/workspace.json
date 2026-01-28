@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stockage avancé.md",
+                "file": "Sauvegarde et archivage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stockage avancé"
+              "title": "Sauvegarde et archivage"
             }
           }
         ]
@@ -210,12 +210,13 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "Stockage avancé.md",
+    "Sauvegarde et archivage.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 9. Le Démarrage du Système.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 4. Gestion de la Mémoire.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 5. L'Ordonnancement.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 3. Notion de Processus.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 1. Concepts Fondamentaux.md",
-    "Stockage avancé.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/2. Sécurisation réseau.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/3. Types de pare-feux.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
@@ -245,7 +246,6 @@
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "🧠 Révisions/🧠💪🏼 IT Management/Sans titre",
-    "Suivi des incidents.md",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents",
     "🧠 Révisions/🧠💪🏼 IT Management",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Plan Global du Réseau.png",

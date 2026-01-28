@@ -1,0 +1,18 @@
+- SAUVEGARDE :
+	- Permet de récupérer les donnés en cas d'incidents
+	- Pour les MAJ en entreprise il existe deux cas :
+		- Automatique, chaque logiciel ou client se met à jour tout seul
+		- Manuel, mettre en place de manière quotidienne ou hebdomadaire les mis à jour 
+	- Types de sauvegarde :
+		- Complete : 
+			- Duplique toutes les données
+			- Long 
+		- Incrémentale :
+			- Garde juste les dernière modifications effectué
+			- Rapide
+		- Différentielle 
+			- Garde uniquement les modifications depuis la dernière sauvegarde complète
+	- Une sauvegarde est périmée après avoir été effectué
+- ARCHIVE :
+	- Sert d'historique, elles sont là au cas où, elle ne se trouve plus dans la prod.
+	- 
