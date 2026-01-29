@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sauvegarde et archivage.md",
+                "file": "📁 Dossier Professionnel/Guide pratique pour ton DP TSSR/2. Comment le remplir.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sauvegarde et archivage"
+              "title": "2. Comment le remplir"
             }
           }
         ]
@@ -210,8 +210,13 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "Stockage avancé.md",
+    "📁 Dossier Professionnel/Guide pratique pour ton DP TSSR/1. Explications.md",
+    "📁 Dossier Professionnel/Guide pratique pour ton DP TSSR/3. Aides.md",
+    "📁 Dossier Professionnel/Guide pratique pour ton DP TSSR/2. Comment le remplir.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/Sans titre 1/Stockage Avancé RAID - LVM - SAN - NAS.md",
     "Sauvegarde et archivage.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/Sans titre 1",
+    "Stockage avancé.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 9. Le Démarrage du Système.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 4. Gestion de la Mémoire.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 5. L'Ordonnancement.md",
@@ -235,10 +240,6 @@
     "Gestion de parc informatique.md",
     "Pare-feu.md",
     "Plan_réseau.png",
-    "VPN.md",
-    "📆 Tuto/💻👉🏼🖥️ Bureau à distance/Configuration Bureau à Distance Sécurisé.md",
-    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐧 Partage de fichiers (Hôte ↔ VM Linux).md",
-    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN",
     "📆 Tuto",
     "📆 Tuto/💻👉🏼🖥️ Bureau à distance",
@@ -247,7 +248,6 @@
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "🧠 Révisions/🧠💪🏼 IT Management/Sans titre",
     "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents",
-    "🧠 Révisions/🧠💪🏼 IT Management",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Plan Global du Réseau.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Modèle TCP IP.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Modèle OSI.png",

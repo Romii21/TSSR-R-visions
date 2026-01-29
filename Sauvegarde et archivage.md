@@ -15,4 +15,7 @@
 	- Une sauvegarde est périmée après avoir été effectué
 - ARCHIVE :
 	- Sert d'historique, elles sont là au cas où, elle ne se trouve plus dans la prod.
+		- Donnés comptable, contrat et facture, vidéo surveillance.
+- Politique de sauvegardes :
+	- Savoir quoi sauvegarder et surtout savoir transmettre ce qui sera sauvegarder
 	- 
