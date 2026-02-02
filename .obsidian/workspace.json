@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📁 Dossier Professionnel/Guide pratique pour ton DP TSSR/2. Comment le remplir.md",
+                "file": "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Active Directory - Synthèse de Cours.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Comment le remplir"
+              "title": "Active Directory - Synthèse de Cours"
             }
           }
         ]
@@ -210,9 +210,18 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/2. Structure et Composants de Base.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/1. Introduction à Active Directory.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/1. Définition et concepts de base.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 2.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 1.md",
+    "🧠 Révisions/🛠 Outils/🐚 PowerShell/🗺 Plan PowerShell.png",
+    "🧠 Révisions/🛠 Outils/🐚 PowerShell/📚 Fiche de révision.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🧍🏼‍♂️ Gestion des utilisateurs/📚 Fiche de révision.md",
+    "📁 Dossier Professionnel/Guide pratique pour ton DP TSSR/2. Comment le remplir.md",
     "📁 Dossier Professionnel/Guide pratique pour ton DP TSSR/1. Explications.md",
     "📁 Dossier Professionnel/Guide pratique pour ton DP TSSR/3. Aides.md",
-    "📁 Dossier Professionnel/Guide pratique pour ton DP TSSR/2. Comment le remplir.md",
     "🧠 Révisions/🖥⌨ Sysadmin/Sans titre 1/Stockage Avancé RAID - LVM - SAN - NAS.md",
     "Sauvegarde et archivage.md",
     "🧠 Révisions/🖥⌨ Sysadmin/Sans titre 1",
@@ -229,16 +238,8 @@
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Sans titre 4.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Sans titre 3.md",
     "conteneur.md",
-    "Les services bureautiques.md",
-    "🧠 Révisions/🛠 Outils/Nouveau dossier/synthese_services_bureautiques.md",
     "🧠 Révisions/🛠 Outils/Nouveau dossier",
-    "🧠 Révisions/🖥⌨ Sysadmin/Sans titre/synthese_conteneurs_docker.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/Sans titre/Sans titre.md",
     "🧠 Révisions/🖥⌨ Sysadmin/Sans titre",
-    "📆 Tuto/🫸🏼🫷🏼 Partage VM/🐚 Partage de fichiers (Host ↔ VM Windows).md",
-    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
-    "Gestion de parc informatique.md",
-    "Pare-feu.md",
     "Plan_réseau.png",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN",
     "📆 Tuto",
@@ -254,7 +255,6 @@
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Equipement par couche.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan adresses spéciales IPv6.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan de conversion.png",
-    "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan paquet Ipv4.png",
-    "🧠 Révisions/🖥〰💾〰🖥 Réseau/4 IPv6/🗺️ Plan CIDR IPv6.png"
+    "🧠 Révisions/🖥〰💾〰🖥 Réseau/3 IPv4/🗺️ Plan paquet Ipv4.png"
   ]
 }
