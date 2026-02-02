@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Active Directory - Synthèse de Cours.md",
+                "file": "Cloud Computing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Active Directory - Synthèse de Cours"
+              "title": "Cloud Computing"
             }
           }
         ]
@@ -210,6 +210,9 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
+    "Cloud Computing.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Active Directory - Synthèse de Cours.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/2. Structure et Composants de Base.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/1. Introduction à Active Directory.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
@@ -235,9 +238,6 @@
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/3. Types de pare-feux.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/1. Introduction aux pare-feu.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Sans titre 4.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Sans titre 3.md",
-    "conteneur.md",
     "🧠 Révisions/🛠 Outils/Nouveau dossier",
     "🧠 Révisions/🖥⌨ Sysadmin/Sans titre",
     "Plan_réseau.png",
