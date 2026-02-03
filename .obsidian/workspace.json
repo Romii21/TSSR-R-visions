@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Computing.md",
+                "file": "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cloud Computing"
+              "title": "Synthèse - Les GPO (Group Policy Objects)"
             }
           }
         ]
@@ -210,15 +210,16 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/1. Définition et concepts de base.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 1.md",
+    "Journalisation.md",
     "Cloud Computing.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/Active Directory - Synthèse de Cours.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/2. Structure et Composants de Base.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/1. Introduction à Active Directory.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/1. Définition et concepts de base.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 2.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 1.md",
     "🧠 Révisions/🛠 Outils/🐚 PowerShell/🗺 Plan PowerShell.png",
     "🧠 Révisions/🛠 Outils/🐚 PowerShell/📚 Fiche de révision.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧍🏼‍♂️ Gestion des utilisateurs/📚 Fiche de révision.md",
@@ -237,7 +238,6 @@
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/2. Sécurisation réseau.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/3. Types de pare-feux.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/1. Introduction aux pare-feu.md",
     "🧠 Révisions/🛠 Outils/Nouveau dossier",
     "🧠 Révisions/🖥⌨ Sysadmin/Sans titre",
     "Plan_réseau.png",
