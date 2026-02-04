@@ -1,0 +1,8 @@
+- Surveiller une SI
+- Protocole : 
+	- SNMP (Simple Network Management Protocol) 
+	- MIB (Management Information Base)
+	- NetFlow (Pour Cisco)
+	- ICMP (Ping)
+	- WMI
+	- Syslog (Linux)
