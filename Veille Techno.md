@@ -41,15 +41,14 @@
     
     - Passage du scénario texte au **Storyboard Animé** _(Pré-visualisation vidéo du film générée par IA pour valider les plans avant le tournage)_.       
        
-    - Automatisation du **Dépouillement** des scripts _(Liste tous les éléments nécessaires - costumes, décors, accessoires - scène par scène pour établir le budget)_.
+    - Automatisation du **budget** des films via lecture du scénario _(Liste tous les éléments nécessaires - costumes, décors, accessoires )_.
     
 - **Post-production (Image & Son) :**
     
     - Gain de temps sur le **nettoyage ou l'amélioration** technique.
+     _(Technique permettant à l'IA de remplir ou d'étendre intelligemment une partie de l'image, par exemple pour agrandir un décor)_.
     
-    - **Inpainting** _(Technique permettant à l'IA de remplir ou d'étendre intelligemment une partie de l'image, par exemple pour agrandir un décor)_.
-    
-    - Isolation des voix et suppression des bruits parasites.
+    - Isolation des **voix et suppression** des bruits parasites.
 
 
 ---
@@ -65,7 +64,7 @@
 - **Arrière-Plan (La Machine) :**
     
     - Génération automatique des foules et figurants (réduction des coûts logistiques). 
-      **20 personnes = 10000 personnes**
+      **20 personnes = 1000 personnes**
         
 - **Le Risque Post-Mortem :**
     
@@ -80,12 +79,12 @@
 - **Le Seigneur des Anneaux (Méthode "Construction") :**
     
     - Approche artisanale et physique.        
-    - Usage de **Maquettes** géantes et de prothèses en latex (4h de maquillage/jour).
+    - Usage de **Maquettes** géantes pour les cités et de prothèses en latex pour le maquillage (4h de maquillage/jour).
         
 - **Le film "Here" (Méthode "Simulation") :**
     
     - Approche générative et numérique.        
-    - Usage de **Filtres Neuronaux** (Algorithmes d'IA capables de modifier l'apparence d'un visage - rajeunissement ou vieillissement - en temps réel pendant le tournage).
+    - Usage de **Filtres Neuronaux** (Algorithmes capables de modifier l'apparence d'un visage en temps réel pendant le tournage).
         
 - **Bilan :** On ne fabrique plus le trucage, on le génère.
 
@@ -93,22 +92,19 @@
 
 ### **Slide 6 : Pour une poignée de dollars 
 
-" Pourquoi l'IA et le Cinéma font bon ménages ? Dans cet univers comme dans beaucoup d'autres le temps est une monnaie précieuse et l'IA permet de faire des économies"
+" Pourquoi l'IA et le Cinéma font bon ménages ? Dans cette industrie comme dans beaucoup d'autres le temps est une monnaie précieuse et l'IA permet de faire des économies"
 
 - **Le Temps (Accélération) :**
     
-    - Processus itératifs instantanés vs processus linéaires longs.        
-    - Exemple : Storyboard en 3 jours au lieu de 3 semaines.
+    - Pour exemple le temps de création d'un storyboard est divisé par 5 en moyenne.
         
 - **La Main d'œuvre (Concentration) :**
     
-    - Disparition progressive des "petites mains" (tâches répétitives).        
-    - Montée en puissance des superviseurs IA.
+    - Les superviseurs IA automaitrise les tâches répétitives des petites mains
         
 - **Le Coût (Réduction) :**
     
-    - Baisse drastique des coûts fixes techniques (déplacements, location de matériel).        
-    - Économies estimées à 30-50% sur certains postes techniques.
+    - Observation du baisse drastiques des coûts liées à la production
 
 ---
 
