@@ -1,6 +1,6 @@
 ### **Slide 1 : Titre
 
-" Bonjour, à tous aujourd'hui nous allons parlé de "
+" Bonjour, à tous aujourd'hui nous allons parlé "
 
 - **Le Sujet :** L'IA au cinéma.
     
@@ -93,6 +93,8 @@
 
 ### **Slide 6 : Pour une poignée de dollars 
 
+" Pourquoi l'IA et le Cinéma font bon ménages ? Dans cet univers comme dans beaucoup d'autres le temps est une monnaie précieuse et l'IA permet de faire des économies"
+
 - **Le Temps (Accélération) :**
     
     - Processus itératifs instantanés vs processus linéaires longs.        
@@ -108,11 +110,12 @@
     - Baisse drastique des coûts fixes techniques (déplacements, location de matériel).        
     - Économies estimées à 30-50% sur certains postes techniques.
 
-"Pourquoi l'industrie a-t-elle basculé ? Pour l'efficacité. Regardez les chiffres : Sur le **Temps**, on passe de processus longs à une accélération drastique. Un storyboard qui prenait 3 semaines se fait en quelques jours. Sur la **Main d'œuvre** , on passe d'une armée de petites mains à des équipes concentrées qui supervisent l'automatisation. Et donc sur le **Coût** , on réduit les coûts fixes (déplacements, matériel) pour atteindre des économies de 30 à 50% sur les postes techniques."
-
 ---
 
 ### **Slide 7 : Conclusion**
+
+" En conclusion le cinéma ne meurt pas il mute, **l'humain reste le visage du projet**, mais n'est plus l'artisan. L'évolution **d'une ère hybride** pour le cinéma est en marche.
+Merci de m'avoir écouter, je reste à votre disposition pour répondre à vos question !"
 
 - **Victoire Juridique de l'Humain :**
     
@@ -126,5 +129,3 @@
     
     - Un cinéma où la fabrication est assistée par ordinateur, mais où l'émotion reste humaine.  
     - Le cinéma est désormais **"Augmenté"** et non remplacé.
-
-"En conclusion, le cinéma ne meurt pas, il mute. L'humain a gagné la bataille **juridique** : il garde le contrôle de son image et ses droits. L'IA a gagné la bataille **technique** : elle est imbattable sur la productivité. Nous entrons donc dans une **ère hybride**. Un cinéma moins artisanal dans sa fabrication, mais toujours humain dans son émotion. Je vous remercie."
