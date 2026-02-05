@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervision.md",
+                "file": "Veille Techno.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervision"
+              "title": "Veille Techno"
             }
           }
         ]
@@ -210,8 +210,13 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
+    "📏 Compréhension/🗝️ Logs/Analyse de Logs Avancée (Sysmon - Log Parser).md",
+    "Veille Techno.md",
+    "Sans titre",
+    "📏 Compréhension/IP commande.md",
+    "📏 Compréhension/🗝️ Logs",
     "Supervision.md",
+    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/1. Définition et concepts de base.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Sans titre 1.md",
     "Journalisation.md",
@@ -235,9 +240,6 @@
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 4. Gestion de la Mémoire.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 5. L'Ordonnancement.md",
     "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 3. Notion de Processus.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/💾 Gestion Processeur et mémoire/📚 1. Concepts Fondamentaux.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/2. Sécurisation réseau.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/3. Types de pare-feux.md",
     "🧠 Révisions/🛠 Outils/Nouveau dossier",
     "🧠 Révisions/🖥⌨ Sysadmin/Sans titre",
     "Plan_réseau.png",
@@ -247,8 +249,6 @@
     "📆 Tuto/🫸🏼🫷🏼 Partage VM",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
-    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Plan Global du Réseau.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Modèle TCP IP.png",
     "🧠 Révisions/🖥〰💾〰🖥 Réseau/1 Le réseau/🗺️ Modèle OSI.png",
