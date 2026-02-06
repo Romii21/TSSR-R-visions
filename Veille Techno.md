@@ -29,7 +29,7 @@
 - **2026 - L'Aboutissement (La régulation) :**
 
     - **Loi AB 1836** : Loi californienne entrée en vigueur en 2026 qui interdit l'usage de doublures numériques de personnes décédées sans l'accord des héritiers.
-    - **Contrats syndicaux** : L'IA est devenue légale et payante. _(Abonnement ou contrats)_
+    - **Accords syndicaux** : L'IA est devenue légale et payante. _(Abonnement ou contrats)_
 
 ---
 
