@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🎯 Points clés à retenir.md",
+                "file": "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows/3. Le Déploiement Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎯 Points clés à retenir"
+              "title": "3. Le Déploiement Windows"
             }
           }
         ]
@@ -210,8 +210,25 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/7. Briques Techniques du Cloud.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows/2. Les Outils de Déploiement.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows/🎯 Points clés à retenir.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows/Sans titre.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows/4. Schéma global de synthèse.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows/3. Le Déploiement Windows.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows/1. Introduction.md",
+    "Déploiement Automatique de Windows.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows",
+    "Journalisation.md",
+    "Messagerie éléctronique.md",
+    "Sauvegarde et archivage.md",
+    "Supervision.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🎯 Points clés à retenir.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🗺️ Plan du Cloud.png",
+    "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🗺️ Plan Modèle Economique CLoud.png",
+    "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🗺️ Plan Modèle Réseau Cloud.png",
+    "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🗺️ Plan Modèle Système Cloud.png",
+    "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/7. Briques Techniques du Cloud.md",
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/Sans titre.md",
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/6. Usages, Avantages et Inconvénients.md",
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/5. Interfaces d'Accès au Cloud.md",
@@ -221,40 +238,23 @@
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/1. Introduction au Cloud Computing.md",
     "Cloud Computing.md",
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud",
-    "Déploiement Automatique de Windows.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/🗺️ Plan RAID.png",
     "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/🗺️ Plan du Stockage Avancé.png",
     "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/🗺️ Plan LVM.png",
-    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
     "Stockage avancé.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/🎯 Points clés à retenir.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/Sans titre 5.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/Stockage Avancé RAID - LVM - SAN - NAS.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/4. Stockage réseau - NAS et SAN.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/3. LVM - Logical Volume Manager.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/2. RAID - Redundant Array of Independent Disks.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🐳 Docker/🗺️ Plan de Docker.png",
-    "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/1. Introduction aux besoins de stockage.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/Sans titre",
-    "🧠 Révisions/🖥⌨ Sysadmin/🐳 Docker/📚 Les Conteneurs et Docker - Synthèse Complète.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/🎯 Points clés.md",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/🗺️ Plan des GPO.png",
     "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/🗺️ Plan Bonnes Pratiques des GPO.png",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/🗺️ Plan Règles de Priorités.png",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/Synthèse - Les GPO (Group Policy Objects).md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/6. Bonnes pratiques.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/5. Filtrage de sécurité.md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/2 Les GPO/4. Règles de priorité (LSDOU).md",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/🗺️ Plan Architecture AD.png",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/🗺️ Plan Bonnes Pratiques.png",
-    "🧠 Révisions/🖥⌨ Sysadmin/🖥️🐚 Active Directory/1 Active Directory/🗺️ Plan AD.png",
     "Sans titre",
     "📏 Compréhension/🗝️ Logs",
     "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé",
     "🧠 Révisions/🛠 Outils/Nouveau dossier",
     "🧠 Révisions/🖥⌨ Sysadmin/🐳 Docker",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN",
-    "📆 Tuto",
-    "📆 Tuto/💻👉🏼🖥️ Bureau à distance"
+    "📆 Tuto"
   ]
 }
