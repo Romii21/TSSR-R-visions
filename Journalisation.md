@@ -1,4 +1,0 @@
-- Permet de suivre les agissement sur un Ordinateur, un serveur ou un réseau.
-- Découvrir la cause bugs
-- Des logiciels sont utilisés pour enregistrer les logs
-- 
