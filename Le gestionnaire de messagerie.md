@@ -1,0 +1,3 @@
+- L'accès à un gestionnaire de paquets permet de se mettre à jour facilement et de manière précise.
+- Automaitrise l'installation, désinstallation et MAJ des logiciels
+- 

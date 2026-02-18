@@ -18,4 +18,3 @@
 		- Donnés comptable, contrat et facture, vidéo surveillance.
 - Politique de sauvegardes :
 	- Savoir quoi sauvegarder et surtout savoir transmettre ce qui sera sauvegarder
-	- 
