@@ -8,17 +8,17 @@ Donner le **numéro de couche OSI** correspondant :
 
   
 
-1. Adresse MAC =  couche 2
+1. Adresse MAC =  couche 2 **(liaison)** ✅
 
-2. Port TCP =  couche 4
+2. Port TCP =  couche 4 **(transport)** ✅
 
-3. Adresse IP =  couche 3
+3. Adresse IP =  couche 3 **(réseau)** ✅
 
-4. Signal électrique =  couche 1
+4. Signal électrique =  couche 1 **(Physique)** ✅
 
-5. TLS =  couche 7
+5. TLS =  couche 7 **Couche 6 (présentation) ❌
 
-6. HTTP =  couche 7
+6. HTTP =  couche 7 **(Applicatif)** ✅
 
   
 
@@ -36,43 +36,33 @@ Répondre par **l’équipement réseau concerné** :
 
 7. Quel équipement regarde l’adresse IP pour décider où envoyer un paquet ?  
 
-Le routeur
+✅ Le routeur **Il lit les adresse IP ou les réseau entre eux pour redirigé les paquets en consultant sa table de routage**
 
 8. Quel équipement lit uniquement les adresses MAC ?  
 
-Le switch
+✅ Le switch **Ne lit que les adresses MAC**
 
 9. Quel équipement peut filtrer selon les ports ?  
 
-  
+❌ **Le pare feu, il filtre le trafic selon les ports ou l'IP**
 
 ---
-
-  
-
 ## 🔹 Partie 3 — Encapsulation
 
   
-
 10. Ordre correct d’encapsulation :
 
   
-
 - A — Trame → Segment → Paquet → Bits  
 
 - B — Segment → Paquet → Trame → Bits  
 
 - C — Paquet → Segment → Bits → Trame  
 
-Réponse A  
+❌ Réponse A  **Réponse B : L'encapsulation se construit sur la couche 4 vers la couche 1. On commence par segmenter les données, on ajoute l'entête IP pour former le paquet, on encapsule dans une trame avec les MAC, puis on convertit en bits.
 
 ---
-
-  
-
 11. Quand un paquet arrive sur un routeur, il lit principalement :
-
-  
 
 - A — MAC  
 
@@ -80,15 +70,11 @@ Réponse A
 
 - C — Port  
 
-  Réponse B
+✅ Réponse B **Quand un paquet arrive sur un routeur, il lit l'adresse IP pour détermine le prochain saut, il ne regarde ni l'adresse MAC ni les ports**
 
 ---
 
-  
-
 12. Quand un paquet arrive sur le serveur final, la première information exploitée par l’application est :
-
-  
 
 - A — MAC  
 
@@ -96,7 +82,7 @@ Réponse A
 
 - C — IP  
 
-  La réponse C
+❌ La réponse C **Réponse B : 
 
 ---
 
@@ -391,25 +377,20 @@ Questions :
 
 - Quelle couche ?  
 
-Couche 
+Couche 4
 
 - Protocole concerné ?  
 
 - Ports utilisés ?
 
-
+Port 67 et 68
 
 ---
 
-  
-
 ## Cas 5
 
-  
 
 Un service fonctionne en local (`localhost`) mais pas depuis une autre machine.
-
-  
 
 Questions :
 
@@ -420,20 +401,11 @@ Questions :
   
 
 ---
-
-  
-
 # 🧩 Exercice spécial — Encapsulation logique
-
-  
 
 On envoie une requête HTTPS vers un serveur distant.
 
-  
-
 Décrire :
-
-  
 
 1. Ce que contient le segment en couche 4  
 
