@@ -82,39 +82,31 @@ Répondre par **l’équipement réseau concerné** :
 
 - C — IP  
 
-❌ La réponse C **Réponse B : 
+❌ La réponse C **Réponse B : Le paquet arrive à l'application, donc l'IP est déjà passé par les routeurs. A ce stade le port doit être connue pour savoir sous quel forme envoyé le paquet.
 
 ---
-
-  
 
 ## 🔹 Partie 4 — Vrai / Faux
 
-  
-
 13. Un switch L2 peut router des paquets  
 
-FAUX
+✅ FAUX **Que les adresses MAC, pas d'IP. ce nets pas un switch L3**
 
 14. TCP fonctionne en couche 4  
 
-VRAI
+✅ VRAI **Couche de Transport, il permet une connexion fiable avec accusés de réception**
 
 15. DNS utilise uniquement TCP  
 
-FAUX
+✅ FAUX **UDP port 53 de base pour les requêtes classiques (TCP pour les communication dites plus lourdes)**
 
 16. La couche physique comprend les câbles  
 
-VRAI
+✅ VRAI **Couche Physique, concerne la transmission, Ethernet, Fibre optique, WI-FI, etc...)
 
 ---
 
-  
-
 # 🧪 Quiz 2 — Cas pratiques (niveau technicien)
-
-  
 
 ## Situation 1
 
@@ -132,11 +124,11 @@ Questions :
 
 - Quelle couche suspecter en premier ?  
 
-Couche 1 
+❌ Couche 1 **Ce n'est pas la bonne couche. Si le PC peut pinguer sa passerelle, les couches 1, 2 et 3 fonctionnent correctement sur le réseau local. Le problème se situe **au-delà de la passerelle, probablement sur le lien WAN du routeur (connexion opérateur coupée, pas de route par défaut, ou problème de NAT).**
 
 - Quelle cause probable ?
 
-Les machines ne sont pas connectées physiquement
+❌ Les machines ne sont pas connectées physiquement **Pour la même raison, c'est faux. Tu peux pinger la passerelle, donc la connexion physique est fonctionnelle. La cause probable est une panne côté FAI, une mauvaise configuration de route par défaut sur le routeur, ou un problème de NAT.**
 
   
 ---
@@ -153,11 +145,11 @@ Questions :
 
 - Quelle couche est concernée ?  
 
-Couche 4
+❌ Couche 4 **Couche 7 Applicatif, le DNS est sur la couche 7**
 
 - Quel service est probablement en panne ?
 
-Le service DNS à probablement un problème 
+✅ Le service DNS à probablement un problème **l'IP fonctionne donc cela ne peut être que la résolution DNS**
 
 ---
 ## Situation 3
@@ -174,19 +166,15 @@ Questions :
 
 - Quelle couche fonctionne ?  
 
-Couche 3 et couche 4 : ICMP et SSH
+✅ Couche 3 et couche 4 : ICMP et SSH **ICMP confirme la couche 4, le SSH la couche 4 sur le port 22**
 
 - Quelle couche pose problème ?
 
-Couche 7 
+✅ Couche 7 **Cela peut venir de la couche Applicative, puisque le HTTPS ne répond pas mais cela peut se passer en couche 4 (Transport) puisque le pare-feu peu aussi bloquer la communication.**
 
 ---
 
-  
-
 ## Situation 4
-
-  
 
 Deux machines sur le même réseau :
 
@@ -201,11 +189,11 @@ Questions :
 
 - Quelle couche inspecter en priorité ?  
 
-Couche 1 
+✅ Couche 1 **La couche physique est la cible parfaite quand tout semble bon en terme de configuration IP¨**
 
 - Donner 2 causes possibles.
 
-Les machines ne sont pas reliées ou l'une des deux n'est pas allumées
+✅ Les machines ne sont pas reliées ou l'une des deux n'est pas allumées **Un câble défectueux aussi **
 
 ---
 
@@ -223,11 +211,11 @@ Questions :
 
 - Quelle couche investiguer en premier ?  
 
-Couche 3
+✅ Couche 3 **Problème de routage**
 
 - Quel équipement suspecter ?
 
-Le NAT n'est pas configuré ou il n'y a pas de route vers l'extérieur 
+✅ Le NAT n'est pas configuré ou il n'y a pas de route vers l'extérieur **Le problème peut aussi venir de la passerelle elle même**
 
 ---
 
@@ -239,11 +227,9 @@ Question :
 
 - Que fait-il ?
 
-Il lance une requête ARP en broadcast, pour trouver une réponse.
+❌ Il lance une requête ARP en broadcast, pour trouver une réponse. **Il inonde la trame sur tous ses ports sauf celui d'entrée.**
 
 ---
-
-  
 
 ## Situation 7
 
@@ -257,7 +243,7 @@ Question :
 
 - Que fait le routeur ?
 
-Si la route est dans sa table de routage, il peut envoyer le paquet au serveur
+✅ Si la route est dans sa table de routage, il peut envoyer le paquet au serveur **L'IP reste inchangé mais à chaque saut l'ancienne adresse MAC est remplacé par celle du routeur actuelle et la nouveau est celui du prochain routeur 
 
 ---
 
@@ -269,7 +255,7 @@ Question :
 
 - Quelle information regarde-il en priorité ?
 
-Son adresse IP, si elle fait partis du pool des adresses à bannir il rejette la demande
+✅ Son adresse IP, si elle fait partis du pool des adresses à bannir il rejette la demande **C'est le cas pour un pare-feu classique, si c'était un pare-feu next-gen il vérifierait le port aussi, 443 ici**
 
 ---
 
@@ -282,6 +268,15 @@ Un utilisateur dit :
 Question :
 
 - Quelle est la première chose à vérifier ? (réponse opérationnelle)
+
+❌ 
+- **Vérifier la connexion physique (câble branché, Wi-Fi connecté, voyant allumé) → couche 1
+- **Faire `ipconfig` / `ip a` pour vérifier que l'IP est bien attribuée → couche 3
+- **Pinger la passerelle → vérifie que le réseau local fonctionne
+- **Pinger une IP externe (8.8.8.8) → vérifie la connectivité Internet
+- **Tester un nom de domaine (`ping google.com`) → vérifie le DNS → couche 7**
+
+**Il faut remonter les couches petit à petit**
 
 ---
 
@@ -303,7 +298,7 @@ Question :
 
 - Quelle est l’hypothèse la plus probable ?
 
-
+❌ **L'hypothèse la plus probable : **le navigateur tente une connexion HTTPS sur le port 443, qui lui n'est pas ouvert, alors que le port 80 répond bien. Le serveur est peut-être mal configuré (pas de certificat, port 443 fermé, redirection HTTPS manquante).
 
 ---
 
