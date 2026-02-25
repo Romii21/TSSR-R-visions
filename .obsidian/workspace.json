@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questionnaire révision/📚 Entraînement OSI & Dépannage Réseau.md",
+                "file": "VoIP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📚 Entraînement OSI & Dépannage Réseau"
+              "title": "VoIP"
             }
           }
         ]
@@ -210,10 +210,21 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "🏆 Titre/Fiche de révisions/Réseau/fiche-4-protocoles-ports.md",
+    "VoIP.md",
+    "🏆 Titre/Questionnaire révision/Réseau",
+    "🏆 Titre",
+    "🏆 Titre/Fiche de révisions/Réseau/fiche-5-equipements.md",
+    "🏆 Titre/Fiche de révisions/Réseau/fiche-3-depannage.md",
+    "🏆 Titre/Fiche de révisions/Réseau/fiche-2-encapsulation.md",
+    "🏆 Titre/Fiche de révisions/Réseau/fiche-1-modele-osi.md",
+    "🏆 Titre/Questionnaire révision/Réseau/📚 Entraînement OSI & Dépannage Réseau.md",
+    "🏆 Titre/Fiche de révisions/Réseau",
+    "Fiche de révisions/Sans titre.md",
+    "🏆 Titre/Fiche de révisions",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
-    "Questionnaire révision/📚 Entraînement OSI & Dépannage Réseau.md",
     "Questionnaire révision/Sans titre",
-    "Questionnaire révision",
+    "🏆 Titre/Questionnaire révision",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Sans titre 3.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/3. Types de pare-feux.md",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/2. Sécurisation réseau.md",
@@ -231,12 +242,6 @@
     "Sauvegarde et archivage.md",
     "Supervision.md",
     "Le gestionnaire de paquets.md",
-    "Messagerie éléctronique.md",
-    "WSUS.md",
-    "Veille Techno.md",
-    "🧠 Révisions/🛠 Outils/🎮 Bash/📚 4. Structures Itératives.md",
-    "🧠 Révisions/🛠 Outils/🎮 Bash/📚 3. Structures Conditionnelles.md",
-    "🧠 Révisions/🛠 Outils/🎮 Bash/📚 2. Variables.md",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision Linux.png",
@@ -250,10 +255,6 @@
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🗺️ Plan du Cloud.png",
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🗺️ Plan Modèle Economique CLoud.png",
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud",
-    "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/Sans titre",
-    "📏 Compréhension/🗝️ Logs",
-    "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé",
-    "🧠 Révisions/🛠 Outils/Nouveau dossier",
-    "🧠 Révisions/🖥⌨ Sysadmin/🐳 Docker"
+    "🧠 Révisions/🖥⌨ Sysadmin/🗃️ Stockage avancé/Sans titre"
   ]
 }
