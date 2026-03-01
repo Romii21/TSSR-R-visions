@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VoIP.md",
+                "file": "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/🎯 Points clés à retenir.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VoIP"
+              "title": "🎯 Points clés à retenir"
             }
           }
         ]
@@ -197,21 +197,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Créer une nouvelle base": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Create new base": false,
       "github-sync:Sync with Remote": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "🏆 Titre/Fiche de révisions/Réseau/fiche-4-protocoles-ports.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/Gestion de Parc Informatique.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/🎯 Points clés à retenir.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/5. Focus sur GLPI.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/4. La gestion des appareils mobiles (MDM).md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/3. Méthodes et outils de gestion.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/2. Les trois piliers de la gestion.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/1. Introduction au parc informatique.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/🎯 Points clés à retenir.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/6. Sécuriser l'infrastructure.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/5. OpenVPN.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/4. Le protocole TLS.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/3. Le protocole IPsec.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/2. Les types de VPN.md",
+    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/1. Le VPN Définition.md",
+    "Le gestionnaire de messagerie.md",
     "VoIP.md",
+    "🏆 Titre/Fiche de révisions/Réseau/fiche-4-protocoles-ports.md",
     "🏆 Titre/Questionnaire révision/Réseau",
     "🏆 Titre",
     "🏆 Titre/Fiche de révisions/Réseau/fiche-5-equipements.md",
@@ -226,22 +242,6 @@
     "Questionnaire révision/Sans titre",
     "🏆 Titre/Questionnaire révision",
     "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Sans titre 3.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/3. Types de pare-feux.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/2. Sécurisation réseau.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/1. Introduction aux pare-feu.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/🎯 Points clés à retenir.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/5. Démarche de diagnostic.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/Sans titre.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/4. Gestion des incidents - Procédure complète.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/3. Organisation d'une équipe Support SI.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/2. Introduction à ITIL.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/💥 Suivi des incidents/1. Définitions essentielles.md",
-    "🧠 Révisions/🧠💪🏼 IT Management/Sans titre/Gestion de Parc Informatique.md",
-    "Le gestionnaire de messagerie.md",
-    "Sauvegarde et archivage.md",
-    "Supervision.md",
-    "Le gestionnaire de paquets.md",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision Linux.png",
