@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Trunk (802.1Q) en Réseau.md",
+                "file": "Veille techno.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Le Trunk (802.1Q) en Réseau"
+              "title": "Veille techno"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 305.5,
+    "collapsed": true
   },
   "right": {
     "id": "4b31e1dbf7539b13",
@@ -210,6 +211,8 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Trunk (802.1Q) en Réseau.md",
+    "Veille techno.md",
     "❓Questionnaire/CP8 Mettre en place, assurer et tester les sauvegardes et les restaurations des éléments de l'infrastructure.md",
     "❓Questionnaire/CP9 Exploiter et maintenir les services de déploiement des postes de travail.md",
     "❓Questionnaire/CP7 Maintenir et sécuriser les accès à Internet et les interconnexions des réseaux.md",
@@ -235,8 +238,6 @@
     "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/2. Les trois piliers de la gestion.md",
     "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/1. Introduction au parc informatique.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/🎯 Points clés à retenir.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
-    "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/6. Sécuriser l'infrastructure.md",
     "🏆 Titre/Questionnaire révision/Réseau",
     "🏆 Titre",
     "🏆 Titre/Fiche de révisions/Réseau",
