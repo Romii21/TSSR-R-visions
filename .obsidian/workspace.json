@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/🎯 Points clés à retenir.md",
+                "file": "Wi-Fi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎯 Points clés à retenir"
+              "title": "Wi-Fi"
             }
           }
         ]
@@ -210,8 +210,14 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/Gestion de Parc Informatique.md",
+    "Le gestionnaire de paquets.md",
+    "Wi-Fi.md",
+    "Sauvegarde et archivage.md",
+    "Supervision.md",
+    "Le gestionnaire de messagerie.md",
+    "VoIP.md",
     "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/🎯 Points clés à retenir.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/Gestion de Parc Informatique.md",
     "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/5. Focus sur GLPI.md",
     "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/4. La gestion des appareils mobiles (MDM).md",
     "🧠 Révisions/🧠💪🏼 IT Management/🎢 Gestion de Parc informatique/3. Méthodes et outils de gestion.md",
@@ -225,8 +231,6 @@
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/3. Le protocole IPsec.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/2. Les types de VPN.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/1. Le VPN Définition.md",
-    "Le gestionnaire de messagerie.md",
-    "VoIP.md",
     "🏆 Titre/Fiche de révisions/Réseau/fiche-4-protocoles-ports.md",
     "🏆 Titre/Questionnaire révision/Réseau",
     "🏆 Titre",
@@ -234,14 +238,10 @@
     "🏆 Titre/Fiche de révisions/Réseau/fiche-3-depannage.md",
     "🏆 Titre/Fiche de révisions/Réseau/fiche-2-encapsulation.md",
     "🏆 Titre/Fiche de révisions/Réseau/fiche-1-modele-osi.md",
-    "🏆 Titre/Questionnaire révision/Réseau/📚 Entraînement OSI & Dépannage Réseau.md",
     "🏆 Titre/Fiche de révisions/Réseau",
-    "Fiche de révisions/Sans titre.md",
     "🏆 Titre/Fiche de révisions",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Filtrage Réseau et Pare-feu.md",
     "Questionnaire révision/Sans titre",
     "🏆 Titre/Questionnaire révision",
-    "🧠 Révisions/🔒🔑 Sécurité/🧱 Pare-feu et filtrage réseau/Sans titre 3.md",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision Linux.png",
