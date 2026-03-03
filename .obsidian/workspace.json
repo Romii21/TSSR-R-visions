@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❓Questionnaire/CP6 Automatiser des tâches à l'aide de scripts.md",
+                "file": "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Trunk (802.1Q) en Réseau.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CP6 Automatiser des tâches à l'aide de scripts"
+              "title": "Le Trunk (802.1Q) en Réseau"
             }
           }
         ]
@@ -210,15 +210,15 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "❓Questionnaire/CP8 Mettre en place, assurer et tester les sauvegardes et les restaurations des éléments de l'infrastructure.md",
+    "❓Questionnaire/CP9 Exploiter et maintenir les services de déploiement des postes de travail.md",
+    "❓Questionnaire/CP7 Maintenir et sécuriser les accès à Internet et les interconnexions des réseaux.md",
+    "❓Questionnaire/CP5 Maintenir des serveurs dans une infrastructure virtualisée.md",
+    "❓Questionnaire/CP6 Automatiser des tâches à l'aide de scripts.md",
     "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
     "❓Questionnaire/CP4 Exploiter un réseau IP.md",
-    "❓Questionnaire/Sans titre 4.md",
     "❓Questionnaire/CP1 Assurer le support utilisateur en centre de services.md",
     "❓Questionnaire/CP3 Exploiter des serveurs Linux.md",
-    "❓Questionnaire/Sans titre 8.md",
-    "❓Questionnaire/Sans titre 7.md",
-    "❓Questionnaire/Sans titre 6.md",
-    "❓Questionnaire/CP6 Automatiser des tâches à l'aide de scripts.md",
     "Radius.md",
     "❓Questionnaire",
     "Wi-Fi.md",
