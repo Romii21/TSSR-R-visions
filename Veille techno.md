@@ -21,8 +21,6 @@ Un simulateur en vue FPS où tu construis un datacenter **from scratch** :
 
 > Tu apprends la logique réseau sans ligne de commande. Tu _vois_ ton réseau respirer.
 
-**Avis Steam :** Très positif (85% de likes sur la démo)
-
 ---
 
 ## 📁 Directory Dungeon — _Dungeon crawler dans l'explorateur Windows_
@@ -48,8 +46,6 @@ Un jeu de rôle minimaliste où **l'interface de jeu = l'explorateur de fichiers
 
 > C'est la preuve qu'on peut faire un jeu avec l'OS lui-même comme terrain de jeu. Créatif et malin.
 
-**Poids :** 65 Mo | Fonctionne sur Windows 7 à 11
-
 ---
 
 ## 🔗 Fil rouge — Ce que ces deux jeux ont en commun
@@ -62,3 +58,14 @@ Un jeu de rôle minimaliste où **l'interface de jeu = l'explorateur de fichiers
 |**Approche**|Réaliste & pédagogique|Créative & détournée|
 
 **Conclusion :** Ces deux jeux montrent que les concepts IT — souvent abstraits — peuvent devenir **concrets, visuels et ludiques**. Une bonne source d'inspiration pour expliquer ces notions à des non-techniciens (ou à soi-même 😄).
+
+### Au cas ou 
+
+**Directory Dungeon**
+- Le jeu tourne sur **Windows uniquement** (pas Linux/Mac)
+- Il ne touche **aucun fichier personnel**, uniquement ce qu'il a lui-même créé
+- C'est un projet **solo indépendant**, pas un gros studio
+
+**Data Center**
+- Le jeu ne remplace pas un vrai outil comme **Cisco Packet Tracer** mais il est plus intuitif pour débuter
+- La redondance dans le jeu correspond au concept réel de **haute disponibilité (HA)**
