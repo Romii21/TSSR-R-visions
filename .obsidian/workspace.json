@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Veille techno.md",
+                "file": "❓Questionnaire/CP1 Assurer le support utilisateur en centre de services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Veille techno"
+              "title": "CP1 Assurer le support utilisateur en centre de services"
             }
           }
         ]
@@ -210,8 +210,8 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Trunk (802.1Q) en Réseau.md",
     "Veille techno.md",
+    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Trunk (802.1Q) en Réseau.md",
     "❓Questionnaire/CP8 Mettre en place, assurer et tester les sauvegardes et les restaurations des éléments de l'infrastructure.md",
     "❓Questionnaire/CP9 Exploiter et maintenir les services de déploiement des postes de travail.md",
     "❓Questionnaire/CP7 Maintenir et sécuriser les accès à Internet et les interconnexions des réseaux.md",
