@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❓Questionnaire/CP1 ✅ CORRIGÉ Assurer le support utilisateur en centre de services.md",
+                "file": "Veille techno.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CP1 ✅ CORRIGÉ Assurer le support utilisateur en centre de services"
+              "title": "Veille techno"
             }
           }
         ]
@@ -208,11 +208,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c26ee38f3793579",
+  "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
+    "❓Questionnaire/CP1 ✅ CORRIGÉ Assurer le support utilisateur en centre de services.md",
     "❓Fiche de révisions",
     "❓Questionnaire/CP1 Assurer le support utilisateur en centre de services.md",
-    "❓Questionnaire/CP1 ✅ CORRIGÉ Assurer le support utilisateur en centre de services.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/2. Les types de VPN.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
     "Veille techno.md",
@@ -254,7 +254,6 @@
     "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows/🗺️ Plan Déploiement Automatique de Windows.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🤖 Déploiement Automatisé de Windows",
     "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🗺️ Plan du Cloud.png",
-    "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🗺️ Plan Modèle Economique CLoud.png",
-    "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud"
+    "🧠 Révisions/🧠💪🏼 IT Management/☁️ Cloud/🗺️ Plan Modèle Economique CLoud.png"
   ]
 }

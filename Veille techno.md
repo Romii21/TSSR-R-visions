@@ -17,9 +17,11 @@ Un simulateur en vue FPS où tu construis un datacenter **from scratch** :
 - Le matériel a une **durée de vie** — il faut planifier les remplacements et gérer la dispo
 - Les goulots d'étranglement sont **visibles instantanément** grâce aux paquets animés
 
-### Pourquoi c'est cool ?
+### En plus 
 
-> Tu apprends la logique réseau sans ligne de commande. Tu _vois_ ton réseau respirer.
+**Data Center**
+- Le jeu ne remplace pas un vrai outil comme **Cisco Packet Tracer** mais il est plus intuitif pour débuter
+- La redondance dans le jeu correspond au concept réel de **haute disponibilité (HA)**
 
 ---
 
@@ -42,9 +44,12 @@ Un jeu de rôle minimaliste où **l'interface de jeu = l'explorateur de fichiers
 - Montre qu'on peut **scripter des expériences interactives** avec peu de moyens
 - Fait appel à la logique des **chemins de fichiers** et de la **manipulation de dossiers**
 
-### Pourquoi c'est cool ?
+### En plus
 
-> C'est la preuve qu'on peut faire un jeu avec l'OS lui-même comme terrain de jeu. Créatif et malin.
+**Directory Dungeon**
+- Le jeu tourne sur **Windows uniquement** (pas Linux/Mac)
+- Il ne touche **aucun fichier personnel**, uniquement ce qu'il a lui-même créé
+
 
 ---
 
@@ -59,13 +64,3 @@ Un jeu de rôle minimaliste où **l'interface de jeu = l'explorateur de fichiers
 
 **Conclusion :** Ces deux jeux montrent que les concepts IT — souvent abstraits — peuvent devenir **concrets, visuels et ludiques**. Une bonne source d'inspiration pour expliquer ces notions à des non-techniciens (ou à soi-même 😄).
 
-### Au cas ou 
-
-**Directory Dungeon**
-- Le jeu tourne sur **Windows uniquement** (pas Linux/Mac)
-- Il ne touche **aucun fichier personnel**, uniquement ce qu'il a lui-même créé
-- C'est un projet **solo indépendant**, pas un gros studio
-
-**Data Center**
-- Le jeu ne remplace pas un vrai outil comme **Cisco Packet Tracer** mais il est plus intuitif pour débuter
-- La redondance dans le jeu correspond au concept réel de **haute disponibilité (HA)**
