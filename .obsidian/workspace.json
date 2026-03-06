@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Veille techno.md",
+                "file": "❓Questionnaire/CP1 ✅ CORRIGÉ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Veille techno"
+              "title": "CP1 ✅ CORRIGÉ"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "4b31e1dbf7539b13",
@@ -211,20 +210,20 @@
   },
   "active": "75ea0cd4470125b1",
   "lastOpenFiles": [
-    "❓Questionnaire/CP1 ✅ CORRIGÉ Assurer le support utilisateur en centre de services.md",
-    "❓Fiche de révisions",
     "❓Questionnaire/CP1 Assurer le support utilisateur en centre de services.md",
+    "❓Questionnaire/CP9 Exploiter et maintenir les services de déploiement des postes de travail.md",
+    "❓Questionnaire/CP4 Exploiter un réseau IP.md",
+    "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
+    "❓Questionnaire/CP1 ✅ CORRIGÉ.md",
+    "Veille techno.md",
+    "❓Fiche de révisions",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/2. Les types de VPN.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
-    "Veille techno.md",
     "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Trunk (802.1Q) en Réseau.md",
     "❓Questionnaire/CP8 Mettre en place, assurer et tester les sauvegardes et les restaurations des éléments de l'infrastructure.md",
-    "❓Questionnaire/CP9 Exploiter et maintenir les services de déploiement des postes de travail.md",
     "❓Questionnaire/CP7 Maintenir et sécuriser les accès à Internet et les interconnexions des réseaux.md",
     "❓Questionnaire/CP5 Maintenir des serveurs dans une infrastructure virtualisée.md",
     "❓Questionnaire/CP6 Automatiser des tâches à l'aide de scripts.md",
-    "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
-    "❓Questionnaire/CP4 Exploiter un réseau IP.md",
     "❓Questionnaire/CP3 Exploiter des serveurs Linux.md",
     "Radius.md",
     "❓Questionnaire",
