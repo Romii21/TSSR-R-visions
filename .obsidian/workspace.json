@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
+                "file": "❓Questionnaire/CP2 ✅ CORRIGÉ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CP2 Exploiter des serveurs Windows et un domaine Active Directory"
+              "title": "CP2 ✅ CORRIGÉ"
             }
           }
         ]
@@ -210,12 +210,14 @@
   },
   "active": "f2eca16b4a421b3b",
   "lastOpenFiles": [
+    "❓Questionnaire/CP1 ✅ CORRIGÉ.md",
+    "❓Questionnaire/CP2 ✅ CORRIGÉ.md",
+    "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
     "❓Fiche de révisions/CP1/Fiche_1_Fondamentaux_Support_SI.md",
     "❓Fiche de révisions/CP1/Fiche_5_Mises_en_Situation_KPI.md",
     "❓Fiche de révisions/CP1/Fiche_4_Outils_Gestion_Parc.md",
     "❓Fiche de révisions/CP1/Fiche_3_ITIL_MCO_Diagnostic.md",
     "❓Fiche de révisions/CP1/Fiche_2_Gestion_Incidents.md",
-    "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
     "❓Questionnaire/CP1 Assurer le support utilisateur en centre de services.md",
     "❓Fiche de révisions/CP9",
     "❓Fiche de révisions/CP8",
@@ -225,7 +227,6 @@
     "❓Fiche de révisions/CP4",
     "❓Fiche de révisions/CP3",
     "❓Fiche de révisions/CP2",
-    "❓Questionnaire/CP1 ✅ CORRIGÉ.md",
     "❓Fiche de révisions/CP1",
     "❓Questionnaire/CP9 Exploiter et maintenir les services de déploiement des postes de travail.md",
     "❓Questionnaire/CP4 Exploiter un réseau IP.md",
