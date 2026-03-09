@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❓Questionnaire/CP2 ✅ CORRIGÉ.md",
+                "file": "❓Fiche de révisions/CP2/Fiche_04_GPO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CP2 ✅ CORRIGÉ"
+              "title": "Fiche_04_GPO"
             }
           }
         ]
@@ -210,15 +210,18 @@
   },
   "active": "f2eca16b4a421b3b",
   "lastOpenFiles": [
-    "❓Questionnaire/CP1 ✅ CORRIGÉ.md",
-    "❓Questionnaire/CP2 ✅ CORRIGÉ.md",
-    "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
-    "❓Fiche de révisions/CP1/Fiche_1_Fondamentaux_Support_SI.md",
+    "❓Fiche de révisions/CP2/Fiche_03_Protocoles_AD.md",
+    "❓Fiche de révisions/CP2/Fiche_02_Structure_AD_Objets_Identifiants.md",
+    "❓Fiche de révisions/CP2/Fiche_01_Windows_Server_et_Bases_AD.md",
     "❓Fiche de révisions/CP1/Fiche_5_Mises_en_Situation_KPI.md",
     "❓Fiche de révisions/CP1/Fiche_4_Outils_Gestion_Parc.md",
     "❓Fiche de révisions/CP1/Fiche_3_ITIL_MCO_Diagnostic.md",
     "❓Fiche de révisions/CP1/Fiche_2_Gestion_Incidents.md",
+    "❓Fiche de révisions/CP1/Fiche_1_Fondamentaux_Support_SI.md",
     "❓Questionnaire/CP1 Assurer le support utilisateur en centre de services.md",
+    "❓Questionnaire/CP2 ✅ CORRIGÉ.md",
+    "❓Questionnaire/CP1 ✅ CORRIGÉ.md",
+    "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
     "❓Fiche de révisions/CP9",
     "❓Fiche de révisions/CP8",
     "❓Fiche de révisions/CP7",
@@ -243,9 +246,6 @@
     "Radius.md",
     "Wi-Fi.md",
     "Le gestionnaire de paquets.md",
-    "Sauvegarde et archivage.md",
-    "Supervision.md",
-    "Le gestionnaire de messagerie.md",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision Linux.png",

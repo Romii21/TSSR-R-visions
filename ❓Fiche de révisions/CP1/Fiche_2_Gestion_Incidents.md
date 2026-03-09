@@ -62,12 +62,12 @@
 
 ## 🧮 3. Matrice de Priorisation
 
-| Gravité ↓ / Impact → | Utilisateur | Service | Site | Entreprise |
-|---|---|---|---|---|
-| **Faible** | ⬜ Mineur | ⬜ Mineur | 🟡 Majeur | 🟡 Majeur |
-| **Normal** | ⬜ Mineur | 🟡 Majeur | 🟡 Majeur | 🔴 Critique |
-| **Urgent** | 🟡 Majeur | 🟡 Majeur | 🔴 Critique | 🔴 Critique |
-| **Critique** | 🟡 Majeur | 🔴 Critique | 🔴 Critique | 🔴 Critique |
+| Gravité ↓ / Impact → | Utilisateur | Service     | Site        | Entreprise  |
+| -------------------- | ----------- | ----------- | ----------- | ----------- |
+| **Faible**           | ⬜ Mineur    | ⬜ Mineur    | 🟡 Majeur   | 🟡 Majeur   |
+| **Normal**           | ⬜ Mineur    | 🟡 Majeur   | 🟡 Majeur   | 🔴 Critique |
+| **Urgent**           | 🟡 Majeur   | 🟡 Majeur   | 🔴 Critique | 🔴 Critique |
+| **Critique**         | 🟡 Majeur   | 🔴 Critique | 🔴 Critique | 🔴 Critique |
 
 ### Signification des priorités
 | Priorité | Action |
