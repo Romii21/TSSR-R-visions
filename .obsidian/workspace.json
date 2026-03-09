@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❓Questionnaire/CP3 Exploiter des serveurs Linux.md",
+                "file": "❓Questionnaire/CP4 Exploiter un réseau IP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CP3 Exploiter des serveurs Linux"
+              "title": "CP4 Exploiter un réseau IP"
             }
           }
         ]
@@ -210,6 +210,14 @@
   },
   "active": "f2eca16b4a421b3b",
   "lastOpenFiles": [
+    "❓Questionnaire/CP3 Exploiter des serveurs Linux.md",
+    "❓Fiche de révisions/CP3/F2_Utilisateurs_Permissions.md",
+    "❓Fiche de révisions/CP3/F1_Fondamentaux_Linux.md",
+    "❓Fiche de révisions/CP3/F5_Stockage_LVM_RAID.md",
+    "❓Fiche de révisions/CP3/F4_Reseau_SSH.md",
+    "❓Fiche de révisions/CP3/F7_Bash_Cron.md",
+    "❓Fiche de révisions/CP3/F6_Journalisation.md",
+    "❓Fiche de révisions/CP3/F3_Processus_Systemd.md",
     "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
     "❓Fiche de révisions/CP2/Fiche_04_GPO.md",
     "❓Fiche de révisions/CP2/Fiche_03_Protocoles_AD.md",
@@ -238,14 +246,6 @@
     "❓Fiche de révisions",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/2. Les types de VPN.md",
     "🧠 Révisions/🔒🔑 Sécurité/🌉 VPN/Sans titre.md",
-    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/Le Trunk (802.1Q) en Réseau.md",
-    "❓Questionnaire/CP8 Mettre en place, assurer et tester les sauvegardes et les restaurations des éléments de l'infrastructure.md",
-    "❓Questionnaire/CP7 Maintenir et sécuriser les accès à Internet et les interconnexions des réseaux.md",
-    "❓Questionnaire/CP5 Maintenir des serveurs dans une infrastructure virtualisée.md",
-    "❓Questionnaire/CP6 Automatiser des tâches à l'aide de scripts.md",
-    "❓Questionnaire/CP3 Exploiter des serveurs Linux.md",
-    "Radius.md",
-    "Wi-Fi.md",
     "🧠 Révisions/🛠 Outils/🎮 Bash/🗺 Plan du scripting Bash.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision.png",
     "🧠 Révisions/🧠💪🏼 IT Management/🗒️ La Journalisation/🗺️ Plan Supervision Linux.png",
