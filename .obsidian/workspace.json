@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sans titre.md",
+                "file": "❓Questionnaire/CP6 Automatiser des tâches à l'aide de scripts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sans titre"
+              "title": "CP6 Automatiser des tâches à l'aide de scripts"
             }
           }
         ]
@@ -210,8 +210,21 @@
   },
   "active": "f2eca16b4a421b3b",
   "lastOpenFiles": [
-    "❓Fiche de révisions/CP4/fiche6_ipv6_diagnostic.md",
+    "❓Questionnaire/CP5 ✅ CORRIGÉ.md",
+    "❓Questionnaire/CP5 ✅ CORRIGE.md",
+    "❓Fiche de révisions/CP5/CP5_Fiche3_Stockage.md",
+    "❓Fiche de révisions/CP5/CP5_Fiche2_Administration_Proxmox.md",
+    "❓Fiche de révisions/CP5/CP5_Fiche5_Commandes.md",
+    "❓Fiche de révisions/CP5/CP5_Fiche4_HA_Sauvegarde.md",
+    "❓Fiche de révisions/CP5/CP5_Fiche1_Fondamentaux.md",
+    "❓Questionnaire/CP5 Maintenir des serveurs dans une infrastructure virtualisée.md",
+    "❓Questionnaire/CP9 Exploiter et maintenir les services de déploiement des postes de travail.md",
+    "❓Questionnaire/CP8 ✅ CORRIGÉ.md",
+    "❓Questionnaire/CP8 Mettre en place, assurer et tester les sauvegardes et les restaurations des éléments de l'infrastructure.md",
+    "❓Questionnaire/CP8 ✅ COR.md",
+    "❓Questionnaire/CP8_Correction.md",
     "Sans titre.md",
+    "❓Fiche de révisions/CP4/fiche6_ipv6_diagnostic.md",
     "❓Fiche de révisions/CP4/fiche5_tcp_udp_nat.md",
     "❓Fiche de révisions/CP4/fiche4_routage_ip.md",
     "❓Fiche de révisions/CP4/fiche1_fondamentaux_reseau.md",
@@ -219,23 +232,10 @@
     "❓Fiche de révisions/CP4/fiche3_icmp_dhcp_dns.md",
     "❓Fiche de révisions/CP1/Fiche_2_Gestion_Incidents.md",
     "❓Fiche de révisions/CP1/Fiche_1_Fondamentaux_Support_SI.md",
-    "❓Questionnaire/CP5 Maintenir des serveurs dans une infrastructure virtualisée.md",
     "❓Fiche de révisions/CP3/F3_Processus_Systemd.md",
     "❓Fiche de révisions/CP3/F2_Utilisateurs_Permissions.md",
     "❓Fiche de révisions/CP3/F6_Journalisation.md",
     "❓Fiche de révisions/CP3/F1_Fondamentaux_Linux.md",
-    "❓Questionnaire/CP4 ✅ CORRIGÉ.md",
-    "❓Questionnaire/CP3 ✅ CORRIGÉ.md",
-    "❓Questionnaire/CP4 Exploiter un réseau IP.md",
-    "❓Questionnaire/CP3 ✅ CORRIG.md",
-    "❓Questionnaire/CP3_Correction_Linux.md",
-    "❓Questionnaire/CP3 Exploiter des serveurs Linux.md",
-    "❓Fiche de révisions/CP3/F5_Stockage_LVM_RAID.md",
-    "❓Fiche de révisions/CP3/F4_Reseau_SSH.md",
-    "❓Fiche de révisions/CP3/F7_Bash_Cron.md",
-    "❓Questionnaire/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
-    "❓Fiche de révisions/CP2/Fiche_04_GPO.md",
-    "❓Fiche de révisions/CP2/Fiche_03_Protocoles_AD.md",
     "❓Fiche de révisions/CP9",
     "❓Fiche de révisions/CP8",
     "❓Fiche de révisions/CP7",

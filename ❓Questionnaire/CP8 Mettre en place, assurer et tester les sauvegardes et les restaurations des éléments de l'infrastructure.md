@@ -8,9 +8,13 @@ _Niveau : Débutant_
 
 **Question 1** Qu'est-ce qu'une sauvegarde ? Quelle est la différence fondamentale entre une sauvegarde et une simple copie de fichiers ?
 
+**R2.** Une sauvegarde est la copie complète et intégrale d'une entité, elle permet de restaurer les donnés en cas de problèmes 
+
 ---
 
 **Question 2** Expliquez la règle **3-2-1** appliquée aux sauvegardes. Donnez un exemple concret d'application de cette règle dans une infrastructure d'entreprise.
+
+**R2.** 3 sauvegardes sur deux serveurs différents dans un autre lieu
 
 ---
 
@@ -20,17 +24,30 @@ _Niveau : Débutant_
 - Sauvegarde incrémentale
 - Sauvegarde différentielle
 
+**R3.** 
+
+- La sauvegarde complète permet de faire une copie intégrale des donnés
+- La sauvegarde incrémentale fait une copie depuis la dernière sauvegarde incrémentale
+- La sauvegarde différentielle fait la différence avec la dernière sauvegarde complète 
+
 ---
 
 **Question 4** Qu'est-ce que le **RPO** (_Recovery Point Objective_) et le **RTO** (_Recovery Time Objective_) ? Illustrez chaque concept par un exemple chiffré.
+
+**R4.** 
 
 ---
 
 **Question 5** Pourquoi dit-on que le RAID n'est **pas** une sauvegarde ? Citez au moins trois scénarios contre lesquels le RAID ne protège pas.
 
+**R5** 
+- Le RAID 
+
 ---
 
 **Question 6** Qu'est-ce qu'un **snapshot** ? Dans quel(s) contexte(s) est-il utilisé, et quelle en est la limite principale en tant que solution de sauvegarde ?
+
+**R6.** 
 
 ---
 
