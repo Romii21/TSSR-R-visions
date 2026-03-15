@@ -8,7 +8,11 @@
 
 **1.** Quelle est la différence fondamentale entre un **programme** et un **script** ?
 
+**R1.**
+
 **2.** À quoi sert la ligne `#!/bin/bash` placée en première ligne d'un script ? Comment s'appelle-t-elle ?
+
+**
 
 **3.** Quelle est la différence entre `#!/bin/bash` et `#!/usr/bin/env bash` ? Laquelle est recommandée et pourquoi ?
 
