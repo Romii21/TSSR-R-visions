@@ -87,7 +87,7 @@ Chaque ligne = un **routeur intermédiaire** avec son IP et le temps de réponse
 ```
 CLIENT                                          SERVEUR
   │                                               │
-  │  1. DHCP DISCOVER  (broadcast)               │
+  │  1. DHCP DISCOVER  (broadcast)                │
   │──────────────────────────────────────────────>│
   │  "Qui peut me donner une config IP ?"         │
   │                                               │
@@ -95,7 +95,7 @@ CLIENT                                          SERVEUR
   │<──────────────────────────────────────────────│
   │  "Je te propose : 192.168.1.10, bail 24h"     │
   │                                               │
-  │  3. DHCP REQUEST   (broadcast)               │
+  │  3. DHCP REQUEST   (broadcast)                │
   │──────────────────────────────────────────────>│
   │  "J'accepte cette offre, je la réserve"       │
   │                                               │

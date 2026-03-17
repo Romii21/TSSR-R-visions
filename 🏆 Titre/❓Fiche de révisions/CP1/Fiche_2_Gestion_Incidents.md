@@ -70,10 +70,10 @@
 | **Critique**         | 🟡 Majeur   | 🔴 Critique | 🔴 Critique | 🔴 Critique |
 
 ### Signification des priorités
-| Priorité | Action |
-|---|---|
-| ⬜ **Mineur** | Résolution à long terme, faible urgence |
-| 🟡 **Majeur** | Intervention rapide nécessaire |
+| Priorité        | Action                                   |
+| --------------- | ---------------------------------------- |
+| ⬜ **Mineur**    | Résolution à long terme, faible urgence  |
+| 🟡 **Majeur**   | Intervention rapide nécessaire           |
 | 🔴 **Critique** | Bloquant → procédure de gestion de crise |
 
 ### Exemples à mémoriser

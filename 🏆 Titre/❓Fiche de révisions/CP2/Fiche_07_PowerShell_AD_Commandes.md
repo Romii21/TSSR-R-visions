@@ -38,6 +38,7 @@ New-ADUser `
 ```
 
 **Paramètres essentiels :**
+
 | Paramètre | Rôle |
 |---|---|
 | `-Name` | Nom affiché dans AD |

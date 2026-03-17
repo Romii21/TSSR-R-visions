@@ -76,11 +76,11 @@ Pour tout réseau X.Y.Z.0/24 :
 
 ### Exemple avec /24 (simple)
 ```
-Réseau : 192.168.10.0/24
-Masque : 255.255.255.0
-Réseau   : 192.168.10.0
+Réseau    : 192.168.10.0/24
+Masque    : 255.255.255.0
+Réseau    : 192.168.10.0
 Broadcast : 192.168.10.255
-Hôtes    : 192.168.10.1 → 192.168.10.254  (254 hôtes)
+Hôtes     : 192.168.10.1 → 192.168.10.254  (254 hôtes)
 ```
 
 ### Exemple avec /20 (intermédiaire)
@@ -98,10 +98,10 @@ Broadcast → mettre tous les bits hôtes à 1 :
   3ème octet : 00000000 OR 00001111 = 00001111 = 15
   4ème octet : 11111111 = 255
 
-Réseau   : 172.16.0.0
-Masque   : 255.255.240.0
-Broadcast : 172.16.15.255        ← pas 172.16.255.255 !
-Hôtes    : 172.16.0.1 → 172.16.15.254
+Réseau    : 172.16.0.0
+Masque    : 255.255.240.0
+Broadcast : 172.16.15.255    ← pas 172.16.255.255 !
+Hôtes     : 172.16.0.1       → 172.16.15.254
 ```
 
 ### Exemple avec /22 (calcul demandé en exam)
@@ -114,9 +114,9 @@ Masque : 255.255.252.0
 Convertir le 3ème octet de l'adresse : 5 = 00000101
 Appliquer le masque AND : 00000101 AND 11111100 = 00000100 = 4
 
-Réseau   : 10.0.4.0/22
+Réseau    : 10.0.4.0/22
 Broadcast : 10.0.7.255
-Hôtes    : 10.0.4.1 → 10.0.7.254  (1022 hôtes)
+Hôtes     : 10.0.4.1 → 10.0.7.254  (1022 hôtes)
 ```
 
 ### Méthode rapide pour les masques non standard

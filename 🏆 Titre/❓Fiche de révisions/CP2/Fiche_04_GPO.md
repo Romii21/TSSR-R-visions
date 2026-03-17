@@ -128,6 +128,7 @@ L'état **Enforced** sur une GPO lui donne une **priorité absolue**.
 2. Ajouter le groupe cible avec les droits **Read + Apply Group Policy**
 
 **Timing d'application :**
+
 | Type de GPO | Moment d'application |
 |---|---|
 | **GPO Ordinateurs** | Pendant le démarrage (avant l'écran de connexion) |
