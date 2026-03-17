@@ -240,12 +240,12 @@ pg_dumpall > /backup/pgsql_$(date +%Y%m%d).sql
 
 ## 🎯 Récapitulatif des commandes clés
 
-| Outil | Usage principal | Commande type |
-|-------|----------------|---------------|
-| **rsync** | Sauvegarde incrémentale locale ou distante | `rsync -avz --delete /src/ dest:/path/` |
-| **tar** | Archive compressée d'un répertoire | `tar -czf /backup/archive.tar.gz /src/` |
-| **tar** (restauration) | Extraction d'une archive | `tar -xzf /backup/archive.tar.gz -C /dest/` |
-| **lvcreate -s** | Snapshot LVM | `lvcreate -L 5G -s -n snap /dev/vg/lv` |
-| **lvremove** | Suppression snapshot | `lvremove -f /dev/vg/snap` |
-| **crontab -e** | Planifier une sauvegarde | `0 23 * * * rsync ...` |
-| **mysqldump** | Dump cohérent MySQL | `mysqldump -u root -p --single-transaction db > dump.sql` |
+| Outil                  | Usage principal                            | Commande type                                             |
+| ---------------------- | ------------------------------------------ | --------------------------------------------------------- |
+| **rsync**              | Sauvegarde incrémentale locale ou distante | `rsync -avz --delete /src/ dest:/path/`                   |
+| **tar**                | Archive compressée d'un répertoire         | `tar -czf /backup/archive.tar.gz /src/`                   |
+| **tar** (restauration) | Extraction d'une archive                   | `tar -xzf /backup/archive.tar.gz -C /dest/`               |
+| **lvcreate -s**        | Snapshot LVM                               | `lvcreate -L 5G -s -n snap /dev/vg/lv`                    |
+| **lvremove**           | Suppression snapshot                       | `lvremove -f /dev/vg/snap`                                |
+| **crontab -e**         | Planifier une sauvegarde                   | `0 23 * * * rsync ...`                                    |
+| **mysqldump**          | Dump cohérent MySQL                        | `mysqldump -u root -p --single-transaction db > dump.sql` |

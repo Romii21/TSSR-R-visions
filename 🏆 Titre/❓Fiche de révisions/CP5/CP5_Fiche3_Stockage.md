@@ -273,6 +273,7 @@ Serveur de stockage partageant des **fichiers** via le réseau.
 Réseau spécialisé et dédié au stockage, partageant des **blocs** (bas niveau, comme un disque local).
 
 **Protocoles :**
+
 | Protocole | Transport | Caractéristiques |
 |---|---|---|
 | **Fibre Channel** | Réseau fibre optique dédié | Ultra-performant, très coûteux |

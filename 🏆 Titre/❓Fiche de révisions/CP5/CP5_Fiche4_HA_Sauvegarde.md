@@ -31,7 +31,7 @@ Sans quorum, le cluster se met en pause pour éviter le **split-brain** : situat
 Cluster 3 nœuds — Panne du nœud 1 :
 ┌──────────┐    ✅ Nœud 2  ─┐
 │  Nœud 1  │    ✅ Nœud 3  ─┤ → 2/3 nœuds = quorum ✅ → Cluster actif
-│  ❌ Panne │                └→ Les VMs du nœud 1 sont redémarrées ici
+│ ❌ Panne │                └→ Les VMs du nœud 1 sont redémarrées ici
 └──────────┘
 ```
 
