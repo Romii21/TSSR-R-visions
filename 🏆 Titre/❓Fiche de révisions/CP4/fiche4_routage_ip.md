@@ -181,7 +181,7 @@ ip route get 8.8.8.8
 
 ## 7. Commandes Windows — route
 
-```cmd
+``` powershell
 # Afficher la table de routage
 route print
 

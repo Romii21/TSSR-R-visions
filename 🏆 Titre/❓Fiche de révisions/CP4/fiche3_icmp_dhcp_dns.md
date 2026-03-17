@@ -200,9 +200,9 @@ Exemple : l'utilisateur tape `www.google.com`
 
 ## 14. Résolution récursive vs itérative
 
-| Type | Qui fait le travail ? | Utilisé par |
-|------|----------------------|-------------|
-| **Récursive** | Le **résolveur DNS** interroge tout seul jusqu'à trouver la réponse et la renvoie au client | Les postes clients |
+| Type          | Qui fait le travail ?                                                                                                                      | Utilisé par        |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
+| **Récursive** | Le **résolveur DNS** interroge tout seul jusqu'à trouver la réponse et la renvoie au client                                                | Les postes clients |
 | **Itérative** | Chaque serveur répond avec la **meilleure info qu'il possède** (référence vers un autre serveur). Le client enchaîne les requêtes lui-même | Entre serveurs DNS |
 
 ## 15. Les enregistrements DNS
@@ -221,6 +221,7 @@ Exemple : l'utilisateur tape `www.google.com`
 ## 16. Outils DNS en ligne de commande
 
 ### Linux — `dig`
+
 ```bash
 dig www.google.com                    # Résolution A standard
 dig www.google.com AAAA               # Résolution IPv6
@@ -230,6 +231,7 @@ dig www.google.com MX                 # Enregistrements MX
 ```
 
 ### Windows / Linux — `nslookup`
+
 ```cmd
 nslookup www.google.com               # Résolution standard
 nslookup www.google.com 8.8.8.8       # Via un serveur DNS spécifique
@@ -238,6 +240,7 @@ nslookup 8.8.8.8                      # Résolution inverse
 ```
 
 ### Linux — `host`
+
 ```bash
 host www.google.com
 host -t MX google.com
