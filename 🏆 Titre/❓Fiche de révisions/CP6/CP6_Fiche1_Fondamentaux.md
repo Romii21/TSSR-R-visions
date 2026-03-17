@@ -68,10 +68,10 @@ echo $?         # Affiche : 2
 
 Les guillemets ont un comportement différent selon leur type :
 
-| Type | Syntaxe | Variables interprétées ? |
-|---|---|---|
-| Guillemets doubles | `"texte"` | ✅ Oui |
-| Guillemets simples | `'texte'` | ❌ Non (texte brut) |
+| Type               | Syntaxe   | Variables interprétées ? |
+| ------------------ | --------- | ------------------------ |
+| Guillemets doubles | `"texte"` | ✅ Oui                    |
+| Guillemets simples | `'texte'` | ❌ Non (texte brut)       |
 
 ```bash
 USER="Alice"

@@ -96,11 +96,11 @@ fi
 
 ### Opérateurs logiques
 
-| Opérateur | Signification | Exemple |
-|---|---|---|
-| `&&` | ET — exécute si la précédente réussit | `cmd1 && cmd2` |
-| `\|\|` | OU — exécute si la précédente échoue | `cmd1 \|\| cmd2` |
-| `;` | Séquence — exécute toujours | `cmd1 ; cmd2` |
+| Opérateur | Signification                         | Exemple          |
+| --------- | ------------------------------------- | ---------------- |
+| `&&`      | ET — exécute si la précédente réussit | `cmd1 && cmd2`   |
+| ` \|\| `  | OU — exécute si la précédente échoue  | `cmd1 \|\| cmd2` |
+| `;`       | Séquence — exécute toujours           | `cmd1 ; cmd2`    |
 
 ```bash
 # && : n'exécute cmd2 que si cmd1 réussit (code 0)
@@ -182,16 +182,16 @@ If ($Statut -eq "Running") {
 
 ### Opérateurs de comparaison PowerShell
 
-| Opérateur PS | Équivalent | Signification |
-|---|---|---|
-| `-eq` | `==` | Égal à |
-| `-ne` | `!=` | Différent de |
-| `-lt` | `<` | Inférieur à |
-| `-le` | `<=` | Inférieur ou égal |
-| `-gt` | `>` | Supérieur à |
-| `-ge` | `>=` | Supérieur ou égal |
-| `-like` | — | Avec wildcards (`*`, `?`) |
-| `-match` | — | Avec expressions régulières |
+| Opérateur PS | Équivalent | Signification               |
+| ------------ | ---------- | --------------------------- |
+| `-eq`        | ==         | Égal à                      |
+| `-ne`        | !=         | Différent de                |
+| `-lt`        | <          | Inférieur à                 |
+| `-le`        | <=         | Inférieur ou égal           |
+| `-gt`        | >          | Supérieur à                 |
+| `-ge`        | >=         | Supérieur ou égal           |
+| `-like`      | —          | Avec wildcards (`*`, `?`)   |
+| `-match`     | —          | Avec expressions régulières |
 
 > ⚠️ **Pourquoi pas `<` et `>` directement ?**
 > En PowerShell, `<` et `>` sont réservés pour la **redirection** de flux (comme en Bash).
@@ -230,22 +230,22 @@ Switch ($Valeur) {
 
 ## Comparatif Bash / PowerShell
 
-| Notion | Bash | PowerShell |
-|---|---|---|
-| Structure if | `if [ cond ]; then ... fi` | `If (cond) { ... }` |
-| Égalité nombre | `-eq` | `-eq` |
-| Égalité chaîne | `=` dans `[ ]` | `-eq` |
-| Inférieur | `-lt` | `-lt` |
-| ET logique | `&&` | `-and` |
-| OU logique | `\|\|` | `-or` |
-| Switch/Case | `case ... esac` | `Switch { ... }` |
+| Notion         | Bash                       | PowerShell          |
+| -------------- | -------------------------- | ------------------- |
+| Structure if   | `if [ cond ]; then ... fi` | `If (cond) { ... }` |
+| Égalité nombre | `-eq`                      | `-eq`               |
+| Égalité chaîne | `=` dans `[ ]`             | `-eq`               |
+| Inférieur      | `-lt`                      | `-lt`               |
+| ET logique     | `&&`                       | `-and`              |
+| OU logique     | \| \|                      | `-or`               |
+| Switch/Case    | `case ... esac`            | `Switch { ... }`    |
 
 ---
 
 ## Points Clés à Retenir ✅
 
 - En Bash, **0 = VRAI** dans un test (succès de commande)
-- `-eq` compare des **nombres**, `=` compare des **chaînes** en Bash
+- `-eq` compare des **nombres**, = compare des **chaînes** en Bash
 - Toujours utiliser `"$variable"` dans les tests Bash pour éviter les erreurs sur les espaces
 - PowerShell utilise `-lt`, `-gt`... car `<` et `>` sont des opérateurs de redirection
 - `&&` en Bash = `-and` en PowerShell

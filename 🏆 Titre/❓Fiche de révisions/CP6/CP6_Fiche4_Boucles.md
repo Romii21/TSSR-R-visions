@@ -144,10 +144,10 @@ Get-Service | % { Write-Host "$($_.Name) --> $($_.Status)" }
 
 **Comparaison des deux syntaxes Foreach :**
 
-| Syntaxe | Quand l'utiliser |
-|---|---|
+| Syntaxe                       | Quand l'utiliser                  |
+| ----------------------------- | --------------------------------- |
 | `Foreach ($x in $collection)` | Collection déjà dans une variable |
-| `cmd \| ForEach-Object { }` | Chaînage direct depuis une cmdlet |
+| `cmd \| ForEach-Object { }`   | Chaînage direct depuis une cmdlet |
 
 ### Boucle While
 
