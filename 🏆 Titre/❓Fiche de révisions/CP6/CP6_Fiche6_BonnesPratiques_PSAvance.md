@@ -118,6 +118,7 @@ shellcheck mon_script.sh
 ```
 
 Erreurs typiques détectées :
+
 - Variables non quotées
 - Comparaisons dangereuses
 - Shebang manquant
@@ -129,6 +130,7 @@ Erreurs typiques détectées :
 
 ```bash
 #!/usr/bin/env bash
+
 # ============================================
 # Nom    : backup.sh
 # Utilité: Sauvegarde horodatée d'un répertoire
@@ -137,17 +139,20 @@ Erreurs typiques détectées :
 # ============================================
 
 # --- Variables ---
+
 SOURCE="$1"
 BACKUP_DIR="/backups"
 LOG_FILE="/var/log/backup.log"
 DATE=$(date '+%Y-%m-%d_%H-%M-%S')
 
 # --- Fonctions ---
+
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> "$LOG_FILE"
 }
 
 # --- Vérifications ---
+
 if [[ $EUID -ne 0 ]]; then
     echo "Exécuter avec sudo" >&2
     exit 1
@@ -164,6 +169,7 @@ if [ ! -d "$SOURCE" ]; then
 fi
 
 # --- Corps du script ---
+
 mkdir -p "$BACKUP_DIR"
 ARCHIVE="$BACKUP_DIR/backup_${DATE}.tar.gz"
 

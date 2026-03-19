@@ -200,7 +200,7 @@ $Hash.Add("Email", "alice@exemple.com")    # Ajouter une entrée
 
 ## Points Clés à Retenir ✅
 
-- En Bash, **pas d'espace autour du `=`** lors d'une déclaration
+- En Bash, **pas d'espace autour du = lors d'une déclaration**
 - `$?` donne le code de sortie en Bash ; `True`/`False` en PowerShell
 - `export` rend une variable Bash visible par les processus fils
 - `$(commande)` capture la sortie d'une commande dans une variable

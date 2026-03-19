@@ -30,11 +30,11 @@ Dupliquer un poste sans précaution crée des **conflits d'identifiants** :
 
 Trois éléments réseau sont nécessaires pour un déploiement automatisé via le réseau :
 
-| Élément | Obligatoire ? | Rôle |
-|---|:---:|---|
-| **Serveur DHCP** | ✅ Oui | Attribue une adresse IP au poste client au démarrage |
-| **Serveur TFTP** | ✅ Pour PXE | Transfère le fichier d'amorçage réseau (bootloader) |
-| **AD-DS (Active Directory)** | ❌ Non | Optionnel — nécessaire uniquement si jonction au domaine |
+| Élément                      | Obligatoire ? | Rôle                                                     |
+| ---------------------------- | :-----------: | -------------------------------------------------------- |
+| **Serveur DHCP**             |     ✅ Oui     | Attribue une adresse IP au poste client au démarrage     |
+| **Serveur TFTP**             |  ✅ Pour PXE   | Transfère le fichier d'amorçage réseau (bootloader)      |
+| **AD-DS (Active Directory)** |     ❌ Non     | Optionnel — nécessaire uniquement si jonction au domaine |
 
 ---
 
