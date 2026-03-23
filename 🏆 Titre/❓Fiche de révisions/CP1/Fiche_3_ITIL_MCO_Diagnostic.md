@@ -82,14 +82,15 @@ Remonter des **symptômes** jusqu'à la **cause profonde** plutôt que traiter l
 ```
                     ┌─────────────────────┐
   Main d'œuvre ────►│                     │
-  Matériel     ────►│   EFFET / PROBLÈME  │
-  Méthode      ────►│                     │
+  Matériel     ────►│                     │
+  Méthode      ────►│   EFFET / PROBLÈME  │
   Matière      ────►│                     │
   Milieu       ────►│                     │
                     └─────────────────────┘
 ```
 
 **Les 5M :**
+
 | M | Ce qu'il représente |
 |---|---|
 | **Main d'œuvre** | Erreur humaine, compétences |
