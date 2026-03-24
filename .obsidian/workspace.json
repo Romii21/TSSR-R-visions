@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "4b31e1dbf7539b13",
@@ -211,11 +210,11 @@
   },
   "active": "b9ec6ca70f202856",
   "lastOpenFiles": [
-    "🏆 Titre/❓Fiche de révisions/CP4/fiche2_adressage_ipv4.md",
+    "🏆 Titre/❓Fiche de révisions/CP4/fiche3_icmp_dhcp_dns.md",
     "🏆 Titre/❓Questionnaire/V2/CP4/🟠 Questionnaire CP4 Perso 🟠.md",
+    "🏆 Titre/❓Fiche de révisions/CP4/fiche2_adressage_ipv4.md",
     "🏆 Titre/❓Questionnaire/V2/CP4/🔴 Questionnaire CP4 Base 🔴.md",
     "Exercice.md",
-    "🏆 Titre/❓Fiche de révisions/CP4/fiche3_icmp_dhcp_dns.md",
     "🏆 Titre/❓Fiche de révisions/CP2/Fiche_02_Structure_AD_Objets_Identifiants.md",
     "🏆 Titre/❓Questionnaire/V2/CP4/🟢 Questionnaire CP2 Corrigé 🟢.md",
     "🏆 Titre/❓Questionnaire/V2/CP2/🟠 Questionnaire CP2 Perso 🟠.md",
