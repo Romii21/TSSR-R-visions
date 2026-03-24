@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9a37c885b04dc149",
+        "id": "8f648e6e94f6dba3",
         "type": "tabs",
         "children": [
           {
-            "id": "f2eca16b4a421b3b",
+            "id": "b9ec6ca70f202856",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏆 Titre/❓Fiche de révisions/CP4/fiche2_adressage_ipv4.md",
+                "file": "🏆 Titre/❓Questionnaire/V2/CP4 Maintenir l'infrastructure et contribuer à son évolution et à sa sécurisation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fiche2_adressage_ipv4"
+              "title": "CP4 Maintenir l'infrastructure et contribuer à son évolution et à sa sécurisation"
             }
           }
         ]
@@ -208,8 +208,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2eca16b4a421b3b",
+  "active": "b9ec6ca70f202856",
   "lastOpenFiles": [
+    "🏆 Titre/❓Fiche de révisions/CP4/fiche2_adressage_ipv4.md",
     "🏆 Titre/❓Fiche de révisions/CP4/fiche1_fondamentaux_reseau.md",
     "🏆 Titre/❓Questionnaire/V2/CP4 Maintenir l'infrastructure et contribuer à son évolution et à sa sécurisation.md",
     "🧠 Révisions/🧠💪🏼 IT Management/📞 VoIP/2. Les Éléments de la ToIP.md",
@@ -239,7 +240,6 @@
     "🏆 Titre/❓Questionnaire/V1",
     "VoIP.md",
     "🏆 Titre/❓Fiche de révisions/CP2/Fiche_04_GPO.md",
-    "🏆 Titre/❓Fiche de révisions/CP2/Fiche_05_FSMO_Replication_Niveaux_Fonctionnels.md",
     "🏆 Titre/🤖 Scripts/🎯 Niveau 5",
     "🏆 Titre/🤖 Scripts/🎯 Niveau 4",
     "🏆 Titre/🤖 Scripts/🎯 Niveau 3",
