@@ -1,4 +1,5 @@
-# 1. Différence IPv4 et IPv6
+# Exercice IP
+## 1. Différence IPv4 et IPv6
 
 
 | Information                 | IPv4 | IPv6 |
@@ -9,7 +10,7 @@
 | Adresse de broadcast        | oui  | -    |
 | Nombre d'hôtes              | oui  | oui  |
 
-# 2. Une méthode - La méthode magique
+## 2. Une méthode - La méthode magique
 
 - 4 étapes :
 
@@ -19,7 +20,7 @@
 4. À partir de ce résultat en déduire tout le reste (broadcast, plage, hôtes, etc.)
 
 
-# 3. Adresse IPv4
+## 3. Adresse IPv4
 
 ## a. 192.168.10.75/26
 
@@ -76,7 +77,7 @@ Pour 192.168.10.75/26 :
 	2. Dernière adresse : 10.31.255.254
 	3. Broadcast : 10.31.255.255
 	4. 2 ^ (32-11) - 2 = 2 ^ 21 - 2 = 2 097 152 - 2 = 2 097 150 hôtes
-# 4. Adresse IPv6
+## 4. Adresse IPv6
 
 
 > [!NOTE] Rappels
@@ -131,11 +132,17 @@ Voici 3 exercices à résoudre avec la méthode magique :
 
 ---
 
+## 5. Exo Claude
+
 ## Exercice 1
 
 **192.168.50.200/28**
 
-
+Adresse de réseau = 192.168.50.192/28
+1ere dispo = 192.168.50.193
+Last dispo = 192.168.50.206
+Broadcast = 192.168.50.207
+Nb d'hôtes = 14
 
 ---
 
@@ -143,11 +150,24 @@ Voici 3 exercices à résoudre avec la méthode magique :
 
 **172.31.18.77/21**
 
+Adresse de réseau = 172.31.16.0/21
+1ere dispo = 172.31.16.1
+Last dispo = 172.31.23.254
+Broadcast = 172.31.23.255
+Nb d'hôtes = 2046
+
 ---
 
 ## Exercice 3
 
 **10.0.145.33/13**
+
+Adresse de réseau = 10.0.0.0/13
+1ere dispo = 10.0.0.1
+Last dispo = 10.7.255.254
+Broadcast = 10.7.255.255
+Nb d'hôtes = 524 286
+
 
 ---
 
@@ -160,3 +180,39 @@ Pour chaque exercice trouve :
 - Nombre d'hôtes
 
 Envoie tes réponses et je corrige !
+
+# Exercice Routage
+
+## 1. Exercice 1
+
+### Des ordinateurs sont connectés sur un switch avec un seul VLAN.
+
+| PC  | Adresse IP   | Masque        |
+| --- | ------------ | ------------- |
+| PC1 | 192.168.1.10 | 255.255.255.0 |
+| PC2 | 192.168.1.20 | 255.255.255.0 |
+| PC3 | 192.168.2.30 | 255.255.255.0 |
+| PC4 | 192.168.1.40 | 255.255.255.0 |
+
+### Pour chaque ordinateur, indique les communications ICMP réussies.
+
+- Le PC 1 communique avec tout les PC sauf PC3 car il n'est pas sur le même réseau. (/24)
+- Le PC 2 communique avec tout les PC sauf PC3 car il n'est pas sur le même réseau. (/24)
+- Le PC 4 communique avec tout les PC sauf PC3 car il n'est pas sur le même réseau. (/24)
+- Le PC 3 ne communique avec aucune autre machine car il n'est pas sur le même réseau.
+
+## 2. Exercice 2
+
+### Des ordinateurs sont connectés sur un switch avec un seul VLAN.
+
+| PC  | Adresse IP     | Masque        |
+| --- | -------------- | ------------- |
+| PC1 | 192.168.10.8   | 255.255.255.0 |
+| PC2 | 192.168.10.12  | 255.255.0.0   |
+| PC3 | 192.168.11.9   | 255.255.255.0 |
+| PC4 | 192.168.10.50. | 255.255.255.0 |
+
+### Pour chaque ordinateur, indique les communications ICMP réussies.
+
+- Le PC 1 communique avec le PC 4, ils sont sur le même réseau, il ne peut communiquer avec PC 2 et PC 3 ne font pas partis de sa plage réseau
+- Le PC2
