@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏆 Titre/❓Questionnaire/V2/CP4 Maintenir l'infrastructure et contribuer à son évolution et à sa sécurisation.md",
+                "file": "🏆 Titre/❓Fiche de révisions/CP4/fiche2_adressage_ipv4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CP4 Maintenir l'infrastructure et contribuer à son évolution et à sa sécurisation"
+              "title": "fiche2_adressage_ipv4"
             }
           }
         ]
@@ -210,8 +210,9 @@
   },
   "active": "f2eca16b4a421b3b",
   "lastOpenFiles": [
-    "🧠 Révisions/🧠💪🏼 IT Management/📞 VoIP/2. Les Éléments de la ToIP.md",
+    "🏆 Titre/❓Fiche de révisions/CP4/fiche1_fondamentaux_reseau.md",
     "🏆 Titre/❓Questionnaire/V2/CP4 Maintenir l'infrastructure et contribuer à son évolution et à sa sécurisation.md",
+    "🧠 Révisions/🧠💪🏼 IT Management/📞 VoIP/2. Les Éléments de la ToIP.md",
     "🏆 Titre/❓Questionnaire/V2/CP4/Sans titre.md",
     "🏆 Titre/❓Questionnaire/V2/CP4",
     "🧠 Révisions/🧠💪🏼 IT Management/📞 VoIP/Sans titre.md",
@@ -239,7 +240,6 @@
     "VoIP.md",
     "🏆 Titre/❓Fiche de révisions/CP2/Fiche_04_GPO.md",
     "🏆 Titre/❓Fiche de révisions/CP2/Fiche_05_FSMO_Replication_Niveaux_Fonctionnels.md",
-    "🏆 Titre/❓Fiche de révisions/CP2/Fiche_06_Securite_AD.md",
     "🏆 Titre/🤖 Scripts/🎯 Niveau 5",
     "🏆 Titre/🤖 Scripts/🎯 Niveau 4",
     "🏆 Titre/🤖 Scripts/🎯 Niveau 3",

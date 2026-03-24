@@ -139,11 +139,11 @@ Masque 255.255.240.0 → bloc de 16 dans le 3ème octet
 
 Ces plages sont **non routables sur Internet**. Elles nécessitent du NAT pour accéder à Internet.
 
-| Plage | CIDR | Masque | Nb d'adresses | Usage |
-|-------|------|--------|---------------|-------|
-| `10.0.0.0` – `10.255.255.255` | **10.0.0.0/8** | 255.0.0.0 | ~16 millions | Grands réseaux d'entreprise |
-| `172.16.0.0` – `172.31.255.255` | **172.16.0.0/12** | 255.240.0.0 | ~1 million | Réseaux moyens |
-| `192.168.0.0` – `192.168.255.255` | **192.168.0.0/16** | 255.255.0.0 | ~65 000 | Petits réseaux, box internet |
+| Plage                             | CIDR               | Masque      | Nb d'adresses | Usage                        |
+| --------------------------------- | ------------------ | ----------- | ------------- | ---------------------------- |
+| `10.0.0.0` – `10.255.255.255`     | **10.0.0.0/8**     | 255.0.0.0   | ~16 millions  | Grands réseaux d'entreprise  |
+| `172.16.0.0` – `172.31.255.255`   | **172.16.0.0/12**  | 255.240.0.0 | ~1 million    | Réseaux moyens               |
+| `192.168.0.0` – `192.168.255.255` | **192.168.0.0/16** | 255.255.0.0 | ~65 000       | Petits réseaux, box internet |
 
 > ⚠️ **Erreur fréquente :** La plage B est `/12` et **non `/20`** ! 172.16.0.0/**12** couvre 172.16.x.x jusqu'à 172.31.x.x.
 
