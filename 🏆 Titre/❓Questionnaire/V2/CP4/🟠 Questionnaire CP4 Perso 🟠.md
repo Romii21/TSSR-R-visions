@@ -13,6 +13,13 @@ Une machine possède l'adresse IP `172.16.45.200/20`.
 - Calculez l'adresse réseau, l'adresse de broadcast, et la plage d'adresses hôtes utilisables.
 - Combien d'hôtes peut-on adresser sur ce réseau ?
 
+**REP** :
+* **172.16.45.200/20**
+	- Adresse de réseau = 172.16.32.0/20
+	- Plage d'adresses = 172.16.32.1 à 172.16.47.254
+	- Broadcast = 172.16.47.255
+	- Hôtes = 4094
+
 ---
 
 **Question 2**  
@@ -21,11 +28,21 @@ Vous devez découper le réseau `10.0.0.0/8` en sous-réseaux contenant chacun a
 - Quel masque de sous-réseau utiliserez-vous ?
 - Combien de sous-réseaux pouvez-vous créer ?
 
+**REP** :
+- J'utiliserai un CIDR de /23 soit un masque de sous-réseau de 255.255.254.0
+
 ---
 
 **Question 3**  
 Expliquez la différence entre une adresse IP **publique** et une adresse IP **privée**.  
 Citez les trois plages d'adresses privées définies par la RFC 1918 et indiquez dans quel contexte chacune est typiquement utilisée.
+
+**REP** : 
+Une adresse IP privé est un adresse non routable sur internet. Elle représente les réseaux des entreprise ou des domiciles. 
+On peut retrouver :
+- 10.0.0.0/8 pour les grandes entreprises
+- 172.16.0.0/12 pour les réseaux de tailles moyennes
+- 192.168.0.0/16 pour les réseaux domestiques
 
 ---
 
@@ -34,6 +51,9 @@ Citez les trois plages d'adresses privées définies par la RFC 1918 et indiquez
 **Question 4**  
 Expliquez le **processus de décision de routage** d'un hôte lorsqu'il souhaite envoyer un paquet vers une destination.  
 Quels critères lui permettent de savoir s'il doit passer par un routeur ou envoyer directement ?
+
+**REP** :
+- L'hôte va vérifié via le protocole ARP si il connait l'hôte et si il est dans sa plage réseau, si le destinataire ne fais pas partie de son réseau le paquet part à sa passerelle. Si la table de routage est bien configurée le routeur envoie le paquet au bon réseau si il est mitoyen ou à son Next-hop si le paquet doit passer par un autre routeur.
 
 ---
 
@@ -52,11 +72,17 @@ Un paquet à destination de `10.5.3.12` arrive sur ce routeur.
 - Quelle route sera utilisée et pourquoi ?
 - Que signifie l'entrée `0.0.0.0/0` dans cette table ?
 
+**REP** :
+
+
 ---
 
 **Question 6**  
 Quelle est la différence entre le **routage statique** et le **routage dynamique** ?  
 Donnez un exemple de cas d'usage pour chacun, et citez deux protocoles de routage dynamique en précisant leur champ d'application.
+
+**REP** : 
+- Le routage statique est le faite de faire la table de routage manuellement quand la dynamique permet qu'elle soit faite automatiquement 
 
 ---
 
@@ -65,6 +91,9 @@ Vous êtes technicien et devez ajouter une route statique persistante sur un ser
 
 - Donnez la commande permettant d'ajouter cette route **temporairement**.
 - Comment rendre cette route **permanente** sur une distribution Linux moderne (type Debian/Ubuntu) ?
+
+**REP** :
+
 
 ---
 

@@ -215,4 +215,37 @@ Envoie tes réponses et je corrige !
 ### Pour chaque ordinateur, indique les communications ICMP réussies.
 
 - Le PC 1 communique avec le PC 4, ils sont sur le même réseau, il ne peut communiquer avec PC 2 et PC 3 ne font pas partis de sa plage réseau
-- Le PC2
+- Le PC 2 compte parmi sa plage réseau tout les autres PC mais se n'est pas réciproque le PC 2 envoie un paquet mais il n'aura aucune réponse car les autres PC ne peuvent pas attendre son réseau. Request Time Out
+- Le PC 3 ne voit aucune autre machine sur son réseau, il ne peut pas ping
+- Le PC 4 peut ping avec PC1
+
+## 3. Exercice 3
+
+### Des ordinateurs sont connectés sur un switch avec un seul VLAN.
+
+| PC  | Adresse IP      | Masque          |
+| --- | --------------- | --------------- |
+| PC1 | 192.168.100.10  | 255.255.255.128 |
+| PC2 | 192.168.100.50  | 255.255.255.128 |
+| PC3 | 192.168.100.130 | 255.255.255.128 |
+| PC4 | 192.168.100.140 | 255.255.255.128 |
+
+### Pour chaque ordinateur, indique les communications ICMP réussies.
+
+- PC1 peut communiquer avec PC2 et vice-versa mais PC3 et PC4 ne peuvent pas communiquer avec eux.
+- PC3 peut communiquer avec PC4 et vice-versa mais PC1 et PC2 ne peuvent pas communiquer avec eux.
+
+## 4. Exercice 4
+
+### Des ordinateurs sont connectés sur un switch avec un seul VLAN.
+
+| PC  | Adresse IP   | Masque          |
+| --- | ------------ | --------------- |
+| PC1 | 10.10.50.130 | 255.255.255.192 |
+| PC2 | 10.10.50.200 | 255.255.255.192 |
+| PC3 | 10.10.50.60  | 255.255.255.192 |
+| PC4 | 10.10.50.190 | 255.255.255.192 |
+| PC5 | 10.10.50.70  | 255.255.0.0     |
+
+### Pour chaque ordinateur, indique les communications ICMP réussies.
+
