@@ -125,3 +125,38 @@ Pour 2001:db8:0:a3::1/48 :
 1. 2001:0db8:0000:0000:000 0:0000:0000:0001
    
 ## c. fe80::1a2b:3c4d:5e6f:1/64
+
+
+Voici 3 exercices à résoudre avec la méthode magique :
+
+---
+
+## Exercice 1
+
+**192.168.50.200/28**
+
+
+
+---
+
+## Exercice 2
+
+**172.31.18.77/21**
+
+---
+
+## Exercice 3
+
+**10.0.145.33/13**
+
+---
+
+Pour chaque exercice trouve :
+
+- Adresse de réseau
+- 1ère adresse disponible
+- Dernière adresse disponible
+- Adresse de broadcast
+- Nombre d'hôtes
+
+Envoie tes réponses et je corrige !
