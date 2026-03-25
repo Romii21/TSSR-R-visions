@@ -180,11 +180,19 @@ Donnez l'écriture **simplifiée** de l'adresse IPv6 suivante :
 Expliquez les deux règles de simplification applicables.  
 De quel type d'adresse IPv6 s'agit-il (unicast, multicast, lien-local...) ? Justifiez votre réponse.
 
+
+**REP** :
+- Concaténation permet de réduire une adresse IPv6, par exemple 2001:DB8::1, en gros les 0 en début de segment sont supprimé et les sections avec des 0000 peuvent être réduites.
+- 
+ 
 ---
 
 **Question 15**  
 Expliquez le rôle du **DNS** dans l'exploitation d'un réseau IP.  
 Décrivez le processus de résolution DNS lorsqu'un client tape `www.exemple.fr` dans son navigateur, en détaillant les différents acteurs impliqués (résolveur, serveur racine, TLD, serveur autoritaire).
+
+**REP** :
+
 
 ---
 
