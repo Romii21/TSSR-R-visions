@@ -12,17 +12,23 @@
 Expliquez la différence entre un hyperviseur de **type 1** et un hyperviseur de **type 2**. Donnez deux exemples de chaque type et précisez dans quel contexte chacun est utilisé en entreprise.
 
 **REP** : 
-Un hyperviseur de type 1 est un hyperviseur dit "barre-métal", les VMs et les conteneurs sont stockés 
+Un hyperviseur de type 1 est un serveur dit "barre-métal", les VMs et les conteneurs sont stockés dessus et partage directement les ressources du serveur. Hyper-V, VMWare ESIX et Proxmox VE pour le type 1.  Un hyperviseur de type 2 est un logiciel installé sur une machine, on émule les VMs via l'hyperviseur. Virtual Box et VMWare Workstation Pro pour le type 2.
 
 ---
 
 **Question 2**  
 Qu'est-ce que la **consolidation de serveurs** ? Expliquez son intérêt économique et technique, et décrivez une limite importante à prendre en compte lors de sa mise en place.
 
+**REP** : 
+
+
 ---
 
 **Question 3**  
 Expliquez la différence entre une **machine virtuelle (VM)** et un **conteneur** (de type Docker ou LXC). Dans quel cas préfèrerait-on l'un ou l'autre dans un contexte professionnel ?
+
+**REP** :
+Une VM simule un OS, la RAM, le stockage, elle a un environnement propre. Le conteneur utilise juste dont il a besoin pour faire tourner les services qui tournes dessus il partage ces ressources avec l'hyperviseur, les conteneur ne fonctionne qu'avec Linux
 
 ---
 
@@ -31,11 +37,17 @@ Expliquez la différence entre une **machine virtuelle (VM)** et un **conteneur*
 **Question 4**  
 Vous devez mettre en place un système de stockage tolérant aux pannes pour un serveur hébergeant plusieurs machines virtuelles. Décrivez le principe du **RAID 5** : son fonctionnement, ses avantages, ses limites et le nombre minimum de disques requis.
 
+**REP** : 
+Le RAID 5 fonctionne avec minimum trois disques, les données s'inscrivent sur le premier disque puis sur le second, puis sur le troisième, chaque disque à une incrémentation qui permet de reconstruire seulement un disque en cas de défaillance
+
 ---
 
 **Question 5**  
 Un collègue vous dit : _"J'ai mis en place un RAID 1 sur mon serveur, donc je n'ai plus besoin de faire de sauvegardes."_  
 Que lui répondez-vous ? Justifiez précisément votre réponse en citant au moins deux situations que le RAID ne peut pas couvrir.
+
+**REP** :
+Le RAID 1 est le principe de mirroring ce qui est écris sur un disque est écris sur un autre mais cela ne permet pas la restauration des données comme une sauvegarde
 
 ---
 
