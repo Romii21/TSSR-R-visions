@@ -316,24 +316,24 @@ $DisabledUsers
 ```powershell
 Clear-Host
 
-# XXX
+# Dans la variable $Processes, seront stockées les processus. Les propriétés seront filtrées pour afficher Name, CPU et WorkinSet. Elles seront ensuite triées par ordre décroissant en fonction du CPU
 
 $Processes = Get-Process | `
     Select-Object -Property Name, CPU, WorkingSet | `
     Sort-Object -Property CPU -Descending
 
-# XXX
+# Dans la variable $TopProcesses seront stockées les 5 premieres lignes
 
 $TopProcesses = $Processes | Select-Object -First 5
 
-# XXX
+# Stock chaque ligne de la variable $TopProcesses dans une variable $Process puis affiche le Nom du Processus et le pourcentage de CPU utilisé par le processus en jaune
 
 foreach ($Process in $TopProcesses)
 {
     Write-Host "Processus : $($Process.Name) - CPU : $($Process.CPU)" -ForegroundColor Yellow
 }
 
-# XXX
+# Exporte la variable $TopProcesses dans le fichier processes.csv, chaque propriétés seront séparées par un ";"
 
 $TopProcesses | Export-Csv -Path "C:\Scripts\processes.csv" -Delimiter ";" -NoTypeInformation
 ```
