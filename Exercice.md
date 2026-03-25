@@ -249,4 +249,93 @@ Envoie tes réponses et je corrige !
 
 ### Pour chaque ordinateur, indique les communications ICMP réussies.
 
+# Exercice PowerShell
 
+Voici 3 scripts à commenter ! Remplace chaque `# XXX` par un commentaire qui explique ce que fait le bloc en dessous.
+
+---
+
+**Script 1 — `GetServiceInfo.ps1`**
+
+```powershell
+Clear-Host
+
+# Dans la variable $Services, seront stocké tout les services qui ont le statut "Running". Seul les proptriétés Nom, Nom affiché et le status seront affichées.
+
+$Services = Get-Service | `
+    Where-Object {$_.Status -eq "Running"} | `
+    Select-Object -Property Name, DisplayName, Status
+
+# Dans la variable $Result, seront stocké tout les élément qui ne commence pas par "win" provenant de la viariable $Services.
+
+$Result = $Services | Where-Object {$_.Name -notlike "win*"}
+
+# Ajuste la sortie graphique de la variable $Result
+
+$Result | Format-Table -AutoSize
+
+# La varible $Result sera exporter dans le fichier "services.csv", chaque propriétés seront séparées par un ";"
+
+$Result | Export-Csv -Path "C:\Scripts\services.csv" -Delimiter ";" -NoTypeInformation
+```
+
+---
+
+**Script 2 — `GetUserInfo.ps1`**
+
+```powershell
+Clear-Host
+
+# Dans la viariable $Users, seront stocké uniquement les utilisateurs locaux actifs. Les propriétés seront filtées pour afficher le nom, le nom complet et quand expire le MDP.
+
+$Users = Get-LocalUser | `
+    Where-Object {$_.Enabled -eq $true} | `
+    Select-Object -Property Name, FullName, PasswordExpires
+
+# Dans la variable $DisabledUsers, seront stocké uniquement les utilisateurs locaux désactivés. Les propriétés seront filtrées pour afficher le nom et le nom complet. 
+
+$DisabledUsers = Get-LocalUser | `
+    Where-Object {$_.Enabled -eq $false} | `
+    Select-Object -Property Name, FullName
+
+# Affiche "Utilisateurs actifs :" en vert puis affiche les données stockées dans la variable $Users
+
+Write-Host "Utilisateurs actifs :" -ForegroundColor Green
+$Users
+
+# Affiche "Utilisateurs désactivés :" en rouge puis affiche les données stockées dans la variable $DisabledUsers
+
+Write-Host "Utilisateurs désactivés :" -ForegroundColor Red
+$DisabledUsers
+```
+
+---
+
+**Script 3 — `GetProcessInfo.ps1`**
+
+```powershell
+Clear-Host
+
+# XXX
+
+$Processes = Get-Process | `
+    Select-Object -Property Name, CPU, WorkingSet | `
+    Sort-Object -Property CPU -Descending
+
+# XXX
+
+$TopProcesses = $Processes | Select-Object -First 5
+
+# XXX
+
+foreach ($Process in $TopProcesses)
+{
+    Write-Host "Processus : $($Process.Name) - CPU : $($Process.CPU)" -ForegroundColor Yellow
+}
+
+# XXX
+
+$TopProcesses | Export-Csv -Path "C:\Scripts\processes.csv" -Delimiter ";" -NoTypeInformation
+```
+
+---
