@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏆 Titre/❓Questionnaire/V2/CP1/🟠 Questionnaire CP1 Perso 🟠.md",
+                "file": "🏆 Titre/❓Fiche de révisions/CP1/Fiche_2_Gestion_Incidents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🟠 Questionnaire CP1 Perso 🟠"
+              "title": "Fiche_2_Gestion_Incidents"
             }
           }
         ]
@@ -210,13 +210,15 @@
   },
   "active": "9c51b430b3d348d0",
   "lastOpenFiles": [
-    "🏆 Titre/❓Fiche de révisions/CP1/Fiche_1_Fondamentaux_Support_SI.md",
-    "🏆 Titre/❓Fiche de révisions/CP1/Fiche_5_Mises_en_Situation_KPI.md",
     "🏆 Titre/❓Fiche de révisions/CP1/Fiche_4_Outils_Gestion_Parc.md",
+    "🏆 Titre/❓Fiche de révisions/CP1/Fiche_5_Mises_en_Situation_KPI.md",
+    "🏆 Titre/❓Questionnaire/V2/CP1/🟠 Questionnaire CP1 Perso 🟠.md",
+    "Exercice.md",
+    "Exo Powershell.md",
+    "🏆 Titre/❓Fiche de révisions/CP1/Fiche_2_Gestion_Incidents.md",
+    "🏆 Titre/❓Fiche de révisions/CP1/Fiche_1_Fondamentaux_Support_SI.md",
     "🏆 Titre/❓Fiche de révisions/CP1/Fiche_3_ITIL_MCO_Diagnostic.md",
     "🏆 Titre/❓Questionnaire/V2/CP1/🔴 Questionnaire CP1 Base 🔴.md",
-    "🏆 Titre/❓Questionnaire/V2/CP1/🟠 Questionnaire CP1 Perso 🟠.md",
-    "🏆 Titre/❓Fiche de révisions/CP1/Fiche_2_Gestion_Incidents.md",
     "🏆 Titre/❓Questionnaire/V1/CP2 Exploiter des serveurs Windows et un domaine Active Directory.md",
     "🏆 Titre/❓Questionnaire/V1/CP1 Assurer le support utilisateur en centre de services.md",
     "🏆 Titre/❓Questionnaire/V2/CP2/🟢 Questionnaire CP2 Corrigé 🟢.md",
@@ -235,8 +237,6 @@
     "📁 Dossier Professionnel/Small Group DP.md",
     "🏆 Titre/🤖 Scripts/🎯 Niveau 1/🐚 Script PowerShell 1.md",
     "🏆 Titre/🤖 Scripts/🎯 Niveau 1/🐧 Script Bash 1.md",
-    "🏆 Titre/🤖 Scripts/🎯 Niveau 1/Version 1 - Débutant.md",
-    "📜 Fiche d'aide/🖥〰💾〰🖥 Réseau/La Table de Routage.md",
     "🏆 Titre/❓Questionnaire/V2/CP1",
     "🏆 Titre/❓Questionnaire/V2/CP5",
     "🏆 Titre/❓Questionnaire/V2/CP4",

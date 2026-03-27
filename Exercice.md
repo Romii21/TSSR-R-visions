@@ -286,7 +286,7 @@ $Result | Export-Csv -Path "C:\Scripts\services.csv" -Delimiter ";" -NoTypeInfor
 ```powershell
 Clear-Host
 
-# Dans la viariable $Users, seront stocké uniquement les utilisateurs locaux actifs. Les propriétés seront filtées pour afficher le nom, le nom complet et quand expire le MDP.
+# Dans la viariable $Users, seront stocké uniquement les utilisateurs locaux actifs. Les propriétés seront filtées pour afficher Name, FullName et quand PasswordExpires.
 
 $Users = Get-LocalUser | `
     Where-Object {$_.Enabled -eq $true} | `

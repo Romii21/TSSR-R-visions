@@ -74,7 +74,8 @@ Lors de la réception d'un incident, quelles sont les **informations minimales**
 
 **REP** :
 - Le problème de l'utilisateur
-- 
+- Les manipulations effectué
+- La gravité de la situation
 
 ---
 
@@ -82,11 +83,17 @@ Lors de la réception d'un incident, quelles sont les **informations minimales**
 
 Qu'est-ce qu'un **SLA (Service Level Agreement)** ? Quels sont les trois principaux indicateurs qu'il définit ? Donnez un exemple de valeur pour chacun d'eux.
 
+**REP** :
+
+
 ---
 
 **Question 8**
 
 Présentez les **7 étapes de la démarche de diagnostic** d'un incident. Pourquoi la précision dans la détermination de la cause est-elle si importante ?
+
+**REP** :
+
 
 ---
 
@@ -95,6 +102,9 @@ Présentez les **7 étapes de la démarche de diagnostic** d'un incident. Pourqu
 Un technicien diagnostique un problème de lenteur sur une base de données et décide d'ajouter de la RAM. Après l'intervention, le problème persiste. La vraie cause était une mauvaise configuration de l'allocation mémoire de la base de données.
 
 Que révèle cette situation sur l'importance du diagnostic ? Quelle méthode ou outil d'analyse aurait pu permettre d'identifier la bonne cause ?
+
+**REP** :
+
 
 ---
 
