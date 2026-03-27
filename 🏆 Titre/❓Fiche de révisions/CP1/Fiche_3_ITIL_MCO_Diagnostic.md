@@ -6,9 +6,11 @@
 ## 📚 1. ITIL — Le cadre méthodologique
 
 ### Définition
+
 **ITIL** (Information Technology Infrastructure Library) est un **cadre de bonnes pratiques** pour la gestion des services informatiques (ITSM — IT Service Management).
 
 ### Objectifs
+
 - Standardiser les processus de gestion des incidents
 - Minimiser l'impact des perturbations sur le SI
 - Améliorer la qualité de service et la satisfaction utilisateur
