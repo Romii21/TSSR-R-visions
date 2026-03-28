@@ -339,3 +339,90 @@ $TopProcesses | Export-Csv -Path "C:\Scripts\processes.csv" -Delimiter ";" -NoTy
 ```
 
 ---
+
+**Exercice 4 — `GetNetworkInfo.ps1`** — Script à corriger ET compléter
+
+```powershell
+Clear-Host
+
+# Récupération des adaptateurs réseau actifs
+$Adapters = Get-NetAdapter | `
+    Where-Object {$_.Status -eq "Up"} | `
+    Select-Object -Property Name, MacAddress, LinkSpeed
+
+# Dans la partie ci-dessus, dans la variable $Adapters, sont stockées les adaptateurs réseau qui sont actifs. Les proprietes seront filtrées pour afficher Name, MacAddress et LinkSpeed
+
+
+# Récupération des adresses IP associées
+$IPs = Get-NetIPAddress | `
+    Where-Object {$_.AddressFamily -eq "IPv4" -and $_.InterfaceAlias -notlike "*loopback*"} | `
+    Select-Object -Property InterfaceAlias, IPAddress, PrefixLength
+
+# Dans la partie ci-dessus, dans la variable $IPs, sont stockées les adresses IPv4 qui ne sont pas des Loopback. Les proprietes seront filtrées pour afficher InterfaceAlias, IPAddress, PrefixLength.
+
+# Fusion des deux variables
+$Result = $Adapters | ForEach-Object {
+    $Adapter = $_
+    $IP = $IPs | Where-Object {$_.InterfaceAlias -eq $Adapter.Name}
+    [PSCustomObject]@{
+        Nom        = $Adapter.Name
+        MAC        = $Adapter.MacAddress
+        IPAddress  = $IP.IPAddress
+        Prefixe    = $IP.PrefixLength
+        Vitesse    = $Adapter.LinkSpeed
+    }
+}
+
+# Dans la partie ci-dessus, dans la variable $Result. Pour chaque adresse IP correspondant à un adaptateur de réseau actif, sortirons les informations, Nom, MAC, IPAddress, Prefixe, Vitesse.
+
+# Affichage du résultat
+$Result | Format-Table -AutoSize
+
+# Dans la partie ci-dessus, dans la variable $Result sont affichées sous forme de tableaux les informations liées à la variable
+
+# Export CSV
+$Result | Export-Csv -Path "C:\Scripts\network.csv" -Delimiter ";" -NoTypeInformation
+
+# Dans la partie ci-dessus, la variable $Result sera exporté sous la forme d'un fichier .scv avec comme delimiter ";"
+```
+
+**Bugs à trouver et corriger :**
+
+- Le séparateur CSV n'est pas le bon
+- L'affichage avec `Format-Table` n'est pas exportable proprement, il faudrait utiliser autre chose pour l'affichage
+
+---
+
+**Exercice 5 — `GetEventLog.ps1`** — Script à compléter
+
+```powershell
+Clear-Host
+
+# Dans la variable $Events, sont stockées les dix derniers événement lié au systeme, qui sont des erreurs.
+
+$Events = Get-EventLog -LogName System -EntryType Error -Newest 10
+
+# Pour chaque événements dans la variable $Events, sont écrit la date de l'événement et le message lié en rouge comme c'est un erreur 
+
+foreach ($Event in $Events)
+{
+    Write-Host "Date : $($Event.TimeGenerated) - Message : $($Event.Message)" -ForegroundColor red
+}
+
+# Filtre la variable $Events pour ressortir les informations TimeGenerated, EntryType, Message. Puis elle sera exporter dans un fichier .csv, les informations sont délémité par ";".
+
+$Events | Select-Object TimeGenerated, EntryType, Message | `
+    Export-Csv -Path "C:\Scripts\events.csv" -Delimiter ";" -NoTypeInformation
+
+# Dans la variable $NombreFichiers = 
+
+$NombreFichiers = (Get-ChildItem -Path "C:\Scripts" -Filter "*.csv").Count
+Write-Host "Il y a $NombreFichiers fichiers CSV dans C:\Scripts" -ForegroundColor XXX
+```
+
+**Ce qu'il faut faire :**
+
+- Remplacer les `# XXX` par des commentaires
+- Remplacer les `-ForegroundColor XXX` par la couleur adaptée au contexte
+
+---
