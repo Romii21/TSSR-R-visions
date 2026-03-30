@@ -95,19 +95,19 @@ Rôle Windows Server permettant de **déployer des images Windows via le réseau
 ### Architecture WDS
 
 ```
-┌─────────────┐   1. DHCP Request + PXE   ┌─────────────┐
+┌─────────────┐   1. DHCP Request + PXE    ┌─────────────┐
 │   Client    │ ─────────────────────────▶ │  Serveur    │
-│  (PXE boot) │                           │    DHCP     │
+│  (PXE boot) │                            │    DHCP     │
 │             │ ◀───── IP + options 66/67 ─┤             │
-│             │                           └─────────────┘
+│             │                            └─────────────┘
 │             │   2. Télécharge boot.wim   ┌─────────────┐
 │             │ ─────────────────────────▶ │  Serveur    │
-│             │ ◀───── WinPE démarre ────── │    WDS      │
-│             │                           │             │
-│             │   3. Choisit install.wim  │             │
+│             │ ◀───── WinPE démarre ────  │    WDS      │
+│             │                            │             │
+│             │   3. Choisit install.wim   │             │
 │             │ ─────────────────────────▶ │             │
-│             │ ◀───── OS installé ──────── │             │
-└─────────────┘                           └─────────────┘
+│             │ ◀───── OS installé ──────  │             │
+└─────────────┘                            └─────────────┘
 ```
 
 ---
